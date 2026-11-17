@@ -79,7 +79,7 @@ export function FAQSection() {
                   }}
                   className="grid grid-cols-[58px_1fr_32px] items-center gap-5 min-h-[68px] px-6 cursor-pointer list-none select-none max-sm:grid-cols-[46px_1fr_18px] max-sm:gap-3 max-sm:px-1.5 [&::-webkit-details-marker]:hidden"
                 >
-                  <span className="text-white/68 font-mono text-[13px]">
+                  <span className="text-white/68 font-space-grotesk font-semibold text-[13px]">
                     {String(index + 1).padStart(2, "0")}
                   </span>
                   <strong className="text-white font-extrabold text-[18px] group-open:text-cyan transition-colors max-sm:text-[16px] leading-snug">

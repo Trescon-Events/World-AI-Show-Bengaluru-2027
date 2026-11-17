@@ -61,7 +61,7 @@ export default function ExhibitionPage() {
                 className="p-6 rounded-[18px] border border-white/12 bg-[#041022]/85 flex flex-col justify-between"
               >
                 <div>
-                  <span className="inline-block px-3 py-1 rounded-full bg-[#C0F43C]/15 border border-[#C0F43C]/40 text-[#C0F43C] font-mono text-[11px] uppercase tracking-[1.5px] mb-3">
+                  <span className="inline-block px-3 py-1 rounded-full bg-[#C0F43C]/15 border border-[#C0F43C]/40 text-[#C0F43C] font-bold text-[11px] uppercase tracking-[1.5px] mb-3">
                     {fp.size}
                   </span>
                   <h3 className="text-white font-extrabold text-[18px] leading-snug mb-2">

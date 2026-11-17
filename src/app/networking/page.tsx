@@ -175,7 +175,7 @@ export default function NetworkingPage() {
 
             {/* Left Column: Heading and Roles List */}
             <div className="flex flex-col">
-              <span className="text-white/40 text-[13px] font-bold font-mono tracking-[2px] uppercase mb-3 block">
+              <span className="text-white/40 text-[13px] font-bold tracking-[2px] uppercase mb-3 block">
                 Who Is In The Room
               </span>
               <h2 className="font-[850] text-white leading-[1.1] tracking-[-2px] text-[clamp(36px,4.5vw,52px)] m-0 mb-8">

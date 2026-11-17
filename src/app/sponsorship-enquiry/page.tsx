@@ -24,7 +24,7 @@ export default function SponsorshipEnquiryPage() {
               href="/"
               className="inline-flex items-center gap-2 text-white/50 hover:text-[#C0F43C] text-[15px] transition-colors duration-200"
             >
-              <span className="font-mono">←</span> Back to Home
+              <span>←</span> Back to Home
             </Link>
           </div>
 
@@ -40,7 +40,7 @@ export default function SponsorshipEnquiryPage() {
             <div className="absolute top-0 left-0 right-0 h-[1px] bg-[#2E3C4D]/55" />
 
             <div className="relative z-10 flex flex-col">
-              <span className="text-[#C0F43C] font-mono text-[11px] font-extrabold uppercase tracking-[0.25em] mb-3">
+              <span className="text-[#C0F43C] text-[11px] font-extrabold uppercase tracking-[0.25em] mb-3">
                 Commercial Partnerships · Mumbai 2027
               </span>
               <h1 className="m-0 text-white font-[850] text-[clamp(28px,4vw,42px)] leading-tight tracking-[-1px] mb-4">

@@ -18,7 +18,7 @@ export function AttendFaq({ faqs }: { faqs: string[] }) {
               onClick={() => setOpenIndex(isOpen ? -1 : index)}
               type="button"
             >
-              <span className="text-white/68 font-mono text-[13px] font-normal">
+              <span className="text-white/68 font-space-grotesk text-[13px] font-semibold">
                 / {String(index + 1).padStart(2, "0")}
               </span>
               <strong className="text-[18px] font-extrabold max-sm:text-[16px]">

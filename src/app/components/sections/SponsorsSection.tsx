@@ -74,7 +74,7 @@ export function SponsorsSection() {
           </a>
         </div>
 
-        <p className="mt-14 mb-0 text-center font-mono text-xs uppercase tracking-[2px] text-white/55">
+        <p className="mt-14 mb-0 text-center font-semibold text-xs uppercase tracking-[2px] text-white/55">
           Past Series Partners &amp; Sponsors
         </p>
       </div>

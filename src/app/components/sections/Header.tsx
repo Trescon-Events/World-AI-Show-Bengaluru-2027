@@ -372,7 +372,7 @@ export function Header({ activeItem, subNavItems, activeSubNavItem }: HeaderProp
             {/* Mobile Sub-nav items for current page */}
             {hasPeristentSubnav && (
               <div className="flex flex-col gap-2 border-t border-white/10 pt-4">
-                <p className="text-[11px] text-white/40 font-mono uppercase tracking-[2px] mb-1">
+                <p className="text-[11px] text-white/40 font-semibold uppercase tracking-[2px] mb-1">
                   Jump to
                 </p>
                 {filteredSubNavItems.map((item) => {

@@ -155,7 +155,7 @@ export function AgendaSection({
                         <span className="grid place-items-center w-[48px] h-[48px] border border-cyan/30 rounded-[14px] bg-cyan/10 text-cyan transition-all duration-300 group-hover:border-[#C0F43C]/50 group-hover:bg-[#C0F43C]/18 group-hover:text-[#C0F43C]">
                           <ThemeIcon index={originalIndex} />
                         </span>
-                        <span className="px-3 py-1 rounded-full border border-white/10 bg-white/5 text-cyan font-mono text-[11px] font-bold uppercase tracking-[1.8px] transition-colors duration-300 group-hover:border-[#C0F43C]/40 group-hover:bg-[#C0F43C]/15 group-hover:text-[#C0F43C]">
+                        <span className="px-3 py-1 rounded-full border border-white/10 bg-white/5 text-cyan text-[11px] font-bold uppercase tracking-[1.8px] transition-colors duration-300 group-hover:border-[#C0F43C]/40 group-hover:bg-[#C0F43C]/15 group-hover:text-[#C0F43C]">
                           Pillar / {String(originalIndex + 1).padStart(2, "0")}
                         </span>
                       </div>

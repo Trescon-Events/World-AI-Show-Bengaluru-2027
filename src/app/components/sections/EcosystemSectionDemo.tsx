@@ -241,7 +241,7 @@ function TelemetryCard({ card, cardIndex }: { card: TelemetryCardData; cardIndex
           <div className="w-11 h-11 rounded-xl border border-white/12 bg-white/[0.04] flex items-center justify-center shadow-[inset_0_0_16px_rgba(24,212,255,0.08)] group-hover:border-[#C0F43C]/40 group-hover:scale-105 transition-all duration-300">
             {card.icon}
           </div>
-          <span className="px-3 py-1 rounded-full bg-white/[0.04] border border-white/10 text-white/55 font-mono text-[11px] tracking-[1.5px] uppercase">
+          <span className="px-3 py-1 rounded-full bg-white/[0.04] border border-white/10 text-white/55 text-[11px] tracking-[1.5px] uppercase font-semibold">
             BENCHMARK // {card.index}
           </span>
         </div>
@@ -262,7 +262,7 @@ function TelemetryCard({ card, cardIndex }: { card: TelemetryCardData; cardIndex
         <div className="space-y-4 pt-4 border-t border-white/[0.08]">
           {card.bars.map((bar, bIdx) => (
             <div key={bar.name} className="space-y-2">
-              <div className="flex items-center justify-between text-[12px] font-mono">
+              <div className="flex items-center justify-between text-[12px] font-medium">
                 <span className="text-white/70 group-hover:text-white transition-colors">
                   {bar.name}
                 </span>
@@ -313,11 +313,11 @@ function TelemetryCard({ card, cardIndex }: { card: TelemetryCardData; cardIndex
 
       {/* Citation Footer */}
       <div className="mt-7 pt-4 border-t border-white/[0.08] flex items-center justify-between">
-        <span className="inline-flex items-center gap-2 text-white/55 font-mono text-[12px]">
+        <span className="inline-flex items-center gap-2 text-white/55 text-[12px] font-medium">
           <span className="w-1.5 h-1.5 rounded-full bg-[#C0F43C] animate-pulse" />
           {card.source}
         </span>
-        <span className="text-[#18d4ff] text-xs font-mono opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        <span className="text-[#18d4ff] text-xs font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
           Verified →
         </span>
       </div>
@@ -368,7 +368,7 @@ export function EcosystemSectionDemo() {
 
         <p className="max-w-[840px] text-white/75 text-[19px] leading-[1.6] mb-14 max-sm:text-[16px]">
           India&apos;s enterprise adoption rate leads at nearly 40%, compared with 28% globally. 44% were redesigning selected processes; 17% reported fundamental reinvention.{" "}
-          <span className="block mt-2 text-white/50 font-mono text-[13px]">
+          <span className="block mt-2 text-white/50 text-[13px] font-medium">
             Source: Deloitte, State of AI in the Enterprise: India Insights (2026)
           </span>
         </p>
@@ -394,7 +394,7 @@ export function EcosystemSectionDemo() {
               </svg>
             </div>
             <div>
-              <span className="block text-[#C0F43C] font-mono text-[11px] font-bold uppercase tracking-[2.2px] mb-1.5">
+              <span className="block text-[#C0F43C] text-[11px] font-bold uppercase tracking-[2.2px] mb-1.5">
                 The Executive Mandate
               </span>
               <p className="m-0 text-white font-semibold text-[19px] leading-[1.55] max-sm:text-[16px]">
@@ -433,10 +433,10 @@ export function EcosystemSectionDemo() {
                   {item.icon}
                 </div>
                 <div className="flex flex-col">
-                  <span className="text-[#C0F43C] font-mono text-[11px] font-bold uppercase tracking-[1.8px]">
+                  <span className="text-[#C0F43C] text-[11px] font-bold uppercase tracking-[1.8px]">
                     STANDARD // {item.index}
                   </span>
-                  <span className="text-white/50 font-mono text-[11px] uppercase tracking-[1.2px]">
+                  <span className="text-white/50 text-[11px] uppercase tracking-[1.2px] font-medium">
                     {item.tag}
                   </span>
                 </div>

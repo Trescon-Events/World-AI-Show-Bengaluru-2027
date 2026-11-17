@@ -80,7 +80,7 @@ export function PhotoGalleryContent() {
                     {step.icon}
                   </span>
                   <div>
-                    <span className={`text-[10px] font-mono font-bold tracking-[2px] block uppercase ${step.color} mb-0.5`}>
+                    <span className={`text-[10px] font-space-grotesk font-bold tracking-[2px] block uppercase ${step.color} mb-0.5`}>
                       {step.num}
                     </span>
                     <h3 className="m-0 text-white font-extrabold text-[15px] tracking-tight">

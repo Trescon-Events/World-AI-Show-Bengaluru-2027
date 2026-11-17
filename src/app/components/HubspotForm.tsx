@@ -220,7 +220,7 @@ export default function HubspotForm({ portalId, formId, region = "na1", classNam
         <form onSubmit={handleFallbackSubmit} className="flex flex-col gap-5 w-full">
           <div className="grid grid-cols-2 gap-4 max-sm:grid-cols-1">
             <div className="flex flex-col gap-2">
-              <label className="text-[12px] font-bold text-white/50 uppercase tracking-[1px] font-mono">Full Name *</label>
+              <label className="text-[12px] font-bold text-white/50 uppercase tracking-[1px]">Full Name *</label>
               <input
                 type="text"
                 required
@@ -231,7 +231,7 @@ export default function HubspotForm({ portalId, formId, region = "na1", classNam
               />
             </div>
             <div className="flex flex-col gap-2">
-              <label className="text-[12px] font-bold text-white/50 uppercase tracking-[1px] font-mono">Company Email *</label>
+              <label className="text-[12px] font-bold text-white/50 uppercase tracking-[1px]">Company Email *</label>
               <input
                 type="email"
                 required
@@ -245,7 +245,7 @@ export default function HubspotForm({ portalId, formId, region = "na1", classNam
 
           <div className="grid grid-cols-2 gap-4 max-sm:grid-cols-1">
             <div className="flex flex-col gap-2">
-              <label className="text-[12px] font-bold text-white/50 uppercase tracking-[1px] font-mono">Phone Number</label>
+              <label className="text-[12px] font-bold text-white/50 uppercase tracking-[1px]">Phone Number</label>
               <input
                 type="tel"
                 value={phone}
@@ -255,7 +255,7 @@ export default function HubspotForm({ portalId, formId, region = "na1", classNam
               />
             </div>
             <div className="flex flex-col gap-2">
-              <label className="text-[12px] font-bold text-white/50 uppercase tracking-[1px] font-mono">Job Title</label>
+              <label className="text-[12px] font-bold text-white/50 uppercase tracking-[1px]">Job Title</label>
               <input
                 type="text"
                 value={jobTitle}
@@ -267,7 +267,7 @@ export default function HubspotForm({ portalId, formId, region = "na1", classNam
           </div>
 
           <div className="flex flex-col gap-2">
-            <label className="text-[12px] font-bold text-white/50 uppercase tracking-[1px] font-mono">Company Name</label>
+            <label className="text-[12px] font-bold text-white/50 uppercase tracking-[1px]">Company Name</label>
             <input
               type="text"
               value={company}
@@ -278,7 +278,7 @@ export default function HubspotForm({ portalId, formId, region = "na1", classNam
           </div>
 
           <div className="flex flex-col gap-2">
-            <label className="text-[12px] font-bold text-white/50 uppercase tracking-[1px] font-mono">Message / Requirements</label>
+            <label className="text-[12px] font-bold text-white/50 uppercase tracking-[1px]">Message / Requirements</label>
             <textarea
               rows={4}
               value={message}
@@ -305,7 +305,7 @@ export default function HubspotForm({ portalId, formId, region = "na1", classNam
         {/* Loading Spinner */}
         <div className="flex flex-col items-center gap-3" suppressHydrationWarning={true}>
           <div className="w-8 h-8 rounded-full border-2 border-white/10 border-t-[#C0F43C] animate-spin" suppressHydrationWarning={true} />
-          <span className="text-[12px] font-mono text-white/30 uppercase tracking-[2px]" suppressHydrationWarning={true}>Loading Form...</span>
+          <span className="text-[12px] text-white/30 uppercase tracking-[2px] font-semibold" suppressHydrationWarning={true}>Loading Form...</span>
         </div>
       </div>
     </div>

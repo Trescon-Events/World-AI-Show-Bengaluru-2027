@@ -32,7 +32,7 @@ export function AttendeeAppContent() {
 
         <div className="w-[min(1114px,calc(100%-48px))] mx-auto relative z-10 text-left flex flex-col items-start">
           <div className="max-w-[620px] w-full">
-            <span className="text-[#18d4ff] font-mono text-[12px] uppercase tracking-[3px] font-bold block mb-3">
+            <span className="text-[#18d4ff] text-[12px] uppercase tracking-[3px] font-bold block mb-3">
               Powered by KonfHub
             </span>
             <h1 className="font-[850] text-white leading-[1.03] tracking-[-2.5px] text-[clamp(44px,5.4vw,72px)] m-0">

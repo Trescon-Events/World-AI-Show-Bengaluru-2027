@@ -100,7 +100,7 @@ export function TestimonialsSection() {
           </div>
 
           {/* Testimonial controls */}
-          <div className="flex items-center gap-3 text-white/75 font-mono text-[12px]" aria-label="Testimonial controls">
+          <div className="flex items-center gap-3 text-white/75 font-semibold text-[12px]" aria-label="Testimonial controls">
             <button
               type="button"
               onClick={previous}
@@ -183,11 +183,11 @@ export function TestimonialsSection() {
                     <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
                   </svg>
                 </span>
-                <span className="font-mono text-[11px] uppercase tracking-[2px] text-white/55">
+                <span className="font-semibold text-[11px] uppercase tracking-[2px] text-white/55">
                   ENDORSER // {active.id}
                 </span>
                 <span
-                  className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-full font-mono text-[10.5px] uppercase tracking-[1.4px] border ${
+                  className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-full font-bold text-[10.5px] uppercase tracking-[1.4px] border ${
                     isGreen
                       ? "border-[#C0F43C]/30 bg-[#C0F43C]/10 text-[#C0F43C]"
                       : "border-[#18d4ff]/30 bg-[#18d4ff]/10 text-[#18d4ff]"
@@ -210,20 +210,20 @@ export function TestimonialsSection() {
               }`}
             >
               <div className="flex items-center justify-start gap-3 mb-5 pb-4 border-b border-white/[0.08]">
-                <span className="font-mono text-[10px] uppercase tracking-[1.8px] text-white/40 px-2.5 py-1 rounded-md border border-white/[0.07] bg-white/[0.02]">
+                <span className="font-semibold text-[10px] uppercase tracking-[1.8px] text-white/40 px-2.5 py-1 rounded-md border border-white/[0.07] bg-white/[0.02]">
                   Verified Partner
                 </span>
               </div>
 
               <div>
-                <div className="font-mono text-[10.5px] uppercase tracking-[1.6px] text-white/45 mb-1">
+                <div className="font-semibold text-[10.5px] uppercase tracking-[1.6px] text-white/45 mb-1">
                   Organization
                 </div>
                 <strong className="block text-white font-extrabold text-[26px] tracking-[-0.6px] leading-tight">
                   {active.name}
                 </strong>
                 <span
-                  className={`inline-block mt-1.5 font-mono text-[11.5px] ${
+                  className={`inline-block mt-1.5 font-semibold text-[11.5px] ${
                     isGreen ? "text-[#C0F43C]" : "text-[#18d4ff]"
                   }`}
                 >
@@ -233,7 +233,7 @@ export function TestimonialsSection() {
 
               {/* Accent bar */}
               <div className="mt-5 pt-3.5 border-t border-white/[0.06] flex items-center justify-between">
-                <span className="font-mono text-[10px] uppercase tracking-[1.5px] text-white/45">
+                <span className="font-semibold text-[10px] uppercase tracking-[1.5px] text-white/45">
                   World AI Show Series
                 </span>
                 <span
@@ -268,7 +268,7 @@ export function TestimonialsSection() {
               >
                 <div className="flex items-center justify-between gap-2 mb-2.5">
                   <span
-                    className={`font-mono text-[10.5px] uppercase tracking-[1.8px] ${
+                    className={`font-semibold text-[10.5px] uppercase tracking-[1.8px] ${
                       isSelected
                         ? itemGreen
                           ? "text-[#C0F43C]"

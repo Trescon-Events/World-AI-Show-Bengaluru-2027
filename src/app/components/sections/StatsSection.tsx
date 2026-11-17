@@ -235,7 +235,7 @@ function StatCard({ stat, idx }: { stat: (typeof statsData)[0]; idx: number }) {
         />
       </div>
 
-      <span className="absolute top-[18px] right-[20px] text-white/45 font-mono text-[11px] tracking-wider select-none z-10">
+      <span className="absolute top-[18px] right-[20px] text-white/45 font-bold text-[12px] tracking-wider select-none z-10">
         {stat.index}
       </span>
 
@@ -243,7 +243,7 @@ function StatCard({ stat, idx }: { stat: (typeof statsData)[0]; idx: number }) {
         <Counter end={stat.number} suffix={stat.suffix} />
       </strong>
 
-      <p className="mt-3 text-white/80 font-mono text-[13px] uppercase tracking-[1px] leading-relaxed font-semibold relative z-10 text-center">
+      <p className="mt-3 text-white/80 text-[13px] uppercase tracking-[1px] leading-relaxed font-semibold relative z-10 text-center">
         {stat.label}
       </p>
     </article>
@@ -285,7 +285,7 @@ export function StatsSection() {
                   <strong className="block text-white font-[850] text-[clamp(28px,3.2vw,38px)] leading-none mb-2">
                     <Counter end={item.end} suffix={item.suffix} />
                   </strong>
-                  <span className="block text-white/70 font-mono text-[11.5px] uppercase tracking-[1.4px] font-semibold">
+                  <span className="block text-white/70 text-[12px] uppercase tracking-[1.4px] font-semibold">
                     {item.label}
                   </span>
                 </div>
@@ -312,7 +312,7 @@ export function StatsSection() {
                   <strong className="block text-[#C0F43C] font-[850] text-[clamp(28px,3.2vw,38px)] leading-none mb-2">
                     <Counter end={item.end} suffix={item.suffix} />
                   </strong>
-                  <span className="block text-white/70 font-mono text-[11.5px] uppercase tracking-[1.4px] font-semibold">
+                  <span className="block text-white/70 text-[12px] uppercase tracking-[1.4px] font-semibold">
                     {item.label}
                   </span>
                 </div>
@@ -331,7 +331,7 @@ export function StatsSection() {
                     <strong className="block text-[#C0F43C] font-[850] text-[clamp(28px,3.2vw,38px)] leading-none mb-2">
                       <Counter end={item.end} suffix={item.suffix} />
                     </strong>
-                    <span className="block text-white/70 font-mono text-[11.5px] uppercase tracking-[1.4px] font-semibold">
+                    <span className="block text-white/70 text-[12px] uppercase tracking-[1.4px] font-semibold">
                       {item.label}
                     </span>
                   </div>

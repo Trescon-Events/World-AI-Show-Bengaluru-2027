@@ -21,7 +21,7 @@ export function CTASection() {
             }}
           >
             <div>
-              <span className="inline-block font-mono text-[11px] uppercase tracking-[1.6px] text-[#C0F43C] mb-3">
+              <span className="inline-block text-[12px] uppercase tracking-[1.6px] text-[#C0F43C] mb-3 font-semibold">
                 Mumbai · 20–21 April 2027 · 2 Days · 300 Enterprise Leaders
               </span>
               <h2 className="m-0 font-[850] text-white leading-[1.12] tracking-[-1px] text-[clamp(26px,3vw,36px)]">
@@ -34,7 +34,7 @@ export function CTASection() {
                 className="inline-flex items-center gap-2 px-[28px] py-[14px] rounded-full text-[15px] font-extrabold text-[#06111f] [color:#06111f!important] bg-[#C0F43C] shadow-[0_8px_24px_rgba(192,244,60,0.25)] hover:shadow-[0_12px_32px_rgba(192,244,60,0.4)] hover:scale-[1.02] transition-all duration-200 cursor-pointer"
               >
                 Apply for a Delegate Pass
-                <span className="font-mono text-[16px] font-bold">→</span>
+                <span className="text-[16px] font-bold">→</span>
               </a>
             </div>
           </div>
@@ -50,7 +50,7 @@ export function CTASection() {
             }}
           >
             <div>
-              <span className="inline-block font-mono text-[11px] uppercase tracking-[1.6px] text-[#18D4FF] mb-3">
+              <span className="inline-block text-[12px] uppercase tracking-[1.6px] text-[#18D4FF] mb-3 font-semibold">
                 5 Content Pillars · 30-Min Stage Sessions · 9 &amp; 12 sqm Booths
               </span>
               <h2 className="m-0 font-[850] text-white leading-[1.12] tracking-[-1px] text-[clamp(26px,3vw,36px)]">
@@ -63,7 +63,7 @@ export function CTASection() {
                 className="inline-flex items-center gap-2 px-[28px] py-[14px] rounded-full text-[15px] font-extrabold text-[#06111f] [color:#06111f!important] bg-[#18D4FF] shadow-[0_8px_24px_rgba(24,212,255,0.25)] hover:shadow-[0_12px_32px_rgba(24,212,255,0.4)] hover:scale-[1.02] transition-all duration-200 cursor-pointer"
               >
                 Enquire about sponsorship
-                <span className="font-mono text-[16px] font-bold">→</span>
+                <span className="text-[16px] font-bold">→</span>
               </a>
             </div>
           </div>
@@ -78,7 +78,7 @@ export function CTASection() {
           }}
         >
           <div className="relative z-10 flex flex-col items-center text-center">
-            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full border border-cyan/30 bg-cyan/10 text-cyan text-xs font-mono uppercase tracking-[2px] mb-4">
+            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full border border-cyan/30 bg-cyan/10 text-cyan text-xs font-semibold uppercase tracking-[2px] mb-4">
               <span className="w-1.5 h-1.5 rounded-full bg-cyan animate-pulse"></span>
               Faculty
             </div>
@@ -98,7 +98,7 @@ export function CTASection() {
                 className="inline-flex items-center gap-2 px-[30px] py-[14px] rounded-full text-[15px] font-extrabold text-white border border-white/25 bg-white/5 hover:border-[#C0F43C] hover:text-[#C0F43C] transition-all duration-200 cursor-pointer"
               >
                 Apply to speak
-                <span className="font-mono text-[16px] font-bold">→</span>
+                <span className="text-[16px] font-bold">→</span>
               </a>
             </div>
 
@@ -109,17 +109,17 @@ export function CTASection() {
             <div className="grid grid-cols-3 w-full gap-8 max-sm:grid-cols-1 max-sm:gap-6">
               {/* Date */}
               <div className="flex flex-col items-center">
-                <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-white/50 mb-2 font-mono">
+                <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-white/50 mb-2">
                   Date
                 </span>
-                <strong className="text-[18px] font-extrabold text-white tracking-wide font-mono">
+                <strong className="text-[18px] font-extrabold text-white tracking-wide">
                   20–21 April 2027 · 2 Days
                 </strong>
               </div>
 
               {/* Venue */}
               <div className="flex flex-col items-center border-l border-white/10 max-sm:border-l-0 max-sm:border-t max-sm:pt-4 max-sm:mt-2">
-                <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-white/50 mb-2 font-mono">
+                <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-white/50 mb-2">
                   Location
                 </span>
                 <strong className="text-[18px] font-extrabold text-white tracking-wide text-center">
@@ -129,7 +129,7 @@ export function CTASection() {
 
               {/* Format */}
               <div className="flex flex-col items-center border-l border-white/10 max-sm:border-l-0 max-sm:border-t max-sm:pt-4 max-sm:mt-2">
-                <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-white/50 mb-2 font-mono">
+                <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-white/50 mb-2">
                   Series Edition
                 </span>
                 <strong className="text-[18px] font-extrabold text-white tracking-wide">

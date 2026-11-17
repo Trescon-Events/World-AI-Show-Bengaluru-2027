@@ -55,7 +55,7 @@ export function NetworkingChannels() {
         
         {/* Title */}
         <div className="text-center mb-16">
-          <span className="inline-flex items-center mb-5 px-3.5 py-1.5 border border-[#18d4ff]/30 rounded-full text-[#18d4ff] font-mono text-[12px] uppercase tracking-[2px] bg-[#18d4ff]/5">
+          <span className="inline-flex items-center mb-5 px-3.5 py-1.5 border border-[#18d4ff]/30 rounded-full text-[#18d4ff] text-[12px] font-bold uppercase tracking-[2px] bg-[#18d4ff]/5">
             Networking Platforms
           </span>
           <h2 className="font-[850] text-white leading-tight tracking-[-1.5px] text-[clamp(36px,4.5vw,56px)]">
@@ -73,7 +73,7 @@ export function NetworkingChannels() {
             >
               {/* Info Column */}
               <div className={`${channel.reverse ? "order-2 max-[980px]:order-none" : "order-none"}`}>
-                <span className="text-[#18d4ff] font-mono text-[12px] uppercase tracking-[3px] font-bold block mb-3">
+                <span className="text-[#18d4ff] text-[12px] uppercase tracking-[3px] font-bold block mb-3">
                   {channel.tag}
                 </span>
                 <h3 className="m-0 text-white font-[850] text-[34px] leading-tight mb-5 max-sm:text-[26px]">

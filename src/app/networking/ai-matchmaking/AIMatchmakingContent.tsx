@@ -36,7 +36,7 @@ export function AIMatchmakingContent() {
 
         <div className="w-[min(1114px,calc(100%-48px))] mx-auto relative z-10 text-left flex flex-col items-start">
           <div className="max-w-[620px] w-full">
-            <span className="text-[#18d4ff] font-mono text-[12px] uppercase tracking-[3px] font-bold block mb-3">
+            <span className="text-[#18d4ff] text-[12px] uppercase tracking-[3px] font-bold block mb-3">
               AI-Powered Matchmaking
             </span>
             <h1 className="font-[850] text-white leading-[1.03] tracking-[-2.5px] text-[clamp(44px,5.4vw,72px)] m-0">
@@ -48,7 +48,7 @@ export function AIMatchmakingContent() {
             </p>
 
             <div className="mt-8 w-full text-left">
-              <span className="block text-[11px] uppercase tracking-[2px] font-bold text-white/40 mb-4 font-mono">
+              <span className="block text-[11px] uppercase tracking-[2px] font-bold text-white/40 mb-4">
                 Pick your focus areas — AI does the rest
               </span>
               <div className="flex flex-wrap gap-[10px] max-w-[620px]">

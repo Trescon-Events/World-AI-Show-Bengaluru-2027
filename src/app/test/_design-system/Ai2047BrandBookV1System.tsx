@@ -234,9 +234,19 @@ export function Ai2047BrandBookV1Styles() {
       .ai2047-brandbook-v1 h5,
       .ai2047-brandbook-v1 .hero-bg strong,
       .ai2047-brandbook-v1 #attend article strong,
+      .ai2047-brandbook-v1 #attend article > span:not(strong),
       .ai2047-brandbook-v1 #attend > div > div.mt-16 strong {
         font-family: 'Space Grotesk', sans-serif !important;
         letter-spacing: -0.01em !important;
+      }
+
+      /* Strictly Brand Book V1.0 Fonts Only (Pages 27–33): Zero Monospace */
+      .ai2047-brandbook-v1 .font-mono,
+      .ai2047-brandbook-v1 [class*="font-mono"],
+      .ai2047-brandbook-v1 code,
+      .ai2047-brandbook-v1 kbd,
+      .ai2047-brandbook-v1 samp {
+        font-family: 'Plus Jakarta Sans', sans-serif !important;
       }
 
       .ai2047-brandbook-v1 h1 {

@@ -567,10 +567,10 @@ function AgendaTabs() {
               style={{ "--row-index": index } as CSSProperties}
             >
               <time className="flex flex-col justify-center">
-                <span className="font-mono text-[16px] font-bold text-[#00E5FF] tracking-tight whitespace-nowrap">
+                <span className="text-[16px] font-bold text-[#00E5FF] tracking-tight whitespace-nowrap">
                   {session.startTime} – {session.endTime}
                 </span>
-                <span className="text-[11px] font-mono uppercase tracking-wider text-[#009EAD] mt-1 block font-semibold">
+                <span className="text-[11px] uppercase tracking-wider text-[#009EAD] mt-1 block font-semibold">
                   IST (UTC+5:30)
                 </span>
               </time>
@@ -620,7 +620,7 @@ export function AgendaOverview() {
           {/* 2-Column Day 1 & Day 2 Focus Table */}
           <div className="grid grid-cols-2 max-md:grid-cols-1 border border-[#18d4ff]/30 rounded-[18px] overflow-hidden bg-[#050d20]/85 shadow-[0_18px_45px_rgba(0,0,0,0.35),inset_0_0_24px_rgba(24,212,255,0.05)] mb-12 text-left">
             <div className="p-7 border-r border-[#18d4ff]/25 max-md:border-r-0 max-md:border-b">
-              <span className="inline-block font-mono text-[11px] uppercase tracking-[1.8px] text-[#C0F43C] font-bold mb-2">
+              <span className="inline-block text-[11px] uppercase tracking-[1.8px] text-[#C0F43C] font-bold mb-2">
                 Day 01 · Enterprise Execution
               </span>
               <p className="!m-0 !text-white/90 !text-[17px] leading-relaxed font-medium">
@@ -628,7 +628,7 @@ export function AgendaOverview() {
               </p>
             </div>
             <div className="p-7">
-              <span className="inline-block font-mono text-[11px] uppercase tracking-[1.8px] text-[#18d4ff] font-bold mb-2">
+              <span className="inline-block text-[11px] uppercase tracking-[1.8px] text-[#18d4ff] font-bold mb-2">
                 Day 02 · Strategy to Scale
               </span>
               <p className="!m-0 !text-white/90 !text-[17px] leading-relaxed font-medium">
@@ -727,7 +727,7 @@ export function AgendaVision() {
                       <h3 className={`m-0 font-extrabold text-[19px] leading-snug transition-colors duration-300 ${isActive ? "text-[#C0F43C]" : "text-white"}`}>
                         {card.title}
                       </h3>
-                      <span className={`font-mono text-xs px-2.5 py-1 rounded-full transition-colors duration-300 ${isActive ? "bg-[#C0F43C] text-[#06111F] font-bold" : "bg-white/10 text-white/60"}`}>
+                      <span className={`text-xs px-2.5 py-1 rounded-full font-bold transition-colors duration-300 ${isActive ? "bg-[#C0F43C] text-[#06111F]" : "bg-white/10 text-white/60"}`}>
                         0{idx + 1}
                       </span>
                     </div>
@@ -742,7 +742,7 @@ export function AgendaVision() {
 
           <blockquote className="w-full m-0 p-9 md:px-12 rounded-[22px] border-[1.5px] border-[#18d4ff]/45 bg-gradient-to-br from-[#040b1b]/95 to-[#0a1834]/98 shadow-[0_0_35px_rgba(24,212,255,0.18),inset_0_0_25px_rgba(24,212,255,0.05)] text-[#f7f9ff] text-[clamp(20px,2.4vw,25px)] font-[750] leading-[1.45] text-center">
             &ldquo;Nearly 97% expect AI to improve productivity; about 73% already track productivity using expanded or comprehensive KPIs.&rdquo;
-            <cite className="block mt-4 text-[11px] font-mono font-bold tracking-[2px] uppercase text-white/50 not-italic">
+            <cite className="block mt-4 text-[11px] font-bold tracking-[2px] uppercase text-white/50 not-italic">
               &mdash; SOURCE: DELOITTE, STATE OF AI IN THE ENTERPRISE: INDIA INSIGHTS
             </cite>
           </blockquote>

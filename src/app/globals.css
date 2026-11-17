@@ -15,6 +15,7 @@
   --color-purple: #9a6cff;
 
   --font-space-grotesk: var(--font-space-grotesk), sans-serif;
+  --font-mono: 'Plus Jakarta Sans', sans-serif;
 }
 
 :root {
@@ -30,6 +31,7 @@
   --blue: #79ceff;
   --green: #C0F43C;
   --purple: #9a6cff;
+  --font-mono: 'Plus Jakarta Sans', sans-serif;
 }
 
 * {

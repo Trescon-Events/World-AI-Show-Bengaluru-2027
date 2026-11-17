@@ -316,7 +316,7 @@ export function SplitSection({
       >
         <div className={`flex flex-col ${reverse ? "max-[980px]:order-none order-2" : "order-none"}`}>
           {eyebrow && (
-            <p className="m-0 mb-[19px] text-white/78 text-[13px] font-[650] tracking-[4px] uppercase select-none font-mono">
+            <p className="m-0 mb-[19px] text-white/78 text-[13px] font-[650] tracking-[3px] uppercase select-none">
               {eyebrow}
             </p>
           )}
@@ -363,7 +363,7 @@ export function AttendCTASection() {
               className="inline-flex items-center justify-center gap-2 min-w-[178px] h-[49px] px-[32px] py-[15px] rounded-full text-[15px] font-extrabold text-[#06111f] [color:#06111f!important] bg-[#C0F43C] shadow-[0_8px_24px_rgba(192,244,60,0.25)] hover:shadow-[0_12px_32px_rgba(192,244,60,0.4)] hover:scale-[1.03] transition-all duration-200 cursor-pointer max-sm:w-full"
             >
               Apply for a Delegate Pass
-              <span className="font-mono text-[16px] font-bold">→</span>
+              <span className="text-[16px] font-bold">→</span>
             </a>
             <a
               href="/mumbai/enterprise/sponsorship-enquiry"
@@ -377,16 +377,16 @@ export function AttendCTASection() {
 
           <div className="grid grid-cols-3 w-full gap-8 max-sm:grid-cols-1 max-sm:gap-4 text-center">
             <div className="flex flex-col items-center">
-              <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-white/50 mb-2 font-mono">
+              <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-white/50 mb-2">
                 Date
               </span>
-              <strong className="text-[17px] font-extrabold text-white tracking-wide font-mono">
+              <strong className="text-[17px] font-extrabold text-white tracking-wide">
                 20–21 April 2027 · 2 Days
               </strong>
             </div>
 
             <div className="flex flex-col items-center border-l border-white/10 max-sm:border-l-0 max-sm:border-t max-sm:pt-4 max-sm:mt-1">
-              <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-white/50 mb-2 font-mono">
+              <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-white/50 mb-2">
                 Location
               </span>
               <strong className="text-[17px] font-extrabold text-white tracking-wide text-center">
@@ -395,7 +395,7 @@ export function AttendCTASection() {
             </div>
 
             <div className="flex flex-col items-center border-l border-white/10 max-sm:border-l-0 max-sm:border-t max-sm:pt-4 max-sm:mt-1">
-              <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-white/50 mb-2 font-mono">
+              <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-white/50 mb-2">
                 Organiser
               </span>
               <strong className="text-[17px] font-extrabold text-white tracking-wide">

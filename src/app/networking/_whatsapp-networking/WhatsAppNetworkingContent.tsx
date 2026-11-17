@@ -35,7 +35,7 @@ export function WhatsAppNetworkingContent() {
         <div className="w-[min(1114px,calc(100%-48px))] mx-auto relative z-10 text-left flex flex-col items-start">
           
           <div className="max-w-[620px] w-full">
-            <span className="block text-[12px] uppercase tracking-[2px] font-bold text-[#25D366] mb-3.5 font-mono">
+            <span className="block text-[12px] uppercase tracking-[2px] font-bold text-[#25D366] mb-3.5">
               WhatsApp Community
             </span>
             <h1 className="font-[850] text-white leading-none tracking-[-2.5px] text-[clamp(44px,5.5vw,66px)] m-0">
@@ -48,7 +48,7 @@ export function WhatsAppNetworkingContent() {
 
             {/* Peer Networking Groups tags matching Screenshot 2 aesthetic */}
             <div className="mt-9">
-              <span className="block text-[11.5px] uppercase tracking-[2.5px] font-bold text-white/40 mb-4 font-mono">
+              <span className="block text-[11.5px] uppercase tracking-[2.5px] font-bold text-white/40 mb-4">
                 Peer networking groups
               </span>
               <div className="flex flex-wrap gap-2.5 max-w-[560px]">
@@ -73,7 +73,7 @@ export function WhatsAppNetworkingContent() {
           
           {/* Header */}
           <div className="text-center mb-16 max-w-[660px] mx-auto">
-            <span className="text-[#25D366] font-mono text-[11px] uppercase tracking-[3px] font-bold block mb-3">
+            <span className="text-[#25D366] text-[11px] uppercase tracking-[3px] font-bold block mb-3">
               2 Weeks Early.
             </span>
             <h2 className="font-[850] text-white leading-tight tracking-[-2px] text-[clamp(42px,5.5vw,62px)] m-0">

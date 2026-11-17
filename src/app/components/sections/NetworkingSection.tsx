@@ -85,7 +85,7 @@ export function NetworkingSection() {
                 className="group flex flex-col justify-between min-h-[210px] p-6 rounded-[14px] border border-line bg-gradient-to-br from-[#00ceff]/8 to-[#c0f43c]/4 shadow-[inset_0_0_28px_rgba(65,220,255,0.06),0_20px_60px_rgba(0,0,0,0.22)] hover:-translate-y-0.5 hover:border-green/60 hover:shadow-[inset_0_0_28px_rgba(192,244,60,0.08),0_20px_60px_rgba(0,0,0,0.3)] transition-all duration-300"
               >
                 <div>
-                  <span className="inline-block font-mono text-[11px] uppercase tracking-[1.8px] text-cyan mb-3">
+                  <span className="inline-block text-[11px] font-bold uppercase tracking-[1.8px] text-cyan mb-3">
                     {item.badge}
                   </span>
                   <h3 className="text-white text-[20px] font-extrabold leading-[1.25] mb-2.5">
@@ -102,7 +102,7 @@ export function NetworkingSection() {
 
         {/* Industry Sectors Grid */}
         <div className="mt-14">
-          <p className="text-center font-mono text-xs uppercase tracking-[2px] text-white/60 mb-5">
+          <p className="text-center font-semibold text-xs uppercase tracking-[2px] text-white/60 mb-5">
             Priority Enterprise Sectors Represented
           </p>
           <div className="grid grid-cols-4 gap-3.5 max-[980px]:grid-cols-2 max-sm:grid-cols-1">

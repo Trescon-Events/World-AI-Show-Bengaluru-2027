@@ -150,7 +150,7 @@ export function PartnerShowcase() {
                 href="/mumbai/enterprise/sponsorship-enquiry"
                 className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full text-[14px] font-extrabold text-[#06111F] [color:#06111F!important] bg-[#C0F43C] hover:shadow-[0_0_24px_rgba(192,244,60,0.35)] hover:-translate-y-0.5 transition-all duration-200 cursor-pointer"
               >
-                Enquire about sponsorship <span className="font-mono">→</span>
+                Enquire about sponsorship <span>→</span>
               </a>
               <a
                 href="/mumbai/enterprise/attend/sponsor"

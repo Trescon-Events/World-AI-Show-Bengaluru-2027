@@ -10,7 +10,7 @@ export function NetworkingHero() {
       }}
     >
       <div className="relative z-10 w-[min(1114px,calc(100%-48px))] mx-auto">
-        <span className="inline-flex items-center mb-5 px-3.5 py-1.5 border border-cyan/30 rounded-full text-cyan font-mono text-[12px] uppercase tracking-[2px] bg-cyan/5">
+        <span className="inline-flex items-center mb-5 px-3.5 py-1.5 border border-cyan/30 rounded-full text-cyan text-[12px] font-bold uppercase tracking-[2px] bg-cyan/5">
           High-Value Networking
         </span>
         <h1 className="m-0 text-white font-[850] leading-[1.05] tracking-[-2px] text-[clamp(48px,5.8vw,78px)]">

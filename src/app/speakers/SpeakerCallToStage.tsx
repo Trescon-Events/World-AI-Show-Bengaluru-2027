@@ -30,7 +30,7 @@ export function SpeakerCallToStage() {
 
             {/* Value Highlights */}
             <div className="p-7 border border-[#7eacd9]/14 rounded-[16px] bg-[#04080f]/80 shadow-[inset_0_0_24px_rgba(33,173,255,0.04)]">
-              <strong className="block text-[#C0F43C] text-[12px] font-mono uppercase tracking-[2px] mb-5">
+              <strong className="block text-[#C0F43C] text-[12px] uppercase tracking-[2px] mb-5 font-bold">
                 Why join the Enterprise Faculty in Mumbai:
               </strong>
               <ul className="m-0 pl-0 list-none flex flex-col gap-5">

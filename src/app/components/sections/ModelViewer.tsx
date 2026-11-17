@@ -25,7 +25,7 @@ function Loader() {
     <Html center>
       <div className="flex flex-col items-center gap-3 bg-[#050c1d]/90 p-6 rounded-2xl border border-white/10 backdrop-blur-md shadow-2xl">
         <div className="w-8 h-8 border-4 border-[#C0F43C]/20 border-t-[#C0F43C] rounded-full animate-spin" />
-        <div className="text-white/60 text-sm font-mono tracking-widest uppercase whitespace-nowrap">Loading Model...</div>
+        <div className="text-white/60 text-sm font-semibold tracking-widest uppercase whitespace-nowrap">Loading Model...</div>
       </div>
     </Html>
   );

@@ -27,7 +27,7 @@ export function FooterSection() {
 
           {/* Column 1: Links */}
           <div className="flex flex-col gap-[18px]">
-            <h3 className="m-0 mb-2 text-white/74 font-mono text-[12px] uppercase tracking-[5px] select-none">
+            <h3 className="m-0 mb-2 text-white/74 font-semibold text-[12px] uppercase tracking-[3px] select-none">
               Event
             </h3>
             <a href="/mumbai/enterprise/attend" className="text-muted text-[15px] hover:text-cyan transition-colors duration-150 py-0.5">
@@ -46,7 +46,7 @@ export function FooterSection() {
 
           {/* Column 2: Enquiries */}
           <div className="flex flex-col gap-[18px]">
-            <h3 className="m-0 mb-2 text-white/74 font-mono text-[12px] uppercase tracking-[5px] select-none">
+            <h3 className="m-0 mb-2 text-white/74 font-semibold text-[12px] uppercase tracking-[3px] select-none">
               Enquiries
             </h3>
             <a href="/mumbai/enterprise/sponsorship-enquiry" className="text-muted text-[15px] hover:text-cyan transition-colors duration-150 py-0.5">
@@ -65,7 +65,7 @@ export function FooterSection() {
 
           {/* Column 3: Organiser */}
           <div className="flex flex-col gap-[18px]">
-            <h3 className="m-0 mb-2 text-white/74 font-mono text-[12px] uppercase tracking-[5px] select-none">
+            <h3 className="m-0 mb-2 text-white/74 font-semibold text-[12px] uppercase tracking-[3px] select-none">
               Organiser
             </h3>
             <a
@@ -93,7 +93,7 @@ export function FooterSection() {
 
         {/* Footer Bottom Row */}
         <div className="flex items-center justify-between gap-6 pt-[34px] max-sm:flex-col max-sm:items-start">
-          <p className="m-0 text-white/52 font-mono text-[13px] leading-relaxed">
+          <p className="m-0 text-white/52 text-[13px] leading-relaxed">
             © 2026–2027 World AI Show: The Enterprise Edition | Mumbai 2027. All rights reserved. Organised by Trescon.
           </p>
           <div className="flex gap-3">

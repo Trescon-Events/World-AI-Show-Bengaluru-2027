@@ -27,7 +27,7 @@ export function SpeakersList() {
         {/* Faculty Intake Banner (Section 09) */}
         <div className="mb-12 p-7 rounded-[20px] border border-[#C0F43C]/35 bg-gradient-to-r from-[#C0F43C]/10 via-[#041022] to-[#18D4FF]/10 flex flex-wrap items-center justify-between gap-6">
           <div className="max-w-[700px]">
-            <span className="inline-block font-mono text-[11px] uppercase tracking-[1.8px] text-[#C0F43C] mb-2">
+            <span className="inline-block text-[11px] uppercase tracking-[1.8px] text-[#C0F43C] mb-2 font-bold">
               Mumbai 2027 Faculty Intake · Unannounced Slots Open
             </span>
             <h3 className="text-white font-extrabold text-[22px] leading-snug m-0 mb-1.5">

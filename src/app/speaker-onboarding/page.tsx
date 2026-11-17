@@ -30,7 +30,7 @@ export default function SpeakerOnboardingPage() {
             <div className="absolute top-0 left-0 right-0 h-[1px] bg-[#2E3C4D]/55" />
 
             <div className="relative z-10 flex flex-col">
-              <span className="text-[#C0F43C] font-mono text-[11px] font-extrabold uppercase tracking-[0.25em] mb-3">
+              <span className="text-[#C0F43C] text-[11px] font-extrabold uppercase tracking-[0.25em] mb-3">
                 Speaker Onboarding
               </span>
               <h1 className="m-0 text-white font-[850] text-[clamp(28px,4vw,42px)] leading-tight tracking-[-1px] mb-4">

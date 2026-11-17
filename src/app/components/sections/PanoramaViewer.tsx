@@ -27,7 +27,7 @@ function Loader() {
     <Html center>
       <div className="flex flex-col items-center gap-3">
         <div className="w-8 h-8 border-4 border-cyan/20 border-t-cyan rounded-full animate-spin" />
-        <div className="text-white/60 text-sm font-mono tracking-widest uppercase whitespace-nowrap">Loading 360°...</div>
+        <div className="text-white/60 text-sm font-semibold tracking-widest uppercase whitespace-nowrap">Loading 360°...</div>
       </div>
     </Html>
   );
