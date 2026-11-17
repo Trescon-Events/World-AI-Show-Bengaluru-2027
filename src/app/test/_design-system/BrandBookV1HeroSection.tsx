@@ -36,7 +36,7 @@ export function BrandBookV1HeroSection() {
         {/* Event Lockup Logo */}
         <div className="mb-6 flex justify-center w-full">
           <img
-            src="/mumbai/enterprise/logos/wais-27-enterprise_header.svg"
+            src="/mumbai/enterprise/logos/wais-27-enterprise.svg"
             alt="World AI Show: The Enterprise Edition | Mumbai"
             width={450}
             height={180}
@@ -55,43 +55,8 @@ export function BrandBookV1HeroSection() {
           The premier cross-functional executive conference addressing the architecture, <br className="hidden md:inline" />systems integration, agentic governance, and verifiable ROI of enterprise AI.
         </p>
 
-        <div className="w-full max-w-[780px] border-t border-white/20 opacity-60 mt-1" />
-
-        {/* Event Meta Footer */}
-        <div className="grid grid-cols-[max-content_max-content_max-content] justify-center items-center gap-6 w-full max-w-[760px] mx-auto mt-7 text-center max-[980px]:grid-cols-1 max-sm:gap-3 max-sm:mt-5">
-          {/* Column 1: Dates */}
-          <div className="pr-6 border-r border-white/27 text-center max-[980px]:border-r-0 max-[980px]:pr-0 max-sm:w-full max-sm:pb-3 max-sm:border-b max-sm:border-white/20">
-            <strong className="block text-[34px] font-[850] text-white leading-none max-sm:text-[26px]">
-              20–<GradientText>21</GradientText>
-            </strong>
-            <span className="block mt-2 text-[13px] font-bold text-white/80 uppercase tracking-[1.5px] max-sm:text-[12px] max-sm:mt-1.5">
-              APRIL 2027
-            </span>
-          </div>
-
-          {/* Column 2: Venue */}
-          <div className="pr-6 border-r border-white/27 text-center max-[980px]:border-r-0 max-[980px]:pr-0 max-sm:w-full max-sm:pb-3 max-sm:border-b max-sm:border-white/20">
-            <strong className="block text-[34px] font-[850] text-white leading-none max-sm:text-[26px]">
-              Mumbai, <GradientText>India</GradientText>
-            </strong>
-            <span className="block mt-2 text-[13px] font-bold text-white/80 uppercase tracking-[1.5px] max-sm:text-[12px] max-sm:mt-1.5">
-              The 52nd Global Edition
-            </span>
-          </div>
-
-          {/* Column 3: Duration */}
-          <div className="text-center max-sm:w-full">
-            <strong className="block text-[34px] font-[850] text-white leading-none max-sm:text-[26px]">
-              2 <GradientText>Days</GradientText>
-            </strong>
-            <span className="block mt-2 text-[13px] font-bold text-white/80 uppercase tracking-[1.5px] max-sm:text-[12px] max-sm:mt-1.5">
-              EXECUTIVE CONFERENCE
-            </span>
-          </div>
-        </div>
-
         {/* Hero CTA Actions */}
-        <div className="flex justify-center flex-wrap gap-3.5 mt-9 max-sm:flex-col max-sm:items-center max-sm:gap-3.5 max-sm:w-full max-sm:max-w-[320px]">
+        <div className="flex justify-center flex-wrap gap-3.5 mt-2 max-sm:flex-col max-sm:items-center max-sm:gap-3.5 max-sm:w-full max-sm:max-w-[320px]">
           <Button href="/mumbai/enterprise/sponsorship-enquiry/" showArrow={true}>
             Enquire Now (Sponsorship &amp; Passes)
           </Button>

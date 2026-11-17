@@ -50,7 +50,7 @@ function Counter({ end, suffix = "", duration = 1500 }: CounterProps) {
 
   return (
     <span ref={elementRef}>
-      {count}
+      {count.toLocaleString()}
       {suffix}
     </span>
   );
@@ -72,17 +72,17 @@ const statsData = [
     index: "02",
   },
   {
+    icon: "/mumbai/enterprise/icons/stats/3.svg",
+    number: 93,
+    suffix: "%",
+    label: "Decision Makers",
+    index: "03",
+  },
+  {
     icon: "/mumbai/enterprise/icons/stats/5.svg",
     number: 5,
     suffix: "",
     label: "Content Pillars",
-    index: "03",
-  },
-  {
-    icon: "/mumbai/enterprise/icons/stats/3.svg",
-    number: 2,
-    suffix: " Days",
-    label: "Executive Conference",
     index: "04",
   },
 ];
@@ -96,17 +96,14 @@ const ourReachStats = [
 ];
 
 const seriesHighlightsRow1 = [
-  { end: 46, suffix: "", label: "Global Editions" },
+  { end: 48, suffix: "+", label: "Global Editions" },
   { end: 42, suffix: "K+", label: "C-Level Attendees" },
   { end: 2600, suffix: "+", label: "Speakers" },
-  { end: 93, suffix: "%", label: "Decision Makers" },
-  { end: 51, suffix: "+", label: "Countries Represented" },
-];
-
-const seriesHighlightsRow2 = [
   { end: 1650, suffix: "+", label: "Exhibitors" },
   { end: 830, suffix: "+", label: "Media Partners" },
 ];
+
+const seriesHighlightsRow2: Array<{ end: number; suffix: string; label: string }> = [];
 
 /* ── Hover Particles Canvas Animation ─────────────────────── */
 function HoverParticles({ isHovered }: { isHovered: boolean }) {
@@ -322,23 +319,25 @@ export function StatsSection() {
               ))}
             </div>
 
-            <div className="grid grid-cols-2 gap-4 max-w-[440px] mx-auto mt-4">
-              {seriesHighlightsRow2.map((item, idx) => (
-                <div
-                  key={item.label}
-                  data-aos={idx === 0 ? "fade-right" : "fade-left"}
-                  data-aos-delay="100"
-                  className="p-5 rounded-2xl border border-white/10 bg-white/[0.025] hover:border-[#C0F43C]/45 hover:bg-white/[0.04] transition-all duration-300"
-                >
-                  <strong className="block text-[#C0F43C] font-[850] text-[clamp(28px,3.2vw,38px)] leading-none mb-2">
-                    <Counter end={item.end} suffix={item.suffix} />
-                  </strong>
-                  <span className="block text-white/70 font-mono text-[11.5px] uppercase tracking-[1.4px] font-semibold">
-                    {item.label}
-                  </span>
-                </div>
-              ))}
-            </div>
+            {seriesHighlightsRow2.length > 0 && (
+              <div className="grid grid-cols-2 gap-4 max-w-[440px] mx-auto mt-4">
+                {seriesHighlightsRow2.map((item, idx) => (
+                  <div
+                    key={item.label}
+                    data-aos={idx === 0 ? "fade-right" : "fade-left"}
+                    data-aos-delay="100"
+                    className="p-5 rounded-2xl border border-white/10 bg-white/[0.025] hover:border-[#C0F43C]/45 hover:bg-white/[0.04] transition-all duration-300"
+                  >
+                    <strong className="block text-[#C0F43C] font-[850] text-[clamp(28px,3.2vw,38px)] leading-none mb-2">
+                      <Counter end={item.end} suffix={item.suffix} />
+                    </strong>
+                    <span className="block text-white/70 font-mono text-[11.5px] uppercase tracking-[1.4px] font-semibold">
+                      {item.label}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
         </div>
       </div>
