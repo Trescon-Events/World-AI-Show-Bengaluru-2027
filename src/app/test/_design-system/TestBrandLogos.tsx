@@ -4,6 +4,7 @@ import { useEffect } from "react";
 
 const WHITE_LOGO_SRC = "/mumbai/enterprise/images/test-brand/wais-26-enterprise-white.svg";
 const DARK_LOGO_SRC = "/mumbai/enterprise/images/test-brand/wais-26-enterprise-dark.svg";
+const HERO_LOGO_SRC = "/mumbai/enterprise/logos/wais-27-enterprise.svg";
 
 function applyFallbackOnError(img: HTMLImageElement, filename: string) {
   img.onerror = () => {
@@ -31,15 +32,14 @@ export function TestBrandLogos() {
         }
       });
 
-      // 2. Hero Banner Lockup Logo -> White text lockup over Hero Video Banner
+      // 2. Hero Banner Lockup Logo -> Updated wais-27-enterprise.svg
       const heroImgs = root.querySelectorAll<HTMLImageElement>(
-        '#home img[src*="wais-27-enterprise"], #home img[data-test-logo="hero"]'
+        '#home img[src*="wais-27-enterprise"], #home img[data-test-logo="hero"], #home .container > div:first-child img'
       );
       heroImgs.forEach((img) => {
         img.dataset.testLogo = "hero";
-        applyFallbackOnError(img, "wais-26-enterprise-white.svg");
-        if (!img.src.includes("wais-26-enterprise-white.svg")) {
-          img.src = WHITE_LOGO_SRC;
+        if (!img.src.includes("wais-27-enterprise.svg")) {
+          img.src = HERO_LOGO_SRC;
         }
       });
 

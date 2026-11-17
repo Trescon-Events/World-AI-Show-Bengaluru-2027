@@ -118,7 +118,7 @@ export function AiMumbaiLiveThemeStyles() {
 
       /* Prevent flash of legacy SVG logo before TestBrandLogos swaps in PNG lockups */
       .ai2047-live-theme img[src*="wais-27-enterprise"] {
-        opacity: 0 !important;
+        opacity: 1 !important;
       }
 
       .ai2047-live-theme header nav > a:first-child {

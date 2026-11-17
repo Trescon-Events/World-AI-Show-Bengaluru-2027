@@ -164,7 +164,7 @@ export function Ai2047BrandBookV1Styles() {
          1. LOGO SYSTEM: CLEAR SPACE, MIN-WIDTH >= 64PX & ZERO EFFECTS (PAGES 10–17)
          ===================================================================== */
       .ai2047-brandbook-v1 img[src*="wais-27-enterprise"] {
-        opacity: 0 !important;
+        opacity: 1 !important;
       }
 
       .ai2047-brandbook-v1 header nav[aria-label="Primary navigation"] > a:first-child {
@@ -181,18 +181,19 @@ export function Ai2047BrandBookV1Styles() {
       }
 
       .ai2047-brandbook-v1 #home .container > div:first-child img {
-        width: auto !important;
+        width: 100% !important;
         height: auto !important;
         min-width: 64px !important;
-        max-width: 320px !important;
-        max-height: 152px !important;
+        max-width: 450px !important;
+        max-height: 220px !important;
+        object-fit: contain !important;
         filter: none !important;
         box-shadow: none !important;
       }
       @media (max-width: 640px) {
         .ai2047-brandbook-v1 #home .container > div:first-child img {
-          max-width: 236px !important;
-          max-height: 116px !important;
+          max-width: 320px !important;
+          max-height: 160px !important;
         }
       }
 

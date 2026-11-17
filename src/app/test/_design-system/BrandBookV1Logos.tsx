@@ -4,6 +4,7 @@ import { useEffect } from "react";
 
 const WHITE_LOGO_SRC = "/mumbai/enterprise/images/test-brand/wais-26-enterprise-white.svg";
 const DARK_LOGO_SRC = "/mumbai/enterprise/images/test-brand/wais-26-enterprise-dark.svg";
+const HERO_LOGO_SRC = "/mumbai/enterprise/logos/wais-27-enterprise.svg";
 
 function applyFallbackOnError(img: HTMLImageElement, filename: string) {
   img.onerror = () => {
@@ -36,15 +37,14 @@ export function BrandBookV1Logos() {
         }
       });
 
-      // 2. Hero Banner Lockup Logo -> Reverse White lockup over Midnight Core tonal video overlay
+      // 2. Hero Banner Lockup Logo -> Updated wais-27-enterprise.svg
       const heroImgs = root.querySelectorAll<HTMLImageElement>(
-        '#home img[src*="wais-27-enterprise"], #home img[data-brandbook-logo="hero"]'
+        '#home img[src*="wais-27-enterprise"], #home img[data-brandbook-logo="hero"], #home .container > div:first-child img'
       );
       heroImgs.forEach((img) => {
         img.dataset.brandbookLogo = "hero";
-        applyFallbackOnError(img, "wais-26-enterprise-white.svg");
-        if (!img.src.includes("wais-26-enterprise-white.svg")) {
-          img.src = WHITE_LOGO_SRC;
+        if (!img.src.includes("wais-27-enterprise.svg")) {
+          img.src = HERO_LOGO_SRC;
         }
       });
 
