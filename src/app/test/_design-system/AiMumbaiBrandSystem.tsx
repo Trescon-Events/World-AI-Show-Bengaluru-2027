@@ -447,7 +447,7 @@ export function AiMumbaiLiveThemeStyles() {
       /* #testimonials fallback selector cards */
       .ai2047-live-theme #testimonials:not(.test-testimonials-redesign) .grid-cols-4 > button span.font-mono,
       /* #faq Accordion rows: hide 01–07 numbers */
-      .ai2047-live-theme #faq details summary > span.font-mono {
+      .ai2047-live-theme #faq details summary > span {
         display: none !important;
       }
 

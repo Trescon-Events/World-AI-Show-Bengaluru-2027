@@ -626,7 +626,7 @@ export function Ai2047BrandBookV1Styles() {
       .ai2047-brandbook-v1 #agenda article span.rounded-full,
       .ai2047-brandbook-v1 #networking article span.font-mono,
       .ai2047-brandbook-v1 #testimonials:not(.brandbook-v1-testimonials) .grid-cols-4 > button span.font-mono,
-      .ai2047-brandbook-v1 #faq details summary > span.font-mono {
+      .ai2047-brandbook-v1 #faq details summary > span {
         display: none !important;
       }
 

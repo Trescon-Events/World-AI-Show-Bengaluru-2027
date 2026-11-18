@@ -77,11 +77,8 @@ export function FAQSection() {
                     e.preventDefault();
                     setOpenIndex(isOpen ? null : index);
                   }}
-                  className="grid grid-cols-[58px_1fr_32px] items-center gap-5 min-h-[68px] px-6 cursor-pointer list-none select-none max-sm:grid-cols-[46px_1fr_18px] max-sm:gap-3 max-sm:px-1.5 [&::-webkit-details-marker]:hidden"
+                  className="grid grid-cols-[1fr_32px] items-center gap-5 min-h-[68px] px-6 cursor-pointer list-none select-none max-sm:gap-3 max-sm:px-3.5 [&::-webkit-details-marker]:hidden"
                 >
-                  <span className="text-white/68 font-space-grotesk font-semibold text-[13px]">
-                    {String(index + 1).padStart(2, "0")}
-                  </span>
                   <strong className="text-white font-extrabold text-[18px] group-open:text-cyan transition-colors max-sm:text-[16px] leading-snug">
                     {faq.q}
                   </strong>
@@ -89,7 +86,7 @@ export function FAQSection() {
                     +
                   </i>
                 </summary>
-                <p className="max-w-[740px] mx-auto mt-[-6px] mr-[76px] mb-6 ml-[78px] text-muted text-[15px] leading-relaxed max-sm:mx-1.5 max-sm:ml-16 max-sm:mb-[22px]">
+                <p className="px-6 pb-6 pt-0 text-muted text-[15px] leading-relaxed max-sm:px-3.5">
                   {faq.a}
                 </p>
               </details>
