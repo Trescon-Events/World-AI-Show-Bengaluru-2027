@@ -393,57 +393,6 @@ export function TestTestimonialsSection() {
           </div>
         </div>
 
-        {/* ───── 4-Card Interactive Partner Selector Rail (No Card Numbers) ───── */}
-        <div className="grid grid-cols-4 gap-4 mt-5 max-[980px]:grid-cols-2 max-sm:grid-cols-1">
-          {testimonials.map((item, idx) => {
-            const isSelected = idx === activeIndex;
-            return (
-              <button
-                key={item.name}
-                type="button"
-                onClick={() => setActiveIndex(idx)}
-                className={`group relative text-left p-5 rounded-[18px] border transition-all duration-300 cursor-pointer overflow-hidden outline-none ${
-                  isSelected
-                    ? "bg-[#FFFFFF] border-[#F15928] border-[2px] shadow-[0_18px_38px_rgba(0,22,52,0.28)] -translate-y-1"
-                    : "bg-[#FFFFFF]/92 border-white/50 hover:bg-[#FFFFFF] hover:border-white hover:-translate-y-0.5 shadow-[0_10px_24px_rgba(0,22,52,0.14)]"
-                }`}
-              >
-                <div className="flex items-center justify-between gap-3 mb-3.5">
-                  <span
-                    className={`grid place-items-center w-9 h-9 rounded-[10px] transition-colors duration-300 ${
-                      isSelected
-                        ? "bg-[#0069B8] text-[#FFFFFF] shadow-[0_6px_14px_rgba(0,105,184,0.26)]"
-                        : "bg-[#EAF4FC] text-[#0069B8] group-hover:bg-[#0069B8] group-hover:text-[#FFFFFF]"
-                    }`}
-                  >
-                    <PartnerMark name={item.name} />
-                  </span>
-
-                  <span
-                    className={`w-2.5 h-2.5 rounded-full transition-all duration-300 ${
-                      isSelected
-                        ? "bg-[#F15928] scale-110"
-                        : "bg-[#CBD5E1] group-hover:bg-[#009EAD]"
-                    }`}
-                    aria-hidden="true"
-                  />
-                </div>
-
-                <div className="text-[#0B1F3A] font-bold text-[17px] leading-snug mb-1">
-                  {item.name}
-                </div>
-                <div className="text-[#475569] text-[12.5px] leading-snug line-clamp-1">
-                  {item.highlight}
-                </div>
-
-                {isSelected && (
-                  <div className="absolute bottom-0 left-0 right-0 h-[3px] bg-[#F15928]" />
-                )}
-              </button>
-            );
-          })}
-        </div>
-
         {/* ───── Scroll-Driven Cinema Zoom Video Showcase ───── */}
         <div
           ref={videoTrackRef}

@@ -396,60 +396,6 @@ export function BrandBookV1TestimonialsSection() {
           </div>
         </div>
 
-        {/* ───── 4-Card Interactive Partner Selector Rail (No Card Numbers) ───── */}
-        <div className="grid grid-cols-4 gap-6 mt-6 max-[980px]:grid-cols-2 max-sm:grid-cols-1">
-          {testimonials.map((item, idx) => {
-            const isSelected = idx === activeIndex;
-            return (
-              <button
-                key={item.name}
-                type="button"
-                onClick={() => setActiveIndex(idx)}
-                className={`group relative text-left p-5 rounded-[18px] border transition-all duration-300 cursor-pointer overflow-hidden outline-none ${
-                  isSelected
-                    ? "bg-[#0D1B2E] border-[#F15928] border-[1.5px] shadow-[0_16px_36px_rgba(0,0,0,0.38)] -translate-y-1"
-                    : "bg-[#0D1B2E]/75 border-[#0069B8]/32 hover:bg-[#0D1B2E] hover:border-[#009EAD] hover:-translate-y-0.5"
-                }`}
-              >
-                <div className="flex items-center justify-between gap-3 mb-3.5">
-                  <span
-                    className={`grid place-items-center w-9 h-9 rounded-[10px] transition-colors duration-300 ${
-                      isSelected
-                        ? "bg-[#0069B8] text-[#FFFFFF]"
-                        : "bg-[#08121E] text-[#009EAD] border border-[#0069B8]/35 group-hover:bg-[#0069B8] group-hover:text-[#FFFFFF]"
-                    }`}
-                  >
-                    <PartnerMark name={item.name} />
-                  </span>
-
-                  <span
-                    className={`w-2.5 h-2.5 rounded-full transition-all duration-300 ${
-                      isSelected
-                        ? "bg-[#F15928] scale-110"
-                        : "bg-[#0069B8] group-hover:bg-[#009EAD]"
-                    }`}
-                    aria-hidden="true"
-                  />
-                </div>
-
-                <div
-                  className="text-[#FFFFFF] font-semibold text-[18px] leading-snug mb-1"
-                  style={{ fontFamily: "'Space Grotesk', sans-serif" }}
-                >
-                  {item.name}
-                </div>
-                <div className="text-[#F7F9FC]/72 text-[12.5px] leading-snug line-clamp-1">
-                  {item.highlight}
-                </div>
-
-                {isSelected && (
-                  <div className="absolute bottom-0 left-0 right-0 h-[3px] bg-[#F15928]" />
-                )}
-              </button>
-            );
-          })}
-        </div>
-
         {/* ───── Scroll-Driven Cinema Zoom Video Showcase ───── */}
         <div
           ref={videoTrackRef}

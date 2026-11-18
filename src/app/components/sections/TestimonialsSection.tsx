@@ -248,57 +248,6 @@ export function TestimonialsSection() {
           </div>
         </article>
 
-        {/* Bottom 4-Card Interactive Partner Selector Strip */}
-        <div className="grid grid-cols-4 gap-4 mt-5 max-[980px]:grid-cols-2 max-sm:grid-cols-1">
-          {testimonials.map((item, idx) => {
-            const isSelected = idx === activeIndex;
-            const itemGreen = item.accent === "green";
-            return (
-              <button
-                key={item.name}
-                type="button"
-                onClick={() => setActiveIndex(idx)}
-                className={`group relative text-left p-5 rounded-[16px] border transition-all duration-300 cursor-pointer overflow-hidden outline-none ${
-                  isSelected
-                    ? itemGreen
-                      ? "border-[#C0F43C]/65 bg-gradient-to-br from-[#C0F43C]/12 via-[#061427] to-[#040c1a] shadow-[0_14px_34px_rgba(0,0,0,0.4),0_0_24px_rgba(192,244,60,0.1)] -translate-y-0.5"
-                      : "border-[#18d4ff]/65 bg-gradient-to-br from-[#18d4ff]/12 via-[#061427] to-[#040c1a] shadow-[0_14px_34px_rgba(0,0,0,0.4),0_0_24px_rgba(24,212,255,0.12)] -translate-y-0.5"
-                    : "border-white/10 bg-[#040d1e]/70 hover:border-white/25 hover:bg-[#061329]/90 hover:-translate-y-0.5"
-                }`}
-              >
-                <div className="flex items-center justify-between gap-2 mb-2.5">
-                  <span
-                    className={`font-semibold text-[10.5px] uppercase tracking-[1.8px] ${
-                      isSelected
-                        ? itemGreen
-                          ? "text-[#C0F43C]"
-                          : "text-[#18d4ff]"
-                        : "text-white/40 group-hover:text-white/65"
-                    }`}
-                  >
-                    {item.id} · PARTNER
-                  </span>
-                  <span
-                    className={`w-2 h-2 rounded-full transition-all duration-300 ${
-                      isSelected
-                        ? itemGreen
-                          ? "bg-[#C0F43C] shadow-[0_0_8px_#C0F43C]"
-                          : "bg-[#18d4ff] shadow-[0_0_8px_#18d4ff]"
-                        : "bg-white/15 group-hover:bg-white/35"
-                    }`}
-                  />
-                </div>
-                <div className="text-white font-extrabold text-[17px] leading-snug mb-1">
-                  {item.name}
-                </div>
-                <div className="text-white/50 text-[12px] leading-snug line-clamp-1">
-                  {item.highlight}
-                </div>
-              </button>
-            );
-          })}
-        </div>
-
         {/* Testimonial Video */}
         <div className="mt-14 flex flex-col items-center">
           <div className="relative w-[min(780px,100%)] aspect-video rounded-[20px] border-2 border-[#18d4ff]/40 bg-[#030a18] overflow-hidden shadow-[0_24px_60px_rgba(0,0,0,0.5),0_0_32px_rgba(24,212,255,0.18)]">
