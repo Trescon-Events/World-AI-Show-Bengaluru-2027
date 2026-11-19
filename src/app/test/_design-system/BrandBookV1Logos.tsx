@@ -4,7 +4,7 @@ import { useEffect } from "react";
 
 const WHITE_LOGO_SRC = "/mumbai/enterprise/images/test-brand/wais-26-enterprise-white.svg";
 const DARK_LOGO_SRC = "/mumbai/enterprise/images/test-brand/wais-26-enterprise-dark.svg";
-const HERO_LOGO_SRC = "/mumbai/enterprise/logos/wais-27-enterprise.svg";
+const HERO_LOGO_SRC = "/mumbai/enterprise/logos/wais-27-enterprise-mumbai-w.svg";
 
 function applyFallbackOnError(img: HTMLImageElement, filename: string) {
   img.onerror = () => {
@@ -37,13 +37,13 @@ export function BrandBookV1Logos() {
         }
       });
 
-      // 2. Hero Banner Lockup Logo -> Updated wais-27-enterprise.svg
+      // 2. Hero Banner Lockup Logo -> Updated wais-27-enterprise-mumbai-w.svg
       const heroImgs = root.querySelectorAll<HTMLImageElement>(
         '#home img[src*="wais-27-enterprise"], #home img[data-brandbook-logo="hero"], #home .container > div:first-child img'
       );
       heroImgs.forEach((img) => {
         img.dataset.brandbookLogo = "hero";
-        if (!img.src.includes("wais-27-enterprise.svg")) {
+        if (!img.src.includes("wais-27-enterprise-mumbai-w.svg")) {
           img.src = HERO_LOGO_SRC;
         }
       });
