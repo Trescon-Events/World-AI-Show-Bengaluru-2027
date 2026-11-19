@@ -2,15 +2,15 @@
 
 import { useEffect } from "react";
 
-const WHITE_LOGO_SRC = "/mumbai/enterprise/images/test-brand/wais-26-enterprise-white.svg";
-const DARK_LOGO_SRC = "/mumbai/enterprise/images/test-brand/wais-26-enterprise-dark.svg";
+const WHITE_LOGO_SRC = "/mumbai/enterprise/logos/wais-27-enterprise-mumbai-w1.svg";
+const DARK_LOGO_SRC = "/mumbai/enterprise/logos/wais-27-enterprise-mumbai-b1.svg";
 const HERO_LOGO_SRC = "/mumbai/enterprise/logos/wais-27-enterprise-mumbai-w.svg";
 
 function applyFallbackOnError(img: HTMLImageElement, filename: string) {
   img.onerror = () => {
     if (img.dataset.logoFallbackApplied === "1") return;
     img.dataset.logoFallbackApplied = "1";
-    img.src = `/images/test-brand/${filename}`;
+    img.src = `/logos/${filename}`;
   };
 }
 
@@ -27,12 +27,12 @@ export function BrandBookV1Logos() {
 
       // 1. Sticky Header Logo -> Dark lockup on Cloud White / Frosted White nav bar
       const headerImgs = root.querySelectorAll<HTMLImageElement>(
-        'header img[src*="wais-27-enterprise"], header img[data-brandbook-logo="header"], header nav > a:first-child img, .logo img'
+        'header img[src*="wais-27-enterprise"], header img[src*="wais-26-enterprise"], header img[data-brandbook-logo="header"], header nav > a:first-child img, .logo img'
       );
       headerImgs.forEach((img) => {
         img.dataset.brandbookLogo = "header";
-        applyFallbackOnError(img, "wais-26-enterprise-dark.svg");
-        if (!img.src.includes("wais-26-enterprise-dark.svg")) {
+        applyFallbackOnError(img, "wais-27-enterprise-mumbai-b1.svg");
+        if (!img.src.includes("wais-27-enterprise-mumbai-b1.svg")) {
           img.src = DARK_LOGO_SRC;
         }
       });
@@ -50,12 +50,12 @@ export function BrandBookV1Logos() {
 
       // 3. Footer Brand Logo -> Reverse White lockup on Midnight Core (#08121E) Footer
       const footerImgs = root.querySelectorAll<HTMLImageElement>(
-        '#footer img[src*="wais-27-enterprise"], #footer img[data-brandbook-logo="footer"], footer img[src*="wais-27-enterprise"], footer img[data-brandbook-logo="footer"]'
+        '#footer img[src*="wais-27-enterprise"], #footer img[src*="wais-26-enterprise"], #footer img[data-brandbook-logo="footer"], footer img[src*="wais-27-enterprise"], footer img[data-brandbook-logo="footer"]'
       );
       footerImgs.forEach((img) => {
         img.dataset.brandbookLogo = "footer";
-        applyFallbackOnError(img, "wais-26-enterprise-white.svg");
-        if (!img.src.includes("wais-26-enterprise-white.svg")) {
+        applyFallbackOnError(img, "wais-27-enterprise-mumbai-w1.svg");
+        if (!img.src.includes("wais-27-enterprise-mumbai-w1.svg")) {
           img.src = WHITE_LOGO_SRC;
         }
       });
