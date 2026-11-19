@@ -32,15 +32,15 @@ export function HeroSection() {
       />
 
       {/* Hero Content */}
-      <div className="container relative z-10 mx-auto px-6 pt-[220px] lg:pt-[240px] pb-16 max-sm:pt-[175px] max-sm:pb-12 max-sm:px-4 flex flex-col items-center">
+      <div className="container max-w-[1200px] w-full relative z-10 mx-auto px-6 pt-[220px] lg:pt-[240px] pb-16 max-sm:pt-[175px] max-sm:pb-12 max-sm:px-4 flex flex-col items-center text-center">
         {/* Event Lockup Logo */}
         <div className="mb-6 flex justify-center w-full">
           <img
-            src="/mumbai/enterprise/logos/wais-27-enterprise-mumbai-w.svg"
-            alt="World AI Show: The Enterprise Edition | Mumbai"
+            src="/mumbai/enterprise/logos/wais-27-enterprise-mumbai-w2.svg"
+            alt="World AI Show: Government & Enterprise AI Edition | Mumbai"
             width={450}
             height={180}
-            className="w-full max-w-[320px] sm:max-w-[450px] sm:w-[450px] h-auto object-contain drop-shadow-[0_4px_24px_rgba(0,0,0,0.45)]"
+            className="w-full max-w-[320px] sm:max-w-[450px] sm:w-[450px] h-auto object-contain mx-auto drop-shadow-[0_4px_24px_rgba(0,0,0,0.45)]"
           />
         </div>
 
@@ -55,12 +55,12 @@ export function HeroSection() {
           The premier cross-functional executive conference addressing the architecture, systems integration, agentic governance, and verifiable ROI of enterprise AI.
         </p>
 
-        <div className="w-full max-w-[780px] border-t border-white/20 opacity-60 mt-1" />
+        <div className="w-full max-w-[560px] border-t border-white/20 opacity-60 mt-1 mx-auto" />
 
         {/* Event Meta Footer */}
-        <div className="grid grid-cols-[max-content_max-content_max-content] justify-center items-center gap-6 w-full max-w-[760px] mx-auto mt-7 text-center max-[980px]:grid-cols-1 max-sm:gap-3 max-sm:mt-5">
+        <div className="grid grid-cols-[max-content_max-content] justify-center items-center gap-8 w-full max-w-[560px] mx-auto mt-7 text-center max-[640px]:grid-cols-1 max-sm:gap-4 max-sm:mt-5">
           {/* Column 1: Dates */}
-          <div className="pr-6 border-r border-white/27 text-center max-[980px]:border-r-0 max-[980px]:pr-0 max-sm:w-full max-sm:pb-3 max-sm:border-b max-sm:border-white/20">
+          <div className="pr-8 border-r border-white/27 text-center max-[640px]:border-r-0 max-[640px]:pr-0 max-sm:w-full max-sm:pb-3 max-sm:border-b max-sm:border-white/20">
             <strong className="block text-[34px] font-[850] font-space-grotesk text-white leading-none max-sm:text-[26px]">
               20–<GradientText>21</GradientText>
             </strong>
@@ -70,22 +70,12 @@ export function HeroSection() {
           </div>
 
           {/* Column 2: Venue */}
-          <div className="pr-6 border-r border-white/27 text-center max-[980px]:border-r-0 max-[980px]:pr-0 max-sm:w-full max-sm:pb-3 max-sm:border-b max-sm:border-white/20">
+          <div className="text-center max-sm:w-full">
             <strong className="block text-[34px] font-[850] font-space-grotesk text-white leading-none max-sm:text-[26px]">
               Mumbai, <GradientText>India</GradientText>
             </strong>
             <span className="block mt-2 text-[13px] font-bold text-white/80 uppercase tracking-[1.5px] max-sm:text-[12px] max-sm:mt-1.5">
               The 52nd Global Edition
-            </span>
-          </div>
-
-          {/* Column 3: Duration */}
-          <div className="text-center max-sm:w-full">
-            <strong className="block text-[34px] font-[850] font-space-grotesk text-white leading-none max-sm:text-[26px]">
-              2 <GradientText>Days</GradientText>
-            </strong>
-            <span className="block mt-2 text-[13px] font-bold text-white/80 uppercase tracking-[1.5px] max-sm:text-[12px] max-sm:mt-1.5">
-              EXECUTIVE CONFERENCE
             </span>
           </div>
         </div>

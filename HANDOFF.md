@@ -1,6 +1,6 @@
 # HANDOFF — World AI Show — Enterprise (Mumbai 2027 edition site)
 
-Last updated: 2026-11-13 (AI 2047 Brand Book V1.0 Design System promoted to LIVE production).
+Last updated: 2026-11-19 (Revised logos, centered hero/header alignment, 2-column event metadata, and Government & Enterprise AI Edition branding).
 
 ## Current state
 
@@ -10,8 +10,10 @@ Last updated: 2026-11-13 (AI 2047 Brand Book V1.0 Design System promoted to LIVE
 - **Base path:** `basePath: "/mumbai/enterprise"` configured in `next.config.ts`.
 - **Live Brand System:** AI 2047 Brand Book V1.0 officially active across all production routes via `src/app/components/BrandBookLayoutWrapper.tsx` in `src/app/layout.tsx`.
   - Palette: Sovereign Blue (`#0069B8`), Signal Teal (`#009EAD`), Pulse Orange (`#F15928`), Cloud White (`#F7F9FC`), Midnight Dark (`#08121E`).
-  - Logos: High-resolution sharp vector SVGs (`wais-26-enterprise-white.svg` and `wais-26-enterprise-dark.svg`).
-  - Inner pages: Fully coherent with Cloud White agenda schedule timelines, high-contrast session cards, elevated delegate pass tiles, and borderless partner logos.
+  - Logos: Updated to `wais-27-enterprise-mumbai-w2.svg` (white lockup for Hero, Footer, Agenda display) and `wais-27-enterprise-mumbai-b2.svg` (dark lockup for Header).
+  - Hero & Header: Centered alignment with 1200px container grid.
+  - Event Meta Footer: 2-column layout (20-21 April 2027 | Mumbai, India The 52nd Global Edition) with "2 Days Executive Conference" removed.
+  - Footer Copyright Line: Updated to "© 2026–2027 World AI Show: Government & Enterprise AI Edition | Mumbai 2027. All rights reserved. Organised by Trescon."
 - **2026-10-21 Website Feedback Updates (`Website changes and feedback.docx`) Applied:**
   1. **Research & Statistics (`EcosystemSectionDemo.tsx`)**:
      - Updated "The Execution Gap" lead copy to: *"India’s enterprise adoption rate leads at nearly 40%, compared with 28% globally. 44% were redesigning selected processes; 17% reported fundamental reinvention."* (`Source: Deloitte, State of AI in the Enterprise: India Insights (2026)`).

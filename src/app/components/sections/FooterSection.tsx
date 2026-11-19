@@ -14,8 +14,8 @@ export function FooterSection() {
           {/* Brand block */}
           <div className="flex flex-col">
             <img
-              src="/mumbai/enterprise/logos/wais-27-enterprise-mumbai-w1.svg"
-              alt="World AI Show: The Enterprise Edition | Mumbai 2027"
+              src="/mumbai/enterprise/logos/wais-27-enterprise-mumbai-w2.svg"
+              alt="World AI Show: Government & Enterprise AI Edition | Mumbai 2027"
               width={250}
               height={50}
               className="w-[min(250px,100%)] h-auto object-contain mb-4 select-none"
@@ -94,7 +94,7 @@ export function FooterSection() {
         {/* Footer Bottom Row */}
         <div className="flex items-center justify-between gap-6 pt-[34px] max-sm:flex-col max-sm:items-start">
           <p className="m-0 text-white/52 text-[13px] leading-relaxed">
-            © 2026–2027 World AI Show: The Enterprise Edition | Mumbai 2027. All rights reserved. Organised by Trescon.
+            © 2026–2027 World AI Show: Government &amp; Enterprise AI Edition | Mumbai 2027. All rights reserved. Organised by Trescon.
           </p>
           <div className="flex gap-3">
             <a

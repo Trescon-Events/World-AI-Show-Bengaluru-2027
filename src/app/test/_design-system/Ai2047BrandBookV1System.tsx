@@ -357,12 +357,13 @@ export function Ai2047BrandBookV1Styles() {
         box-shadow: 0 14px 36px rgba(8, 18, 30, 0.12) !important;
       }
 
-      /* Right-align desktop navigation links (Home, Attend, Agenda, Speakers, Partner, Networking) */
+      /* Center-align desktop navigation links (Home, Attend, Agenda, Speakers, Partner, Networking) */
       .ai2047-brandbook-v1 header nav[aria-label="Primary navigation"] > div:nth-child(2),
       .ai2047-brandbook-v1 header nav[aria-label="Primary navigation"] > div.h-full {
-        justify-content: flex-end !important;
+        justify-content: center !important;
         margin-left: auto !important;
-        padding-right: 16px !important;
+        margin-right: auto !important;
+        padding-right: 0 !important;
       }
 
       .ai2047-brandbook-v1 header nav[aria-label="Primary navigation"] .uppercase a:not([class*="bg-[#C0F43C]"]) {

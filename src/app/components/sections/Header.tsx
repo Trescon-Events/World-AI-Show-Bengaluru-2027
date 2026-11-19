@@ -201,13 +201,13 @@ export function Header({ activeItem, subNavItems, activeSubNavItem }: HeaderProp
 
       <header className="group fixed top-5 left-0 right-0 z-30 w-full px-6 max-sm:top-2.5 max-sm:px-3">
         <nav
-          className="relative grid grid-cols-[180px_1fr_auto] items-center gap-[16px] max-w-[1172px] w-full h-[82px] mx-auto px-[22px] pl-[25px] border border-[#7eacd9]/14 rounded-[34px] bg-[#04080f]/88 shadow-[0_22px_62px_rgba(0,0,0,0.45),inset_0_0_26px_rgba(33,173,255,0.07)] backdrop-blur-[18px] max-[1200px]:grid-cols-[auto_1fr_auto] max-[1200px]:h-auto max-[1200px]:min-h-[82px] max-sm:grid-cols-[1fr_auto_auto] max-sm:py-2 max-sm:px-2.5 max-sm:pl-[18px] max-sm:rounded-[26px]"
+          className="relative grid grid-cols-[auto_1fr_auto] items-center gap-[16px] max-w-[1200px] w-full h-[82px] mx-auto px-[22px] pl-[25px] border border-[#7eacd9]/14 rounded-[34px] bg-[#04080f]/88 shadow-[0_22px_62px_rgba(0,0,0,0.45),inset_0_0_26px_rgba(33,173,255,0.07)] backdrop-blur-[18px] max-[1200px]:grid-cols-[auto_1fr_auto] max-[1200px]:h-auto max-[1200px]:min-h-[82px] max-sm:grid-cols-[1fr_auto_auto] max-sm:py-2 max-sm:px-2.5 max-sm:pl-[18px] max-sm:rounded-[26px]"
           aria-label="Primary navigation"
         >
           <Logo />
 
           {/* Desktop Navigation Links */}
-          <div className="flex justify-end gap-[25px] text-[15px] font-bold tracking-[1.2px] uppercase text-white/58 max-[1200px]:hidden h-full items-center mr-4">
+          <div className="flex justify-center gap-[28px] text-[15px] font-bold tracking-[1.2px] uppercase text-white/58 max-[1200px]:hidden h-full items-center mx-auto">
             {navItems.map((item) => {
               const isActive = item === currentActiveItem;
               return (
@@ -232,7 +232,7 @@ export function Header({ activeItem, subNavItems, activeSubNavItem }: HeaderProp
           </div>
 
           {/* Action Buttons */}
-          <div className="flex items-center gap-[25px] whitespace-nowrap text-[15px] font-bold tracking-[1.2px] uppercase max-[1200px]:justify-end max-[1200px]:mr-2 ml-2">
+          <div className="flex items-center gap-[25px] whitespace-nowrap text-[15px] font-bold tracking-[1.2px] uppercase max-[1200px]:justify-end max-[1200px]:mr-2">
             <a
               className="px-[23px] py-[15px] rounded-full !text-black [color:#06111f!important] bg-[#C0F43C] shadow-[0_0_24px_rgba(192,244,60,0.24)] hover:shadow-[0_0_32px_rgba(192,244,60,0.4)] transition-all duration-200 hover:-translate-y-0.5 max-sm:px-3.5 max-sm:py-3 uppercase font-extrabold text-[14px] tracking-[1.2px]"
               href="/mumbai/enterprise/sponsorship-enquiry"
@@ -271,7 +271,7 @@ export function Header({ activeItem, subNavItems, activeSubNavItem }: HeaderProp
         {/* ── Dropdown Sub-Nav (Attend, Agenda, Networking) ── */}
         <nav
           aria-label="Secondary navigation"
-          className={`sub-nav-bar absolute left-1/2 top-[80px] -translate-x-1/2 flex justify-around w-[calc(100%-48px)] max-w-[1008px] h-[44px] px-[34px] items-center rounded-b-[24px] text-[#08121E] bg-[#F7F9FC]/98 shadow-[0_16px_38px_rgba(8,18,30,0.12)] border border-[rgba(0,105,184,0.22)] border-t-0 text-[12px] font-semibold tracking-[1.6px] uppercase transition-all duration-300 ease-out max-[1200px]:hidden ${
+          className={`sub-nav-bar absolute left-1/2 top-[80px] -translate-x-1/2 flex justify-center gap-[34px] w-[calc(100%-48px)] max-w-[1200px] h-[44px] px-[34px] items-center rounded-b-[24px] text-[#08121E] bg-[#F7F9FC]/98 shadow-[0_16px_38px_rgba(8,18,30,0.12)] border border-[rgba(0,105,184,0.22)] border-t-0 text-[12px] font-semibold tracking-[1.6px] uppercase transition-all duration-300 ease-out max-[1200px]:hidden ${
             currentActiveItem && subMenus[currentActiveItem]
               ? "opacity-100 translate-y-0 pointer-events-auto visible"
               : "opacity-0 -translate-y-2 pointer-events-none invisible"
