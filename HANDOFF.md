@@ -1,6 +1,6 @@
 # HANDOFF — World AI Show — Enterprise (Mumbai 2027 edition site)
 
-Last updated: 2026-11-19 (Revised logos, centered hero/header alignment, 2-column event metadata, and Government & Enterprise AI Edition branding).
+Last updated: 2026-11-20 (Added Sponsor CTA banner at top of Sponsors section with exact brand book dark canvas, lime border, and cyan highlight styling).
 
 ## Current state
 
@@ -10,6 +10,7 @@ Last updated: 2026-11-19 (Revised logos, centered hero/header alignment, 2-colum
 - **Base path:** `basePath: "/mumbai/enterprise"` configured in `next.config.ts`.
 - **Live Brand System:** AI 2047 Brand Book V1.0 officially active across all production routes via `src/app/components/BrandBookLayoutWrapper.tsx` in `src/app/layout.tsx`.
   - Palette: Sovereign Blue (`#0069B8`), Signal Teal (`#009EAD`), Pulse Orange (`#F15928`), Cloud White (`#F7F9FC`), Midnight Dark (`#08121E`).
+  - Sponsor CTA Banner: Featured callout banner at the top of `#partners` (`SponsorsSection.tsx`) with dark canvas (`#030814`), lime border (`rgba(192, 244, 60, 0.42)`), crisp white and cyan (`#00CEFF`) headline, safety orange (`#F15928`) primary CTA and glass secondary CTA.
   - Logos: Updated to `wais-27-enterprise-mumbai-w2.svg` (white lockup for Hero, Footer, Agenda display) and `wais-27-enterprise-mumbai-b2.svg` (dark lockup for Header).
   - Hero & Header: Centered alignment with 1200px container grid.
   - Event Meta Footer: 2-column layout (20-21 April 2027 | Mumbai, India The 52nd Global Edition) with "2 Days Executive Conference" removed.

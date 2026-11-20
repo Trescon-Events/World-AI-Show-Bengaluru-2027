@@ -59,7 +59,72 @@ const governmentLogos = [
 export function SponsorsSection() {
   return (
     <section className="relative py-[100px] pb-0 bg-[#030b19] overflow-hidden max-sm:py-[72px] max-sm:pb-0" id="partners">
-      <div className="w-[min(1114px,calc(100%-48px))] mx-auto max-sm:w-[min(100%-32px,1114px)]">
+      <div className="w-[min(1200px,calc(100%-48px))] mx-auto max-sm:w-[min(100%-32px,1200px)]">
+        {/* Top Sponsor CTA Banner */}
+        <div
+          className="sponsor-cta-banner group/banner relative p-12 max-sm:p-8 mb-20 rounded-[28px] text-center overflow-hidden transition-all duration-300"
+          style={{
+            backgroundColor: "#030814",
+            backgroundImage: "linear-gradient(135deg, rgba(192, 244, 60, 0.05) 0%, #030814 45%, rgba(0, 206, 255, 0.03) 100%)",
+            border: "1px solid rgba(192, 244, 60, 0.42)",
+            boxShadow: "0 24px 60px rgba(2, 8, 20, 0.6), 0 0 28px rgba(192, 244, 60, 0.12)",
+          }}
+        >
+          <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-[#c0f43c]/35 to-transparent pointer-events-none" />
+
+          <div className="relative z-10 flex flex-col items-center gap-6">
+            <h3
+              className="m-0 font-space-grotesk font-[850] text-[clamp(28px,3.5vw,42px)] leading-tight tracking-tight"
+              style={{ color: "#FFFFFF" }}
+            >
+              Put your solutions in front of <br />
+              <span
+                className="sponsor-cta-cyan"
+                style={{
+                  color: "#00CEFF",
+                  WebkitTextFillColor: "#00CEFF",
+                }}
+              >
+                the cross-functional buying unit.
+              </span>
+            </h3>
+
+            <p
+              className="m-0 text-[16px] leading-relaxed max-w-[640px] font-sans"
+              style={{ color: "#CBD5E1" }}
+            >
+              Secure your enterprise presence for Mumbai 2027 (20–21 April 2027 · 2 Days) across Presenting, Powered by, Signature, Gold, Silver, Bronze, VIP Experiences, or Turnkey Exhibitor packages.
+            </p>
+
+            <div className="flex flex-wrap justify-center gap-4 mt-4 w-full max-sm:flex-col max-sm:items-center">
+              <a
+                href="/mumbai/enterprise/sponsorship-enquiry"
+                className="sponsor-cta-primary inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full text-[14px] font-extrabold hover:-translate-y-0.5 transition-all duration-200 cursor-pointer"
+                style={{
+                  backgroundColor: "#F15928",
+                  color: "#FFFFFF",
+                  WebkitTextFillColor: "#FFFFFF",
+                  boxShadow: "0 0 24px rgba(241, 89, 40, 0.45)",
+                }}
+              >
+                Enquire about sponsorship <span>→</span>
+              </a>
+              <a
+                href="/mumbai/enterprise/attend/sponsor"
+                className="sponsor-cta-secondary inline-flex items-center justify-center px-7 py-3.5 rounded-full text-[14px] font-extrabold hover:-translate-y-0.5 transition-all duration-200 cursor-pointer"
+                style={{
+                  backgroundColor: "rgba(255, 255, 255, 0.05)",
+                  border: "1px solid rgba(255, 255, 255, 0.22)",
+                  color: "#FFFFFF",
+                  WebkitTextFillColor: "#FFFFFF",
+                }}
+              >
+                View Commercial Standards
+              </a>
+            </div>
+          </div>
+        </div>
+
         {/* Title */}
         <h2 className="text-center font-[850] text-white leading-[1.06] tracking-[-2px] text-[clamp(36px,4.6vw,56px)] max-w-[920px] mx-auto">
           Your buyers are redesigning workflows now, <GradientText>not after the pilot</GradientText>

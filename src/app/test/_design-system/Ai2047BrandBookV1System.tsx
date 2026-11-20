@@ -655,9 +655,61 @@ export function Ai2047BrandBookV1Styles() {
       .ai2047-brandbook-v1 #networking h3,
       .ai2047-brandbook-v1 #networking h4,
       .ai2047-brandbook-v1 #partners h2,
-      .ai2047-brandbook-v1 #partners h3,
+      .ai2047-brandbook-v1 #partners h3:not(.sponsor-cta-banner h3),
       .ai2047-brandbook-v1 #faq h2 {
         color: #08121E !important;
+      }
+
+      /* Sponsor CTA Banner (Exact Midnight Navy, Lime Border, Crisp White & Cyan Headline, Orange & Glass Buttons) */
+      .ai2047-brandbook-v1 #partners .sponsor-cta-banner,
+      .ai2047-brandbook-v1 .sponsor-cta-banner {
+        background-color: #030814 !important;
+        background-image: linear-gradient(135deg, rgba(192, 244, 60, 0.05) 0%, #030814 45%, rgba(0, 206, 255, 0.03) 100%) !important;
+        border: 1px solid rgba(192, 244, 60, 0.42) !important;
+        box-shadow: 0 24px 60px rgba(2, 8, 20, 0.60), 0 0 28px rgba(192, 244, 60, 0.12) !important;
+      }
+      .ai2047-brandbook-v1 #partners .sponsor-cta-banner h3,
+      .ai2047-brandbook-v1 .sponsor-cta-banner h3 {
+        color: #FFFFFF !important;
+      }
+      .ai2047-brandbook-v1 #partners .sponsor-cta-banner .sponsor-cta-cyan,
+      .ai2047-brandbook-v1 .sponsor-cta-banner .sponsor-cta-cyan {
+        color: #00CEFF !important;
+        -webkit-text-fill-color: #00CEFF !important;
+        background: none !important;
+        background-image: none !important;
+      }
+      .ai2047-brandbook-v1 #partners .sponsor-cta-banner p,
+      .ai2047-brandbook-v1 .sponsor-cta-banner p {
+        color: #CBD5E1 !important;
+      }
+      .ai2047-brandbook-v1 #partners .sponsor-cta-banner .sponsor-cta-primary,
+      .ai2047-brandbook-v1 .sponsor-cta-banner .sponsor-cta-primary {
+        background-color: #F15928 !important;
+        color: #FFFFFF !important;
+        -webkit-text-fill-color: #FFFFFF !important;
+        border: none !important;
+        box-shadow: 0 0 24px rgba(241, 89, 40, 0.45) !important;
+      }
+      .ai2047-brandbook-v1 #partners .sponsor-cta-banner .sponsor-cta-primary:hover,
+      .ai2047-brandbook-v1 .sponsor-cta-banner .sponsor-cta-primary:hover {
+        background-color: #ea580c !important;
+        box-shadow: 0 0 32px rgba(241, 89, 40, 0.60) !important;
+        transform: translateY(-2px);
+      }
+      .ai2047-brandbook-v1 #partners .sponsor-cta-banner .sponsor-cta-secondary,
+      .ai2047-brandbook-v1 .sponsor-cta-banner .sponsor-cta-secondary {
+        background-color: rgba(255, 255, 255, 0.05) !important;
+        border: 1px solid rgba(255, 255, 255, 0.22) !important;
+        color: #FFFFFF !important;
+        -webkit-text-fill-color: #FFFFFF !important;
+        box-shadow: none !important;
+      }
+      .ai2047-brandbook-v1 #partners .sponsor-cta-banner .sponsor-cta-secondary:hover,
+      .ai2047-brandbook-v1 .sponsor-cta-banner .sponsor-cta-secondary:hover {
+        background-color: rgba(255, 255, 255, 0.12) !important;
+        border-color: rgba(255, 255, 255, 0.38) !important;
+        transform: translateY(-2px);
       }
 
       /* Keep "The complete enterprise buying unit." on one line on desktop/tablet */
@@ -679,7 +731,7 @@ export function Ai2047BrandBookV1Styles() {
       .ai2047-brandbook-v1 #attend p,
       .ai2047-brandbook-v1 #agenda p,
       .ai2047-brandbook-v1 #networking p,
-      .ai2047-brandbook-v1 #partners p,
+      .ai2047-brandbook-v1 #partners p:not(.sponsor-cta-banner p),
       .ai2047-brandbook-v1 #faq p {
         color: #334155 !important;
       }
@@ -1042,7 +1094,7 @@ export function Ai2047BrandBookV1Styles() {
       .ai2047-brandbook-v1 #attend .bg-clip-text.text-transparent,
       .ai2047-brandbook-v1 #agenda .bg-clip-text.text-transparent,
       .ai2047-brandbook-v1 #networking .bg-clip-text.text-transparent,
-      .ai2047-brandbook-v1 #partners .bg-clip-text.text-transparent,
+      .ai2047-brandbook-v1 #partners h2 .bg-clip-text.text-transparent,
       .ai2047-brandbook-v1 #faq .bg-clip-text.text-transparent,
       .ai2047-brandbook-v1 #cta .bg-clip-text.text-transparent {
         background-image: none !important;
@@ -1216,7 +1268,7 @@ export function Ai2047BrandBookV1Styles() {
 
       .ai2047-brandbook-v1 #agenda a[class*="border-white/25"],
       .ai2047-brandbook-v1 #networking a[class*="border-white/25"],
-      .ai2047-brandbook-v1 #partners a[class*="border-white/25"] {
+      .ai2047-brandbook-v1 #partners a[class*="border-white/25"]:not(.sponsor-cta-banner a) {
         border: 1.5px solid #0069B8 !important;
         background-color: #FFFFFF !important;
         color: #0069B8 !important;
