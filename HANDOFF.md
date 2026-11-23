@@ -1,6 +1,6 @@
 # HANDOFF — World AI Show — Enterprise (Mumbai 2027 edition site)
 
-Last updated: 2026-11-20 (Added Sponsor CTA banner at top of Sponsors section with exact brand book dark canvas, lime border, and cyan highlight styling).
+Last updated: 2026-11-23 (Updated official favicon to SVG monogram from worldaishow.com with high-res PNG and ICO fallbacks).
 
 ## Current state
 
@@ -9,6 +9,7 @@ Last updated: 2026-11-20 (Added Sponsor CTA banner at top of Sponsors section wi
 - **Cloudflare Pages Project:** `wais-enterprise` (`https://wais-enterprise.pages.dev`)
 - **Base path:** `basePath: "/mumbai/enterprise"` configured in `next.config.ts`.
 - **Live Brand System:** AI 2047 Brand Book V1.0 officially active across all production routes via `src/app/components/BrandBookLayoutWrapper.tsx` in `src/app/layout.tsx`.
+  - Favicon: Updated to official SVG icon (`public/favicon.svg`, `src/app/icon.svg`) with 512×512 PNG (`public/favicon.png`) and 32×32 ICO (`src/app/favicon.ico`, `public/favicon.ico`).
   - Palette: Sovereign Blue (`#0069B8`), Signal Teal (`#009EAD`), Pulse Orange (`#F15928`), Cloud White (`#F7F9FC`), Midnight Dark (`#08121E`).
   - Sponsor CTA Banner: Featured callout banner at the top of `#partners` (`SponsorsSection.tsx`) with dark canvas (`#030814`), lime border (`rgba(192, 244, 60, 0.42)`), crisp white and cyan (`#00CEFF`) headline, safety orange (`#F15928`) primary CTA and glass secondary CTA.
   - Logos: Updated to `wais-27-enterprise-mumbai-w2.svg` (white lockup for Hero, Footer, Agenda display) and `wais-27-enterprise-mumbai-b2.svg` (dark lockup for Header).
