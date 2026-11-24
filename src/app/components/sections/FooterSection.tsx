@@ -14,7 +14,7 @@ export function FooterSection() {
           {/* Brand block */}
           <div className="flex flex-col">
             <img
-              src="/mumbai/enterprise/logos/wais-27-enterprise-mumbai-w2.svg"
+              src="/mumbai/enterprise/logos/wais-27-enterprise-mumbai-w1.svg"
               alt="World AI Show: Government & Enterprise AI Edition | Mumbai 2027"
               width={250}
               height={50}

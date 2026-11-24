@@ -1,6 +1,6 @@
 # HANDOFF — World AI Show — Enterprise (Mumbai 2027 edition site)
 
-Last updated: 2026-11-24 (Configured Google Analytics 4 G-MCYHF1E2XC and Google Tag Manager GTM-WCSSC66T with dataLayer and gtag tracking into root layout).
+Last updated: 2026-11-24 (Updated Header and Footer logos to remove edition strip: Header uses wais-27-enterprise-mumbai-b1.svg and Footer uses wais-27-enterprise-mumbai-w1.svg).
 
 ## Current state
 
@@ -14,7 +14,7 @@ Last updated: 2026-11-24 (Configured Google Analytics 4 G-MCYHF1E2XC and Google 
   - Favicon: Updated to official SVG icon (`public/favicon.svg`, `src/app/icon.svg`) with 512×512 PNG (`public/favicon.png`) and 32×32 ICO (`src/app/favicon.ico`, `public/favicon.ico`).
   - Palette: Sovereign Blue (`#0069B8`), Signal Teal (`#009EAD`), Pulse Orange (`#F15928`), Cloud White (`#F7F9FC`), Midnight Dark (`#08121E`).
   - Sponsor CTA Banner: Featured callout banner at the top of `#partners` (`SponsorsSection.tsx`) with dark canvas (`#030814`), lime border (`rgba(192, 244, 60, 0.42)`), crisp white and cyan (`#00CEFF`) headline, safety orange (`#F15928`) primary CTA and glass secondary CTA.
-  - Logos: Updated to `wais-27-enterprise-mumbai-w2.svg` (white lockup for Hero, Footer, Agenda display) and `wais-27-enterprise-mumbai-b2.svg` (dark lockup for Header).
+  - Logos: Updated Header to `wais-27-enterprise-mumbai-b1.svg` (dark clean lockup without edition strip) and Footer to `wais-27-enterprise-mumbai-w1.svg` (white clean lockup without edition strip).
   - Hero & Header: Centered alignment with 1200px container grid.
   - Event Meta Footer: 2-column layout (20-21 April 2027 | Mumbai, India The 52nd Global Edition) with "2 Days Executive Conference" removed.
   - Footer Copyright Line: Updated to "© 2026–2027 World AI Show: Government & Enterprise AI Edition | Mumbai 2027. All rights reserved. Organised by Trescon."

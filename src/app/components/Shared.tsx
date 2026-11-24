@@ -71,7 +71,7 @@ export function Logo() {
       aria-label="World AI Show: Government & Enterprise AI Edition | Mumbai 2027"
     >
       <img
-        src="/mumbai/enterprise/logos/wais-27-enterprise-mumbai-b2.svg"
+        src="/mumbai/enterprise/logos/wais-27-enterprise-mumbai-b1.svg"
         alt="World AI Show: Government & Enterprise AI Edition | Mumbai 2027"
         width={180}
         height={60}

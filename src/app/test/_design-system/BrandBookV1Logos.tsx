@@ -2,8 +2,8 @@
 
 import { useEffect } from "react";
 
-const WHITE_LOGO_SRC = "/mumbai/enterprise/logos/wais-27-enterprise-mumbai-w2.svg";
-const DARK_LOGO_SRC = "/mumbai/enterprise/logos/wais-27-enterprise-mumbai-b2.svg";
+const WHITE_LOGO_SRC = "/mumbai/enterprise/logos/wais-27-enterprise-mumbai-w1.svg";
+const DARK_LOGO_SRC = "/mumbai/enterprise/logos/wais-27-enterprise-mumbai-b1.svg";
 const HERO_LOGO_SRC = "/mumbai/enterprise/logos/wais-27-enterprise-mumbai-w2.svg";
 
 function applyFallbackOnError(img: HTMLImageElement, filename: string) {
@@ -31,8 +31,8 @@ export function BrandBookV1Logos() {
       );
       headerImgs.forEach((img) => {
         img.dataset.brandbookLogo = "header";
-        applyFallbackOnError(img, "wais-27-enterprise-mumbai-b2.svg");
-        if (!img.src.includes("wais-27-enterprise-mumbai-b2.svg")) {
+        applyFallbackOnError(img, "wais-27-enterprise-mumbai-b1.svg");
+        if (!img.src.includes("wais-27-enterprise-mumbai-b1.svg")) {
           img.src = DARK_LOGO_SRC;
         }
       });
@@ -54,8 +54,8 @@ export function BrandBookV1Logos() {
       );
       footerImgs.forEach((img) => {
         img.dataset.brandbookLogo = "footer";
-        applyFallbackOnError(img, "wais-27-enterprise-mumbai-w2.svg");
-        if (!img.src.includes("wais-27-enterprise-mumbai-w2.svg")) {
+        applyFallbackOnError(img, "wais-27-enterprise-mumbai-w1.svg");
+        if (!img.src.includes("wais-27-enterprise-mumbai-w1.svg")) {
           img.src = WHITE_LOGO_SRC;
         }
       });
