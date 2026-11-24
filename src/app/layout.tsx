@@ -54,9 +54,14 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${spaceGrotesk.variable} h-full antialiased`}>
       <body suppressHydrationWarning className="min-h-full flex flex-col font-space-grotesk bg-bg text-text">
-        {/* Google Tag Manager */}
+        {/* Google Analytics (GA4) */}
         <Script
-          id="gtm-script"
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-MCYHF1E2XC"
+        />
+        {/* Google Tag Manager & Google Analytics */}
+        <Script
+          id="google-analytics-gtm"
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -66,7 +71,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-WCSSC66T');
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());`,
+gtag('js', new Date());
+gtag('config', 'G-MCYHF1E2XC', {
+  page_path: window.location.pathname,
+});`,
           }}
         />
         {/* Google Tag Manager (noscript) */}
