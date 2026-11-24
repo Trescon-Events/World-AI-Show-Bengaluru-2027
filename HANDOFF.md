@@ -1,6 +1,6 @@
 # HANDOFF — World AI Show — Enterprise (Mumbai 2027 edition site)
 
-Last updated: 2026-11-23 (Updated 2-day live agenda schedule based on official World AI Show Government & Enterprise AI Agenda 2027 revision PDF).
+Last updated: 2026-11-24 (Integrated Google Tag Manager GTM-WCSSC66T with dataLayer and gtag tracking into root layout).
 
 ## Current state
 
@@ -8,6 +8,7 @@ Last updated: 2026-11-23 (Updated 2-day live agenda schedule based on official W
 - **Repository:** `https://github.com/Trescon-Events/worldaishow-india.git` (branch `master`)
 - **Cloudflare Pages Project:** `wais-enterprise` (`https://wais-enterprise.pages.dev`)
 - **Base path:** `basePath: "/mumbai/enterprise"` configured in `next.config.ts`.
+- **Analytics & Tracking:** Google Tag Manager (`GTM-WCSSC66T`) and `gtag` integrated in `src/app/layout.tsx` via `next/script` (`strategy="afterInteractive"`) with `<noscript>` fallback.
 - **Live Brand System:** AI 2047 Brand Book V1.0 officially active across all production routes via `src/app/components/BrandBookLayoutWrapper.tsx` in `src/app/layout.tsx`.
   - Revised Agenda (`AgendaPage.tsx`): Synchronized all Day 1 and Day 2 sessions with the official 2027 revision PDF, including government keynotes, agentic AI panel, roundtable timing, and interactive workshops.
   - Favicon: Updated to official SVG icon (`public/favicon.svg`, `src/app/icon.svg`) with 512×512 PNG (`public/favicon.png`) and 32×32 ICO (`src/app/favicon.ico`, `public/favicon.ico`).
