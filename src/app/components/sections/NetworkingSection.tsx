@@ -138,7 +138,7 @@ export function NetworkingSection() {
                 data-aos-delay={idx * 80}
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
-                className="constituency-card group relative flex flex-col justify-between min-h-[300px] p-5 rounded-[20px] bg-white border border-[#0069B8]/20 shadow-[0_8px_26px_rgba(8,18,30,0.06)] hover:-translate-y-2 hover:border-[#0069B8] hover:shadow-[0_20px_42px_rgba(0,105,184,0.14)] transition-all duration-300 overflow-hidden"
+                className="constituency-card group relative flex flex-col justify-between min-h-[240px] p-5 rounded-[20px] bg-white border border-[#0069B8]/20 shadow-[0_8px_26px_rgba(8,18,30,0.06)] hover:-translate-y-2 hover:border-[#0069B8] hover:shadow-[0_20px_42px_rgba(0,105,184,0.14)] transition-all duration-300 overflow-hidden"
               >
                 {/* Top Ambient Accent Bar */}
                 <div
@@ -146,22 +146,14 @@ export function NetworkingSection() {
                 />
 
                 <div>
-                  {/* Top Header: Custom Domain Icon + Constituency Number */}
-                  <div className="flex items-center justify-between mb-4 mt-1">
+                  {/* Top Header: Custom Domain Icon */}
+                  <div className="mb-4 mt-1">
                     <div
-                      className={`w-10 h-10 rounded-[12px] flex items-center justify-center border ${item.badgeBg} shadow-[0_2px_8px_rgba(0,0,0,0.03)] group-hover:scale-108 transition-transform duration-300`}
+                      className={`w-11 h-11 rounded-[14px] flex items-center justify-center border ${item.badgeBg} shadow-[0_2px_8px_rgba(0,0,0,0.03)] group-hover:scale-108 transition-transform duration-300`}
                     >
                       {item.icon}
                     </div>
-                    <span className="font-mono text-[11px] font-extrabold tracking-[1px] px-2.5 py-0.5 rounded-full bg-[#08121E]/[0.04] text-[#0069B8] border border-[#0069B8]/20 group-hover:border-[#0069B8]/50 group-hover:bg-[#0069B8]/[0.08] transition-all">
-                      {item.index}
-                    </span>
                   </div>
-
-                  {/* Category Eyebrow */}
-                  <span className="block text-[10.5px] font-mono font-bold uppercase tracking-[1.6px] text-[#009EAD] mb-1">
-                    {item.category}
-                  </span>
 
                   {/* Constituency Title */}
                   <h3 className="text-[#08121E] !text-[#08121E] [color:#08121E!important] text-[18px] font-[850] font-space-grotesk leading-[1.22] mb-3 group-hover:text-[#0069B8] transition-colors">
@@ -179,17 +171,6 @@ export function NetworkingSection() {
                       </span>
                     ))}
                   </div>
-                </div>
-
-                {/* Bottom Verified Stakeholder Status */}
-                <div className="mt-4 pt-3 border-t border-[#0069B8]/10 flex items-center justify-between text-[11px] font-bold text-[#64748B]">
-                  <span className="flex items-center gap-1.5">
-                    <span className="w-1.5 h-1.5 rounded-full bg-[#009EAD] group-hover:scale-125 transition-transform" />
-                    Buying Unit
-                  </span>
-                  <span className="text-[#0069B8] font-bold opacity-0 group-hover:opacity-100 transition-opacity">
-                    Verified
-                  </span>
                 </div>
               </article>
             ))}
