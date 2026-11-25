@@ -12,42 +12,42 @@ export const sponsorBenefitsList: SponsorBenefitItem[] = [
   {
     title: "Brand Visibility at Scale",
     text: "Amplify your presence across the venue, website, event app, digital screens, campaigns and attendee communications.",
-    icon: "/mumbai/enterprise/images/Attend/sponsor/brand-visibility-at-scale.webp",
+    icon: "/bengaluru/cybersecurity/images/Attend/sponsor/brand-visibility-at-scale.webp",
   },
   {
     title: "Qualified Lead Generation",
-    text: "Connect directly with pre-qualified enterprise buyers, stakeholders, investors and AI decision-makers.",
-    icon: "/mumbai/enterprise/images/Attend/sponsor/qualified-lead-generation.webp",
+    text: "Connect directly with pre-qualified enterprise buyers, stakeholders, investors and cybersecurity decision-makers.",
+    icon: "/bengaluru/cybersecurity/images/Attend/sponsor/qualified-lead-generation.webp",
   },
   {
     title: "Product Showcase Floor",
-    text: "Demonstrate platforms and innovations live to enterprise leaders seeking transformative technologies.",
-    icon: "/mumbai/enterprise/images/Attend/sponsor/product-showcase-floor.webp",
+    text: "Demonstrate platforms and innovations live to enterprise security leaders seeking transformative technologies.",
+    icon: "/bengaluru/cybersecurity/images/Attend/sponsor/product-showcase-floor.webp",
   },
   {
     title: "Speaking Opportunities",
     text: "Position your organisation as a thought leader through keynotes, panels and strategic conversations.",
-    icon: "/mumbai/enterprise/images/Attend/sponsor/speaking-opportunities.webp",
+    icon: "/bengaluru/cybersecurity/images/Attend/sponsor/speaking-opportunities.webp",
   },
   {
     title: "1:1 Hosted Meetings",
     text: "Engage in curated business meetings aligned to your ideal customer profile and business objectives.",
-    icon: "/mumbai/enterprise/images/Attend/sponsor/hosted-meetings.webp",
+    icon: "/bengaluru/cybersecurity/images/Attend/sponsor/hosted-meetings.webp",
   },
   {
     title: "Exclusive Sponsorship Branding",
-    text: "Align your brand with one of India's premier AI platforms through customised visibility.",
-    icon: "/mumbai/enterprise/images/Attend/sponsor/exclusive-sponsorship-branding.webp",
+    text: "Align your brand with one of India's premier cybersecurity and AI security platforms through customised visibility.",
+    icon: "/bengaluru/cybersecurity/images/Attend/sponsor/exclusive-sponsorship-branding.webp",
   },
   {
     title: "Other Engagement Opportunities",
     text: "Position your brand at the centre of high-value networking and engagement opportunities.",
-    icon: "/mumbai/enterprise/images/Attend/sponsor/networking-lunch-branding.webp",
+    icon: "/bengaluru/cybersecurity/images/Attend/sponsor/networking-lunch-branding.webp",
   },
   {
     title: "Post-Event Lead Report",
     text: "Receive detailed post-event insights including engagement, interactions and performance metrics.",
-    icon: "/mumbai/enterprise/images/Attend/sponsor/post-event-lead-report.webp",
+    icon: "/bengaluru/cybersecurity/images/Attend/sponsor/post-event-lead-report.webp",
   },
 ];
 
@@ -98,11 +98,11 @@ export function PartnerShowcase() {
           {/* Left Column: Heading and Description */}
           <div className="flex flex-col gap-6 max-[980px]:text-center max-[980px]:items-center">
             <h2 className="m-0 font-space-grotesk text-white font-[850] text-[clamp(32px,4vw,46px)] leading-tight tracking-tight">
-              Your buyers are redesigning workflows now, <br />
-              <span className="text-[#C0F43C]">not after</span> <span className="text-[#00ceff]">the pilot.</span>
+              Your buyers are rethinking security now, <br />
+              <span className="text-[#C0F43C]">not after</span> <span className="text-[#00ceff]">the incident.</span>
             </h2>
             <p className="m-0 text-white/70 text-[16px] leading-relaxed max-w-[580px] font-sans">
-              World AI Show: The Enterprise Edition | Mumbai 2027 convenes 300+ qualified enterprise CXOs across technology leadership, architecture &amp; data, operations &amp; transformation, and risk, security &amp; compliance.
+              World AI Show: The Cybersecurity Edition | Bengaluru 2027 convenes 300+ qualified enterprise CXOs, CISOs, CIOs, CTOs, CROs, and senior cybersecurity leaders actively shaping enterprise security architecture.
             </p>
           </div>
 
@@ -112,8 +112,8 @@ export function PartnerShowcase() {
             <div className="relative rounded-[12px] overflow-hidden border-2 border-[#00ceff] bg-[#040916]">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/mumbai/enterprise/images/sponsors/showcase.webp"
-                alt="Enterprise AI Showcase at World AI Show"
+                src="/bengaluru/cybersecurity/images/sponsors/showcase.webp"
+                alt="Cybersecurity Showcase at World AI Show"
                 className="w-full h-auto object-cover aspect-[1.7/1] transform group-hover:scale-[1.01] transition-all duration-500"
                 loading="lazy"
               />
@@ -138,22 +138,22 @@ export function PartnerShowcase() {
           <div className="relative z-10 flex flex-col items-center gap-6">
             <h3 className="m-0 font-space-grotesk text-white font-[850] text-[clamp(28px,3.5vw,42px)] leading-tight tracking-tight">
               Put your solutions in front of <br />
-              <GradientText>the cross-functional buying unit.</GradientText>
+              <GradientText>the security buying circle.</GradientText>
             </h3>
 
             <p className="m-0 text-white/70 text-[16px] leading-relaxed max-w-[640px] font-sans">
-              Secure your enterprise presence for Mumbai 2027 (20–21 April 2027 · 2 Days) across Presenting, Powered by, Signature, Gold, Silver, Bronze, VIP Experiences, or Turnkey Exhibitor packages.
+              Secure your commercial partnership for Bengaluru 2027 (20–21 July 2027 · 2 Days) across Presenting, Powered by, Signature, Gold, Silver, Bronze, VIP Experiences, or Turnkey Exhibitor packages.
             </p>
 
             <div className="flex flex-wrap justify-center gap-4 mt-4 w-full max-sm:flex-col max-sm:items-center">
               <a
-                href="/mumbai/enterprise/sponsorship-enquiry"
+                href="/bengaluru/cybersecurity/sponsorship-enquiry"
                 className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full text-[14px] font-extrabold text-[#06111F] [color:#06111F!important] bg-[#C0F43C] hover:shadow-[0_0_24px_rgba(192,244,60,0.35)] hover:-translate-y-0.5 transition-all duration-200 cursor-pointer"
               >
                 Enquire about sponsorship <span>→</span>
               </a>
               <a
-                href="/mumbai/enterprise/attend/sponsor"
+                href="/bengaluru/cybersecurity/attend/sponsor"
                 className="inline-flex items-center justify-center px-7 py-3.5 border border-white/20 rounded-full text-[14px] font-extrabold text-white bg-white/5 hover:bg-white/10 hover:border-white/35 hover:-translate-y-0.5 transition-all duration-200 cursor-pointer"
               >
                 View Commercial Standards

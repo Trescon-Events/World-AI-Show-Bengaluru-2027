@@ -5,39 +5,32 @@ import { GradientText } from "../Shared";
 
 const themeItems = [
   {
-    label: "Enterprise AI strategy and business value",
-    heading: "Enterprise AI Strategy & Business Value",
+    label: "Securing AI & Defending with AI",
+    heading: "Securing AI & Defending with AI",
     description:
-      "Use-case scale decisions, executive outcome ownership, board-level productivity metrics.",
-    image: "/mumbai/enterprise/images/agenda/keynotes.webp",
+      "Protect AI models, agents and data flows. Counter AI-enabled malware, deepfakes, prompt injection and model theft. Use AI in SOC triage and automation.",
+    image: "/bengaluru/cybersecurity/images/agenda/keynotes.webp",
   },
   {
-    label: "Pilot to production and workflow redesign",
-    heading: "Pilot to Production & Process Redesign",
+    label: "Modern Cyber Defence",
+    heading: "Modern Cyber Defence",
     description:
-      "Continuous integration, latency, exception handling, and human-in-the-loop workflows.",
-    image: "/mumbai/enterprise/images/agenda/panel-discussion.webp",
+      "Threat intelligence, detection engineering, SOC modernisation, ransomware defence, incident response and recovery.",
+    image: "/bengaluru/cybersecurity/images/agenda/panel-discussion.webp",
   },
   {
-    label: "Agentic AI and accountable autonomy",
-    heading: "Agentic AI & Accountable Autonomy",
+    label: "Securing the Expanding Attack Surface",
+    heading: "Securing the Expanding Attack Surface",
     description:
-      "Agent identity, tool permissions, approval gates, auditability, and failure containment.",
-    image: "/mumbai/enterprise/images/agenda/driving-malaysia-stage.webp",
+      "Cloud and hybrid, identity and Zero Trust, data and application security, supply chain, third-party risk, OT/IoT, critical infrastructure.",
+    image: "/bengaluru/cybersecurity/images/agenda/driving-malaysia-stage.webp",
   },
   {
-    label: "Data & architecture (The AI-ready stack)",
-    heading: "Data & Architecture (The AI-Ready Stack)",
+    label: "CISO Leadership & India's Cyber Ecosystem",
+    heading: "CISO Leadership & India's Cyber Ecosystem",
     description:
-      "Data quality and context retrieval, real-time enterprise access, API fabrics, hybrid/multi-cloud workload placement, interoperability, and data sovereignty.",
-    image: "/mumbai/enterprise/images/agenda/driving-malaysia-speakers.webp",
-  },
-  {
-    label: "Governance, security and proportionate trust",
-    heading: "Governance, Security & Proportional Trust",
-    description:
-      "Proportionate risk tiering, synthetic media safeguards, and compliance guidelines.",
-    image: "/mumbai/enterprise/images/agenda/Fireside.webp",
+      "Board-level cyber risk, regulation, resilience, talent, cyber GCCs, Indian product innovation and R&D.",
+    image: "/bengaluru/cybersecurity/images/agenda/driving-malaysia-speakers.webp",
   },
 ];
 
@@ -90,11 +83,11 @@ function ThemeIcon({ index }: { index: number }) {
 export function AgendaSection({
   title = (
     <>
-      Five Talking Points. <GradientText>Two Days.</GradientText>
+      Four Pillars. <GradientText>Two Days.</GradientText>
     </>
   ),
   subtitle = "Curated Agenda",
-  description = "Workforce restructuring, operating-model change, and verified ROI run across all five.",
+  description = "Protect AI models, defend expanding attack surfaces, and lead board-level cyber resilience across four critical tracks.",
 }: {
   title?: ReactNode;
   subtitle?: ReactNode | null;
@@ -171,6 +164,22 @@ export function AgendaSection({
               );
             })}
           </div>
+        </div>
+
+        {/* Agenda Section CTA Buttons */}
+        <div className="mt-12 flex flex-wrap justify-center items-center gap-4">
+          <a
+            href="/bengaluru/cybersecurity/#call-for-speakers"
+            className="inline-flex items-center justify-center gap-2.5 h-[50px] px-8 rounded-full font-bold text-[15px] text-white bg-[#F15928] hover:bg-[#ff6938] shadow-[0_4px_18px_rgba(241,89,40,0.35)] transition-all cursor-pointer"
+          >
+            Apply to Speak →
+          </a>
+          <a
+            href="/bengaluru/cybersecurity/#agenda"
+            className="inline-flex items-center justify-center gap-2.5 h-[50px] px-8 rounded-full font-bold text-[15px] text-white border border-white/20 bg-white/5 hover:bg-white/10 transition-all cursor-pointer"
+          >
+            Explore the Agenda →
+          </a>
         </div>
       </div>
     </section>

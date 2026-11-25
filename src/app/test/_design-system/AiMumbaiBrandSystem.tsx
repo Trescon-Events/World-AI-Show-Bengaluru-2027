@@ -370,7 +370,7 @@ export function AiMumbaiLiveThemeStyles() {
       .ai2047-live-theme .page-hero-top {
         background-image:
           linear-gradient(90deg, rgba(0, 54, 104, 0.92) 0%, rgba(0, 68, 128, 0.72) 48%, rgba(0, 68, 128, 0.2) 100%),
-          url("/mumbai/enterprise/images/speakers/Mumbai-speakers-overview.jpg") !important;
+          url("/bengaluru/cybersecurity/images/speakers/Mumbai-speakers-overview.jpg") !important;
         background-size: 100% 100%, cover !important;
         background-position: center, center !important;
         background-repeat: no-repeat, no-repeat !important;

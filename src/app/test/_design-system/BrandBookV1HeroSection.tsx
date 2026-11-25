@@ -9,7 +9,7 @@ export function BrandBookV1HeroSection() {
       {/* Background Video */}
       <video
         className="absolute inset-0 w-full h-full object-cover opacity-80 z-0"
-        src="/mumbai/enterprise/videos/wais-mumbai-hero-banner.mp4"
+        src="/bengaluru/cybersecurity/videos/wais-mumbai-hero-banner.mp4"
         autoPlay
         muted
         loop
@@ -36,8 +36,8 @@ export function BrandBookV1HeroSection() {
         {/* Event Lockup Logo */}
         <div className="mb-6 flex justify-center w-full">
           <img
-            src="/mumbai/enterprise/logos/wais-27-enterprise-mumbai-w2.svg"
-            alt="World AI Show: Government & Enterprise AI Edition | Mumbai"
+            src="/bengaluru/cybersecurity/logos/wais-27-enterprise-mumbai-w2.svg"
+            alt="World AI Show: The Cybersecurity Edition | Bengaluru 2027"
             width={450}
             height={180}
             className="w-full max-w-[320px] sm:max-w-[450px] sm:w-[450px] h-auto object-contain mx-auto drop-shadow-[0_4px_24px_rgba(0,0,0,0.45)]"
@@ -46,13 +46,12 @@ export function BrandBookV1HeroSection() {
 
         {/* Hero Title */}
         <h1 className="max-w-[1020px] mx-auto text-white font-[850] leading-[1.08] xl:leading-[72px] tracking-[-1.8px] text-[clamp(34px,4.8vw,68px)] xl:text-[68px] text-center mb-6">
-          <span className="block">The globally acclaimed</span>
-          <span className="block"><GradientText>AI Series comes to India</GradientText></span>
+          <span className="block">Securing the <GradientText>AI-Powered Enterprise</GradientText></span>
         </h1>
 
         {/* Standfirst (20px, 33px line-height, 0 tracking, 400 weight, #CBD5E1) */}
         <p className="max-w-[860px] mx-auto text-[#CBD5E1] text-[clamp(15px,1.6vw,20px)] xl:text-[20px] font-normal leading-relaxed xl:leading-[33px] tracking-normal text-center mb-8">
-          The premier cross-functional executive conference addressing the architecture, systems integration, agentic governance, and verifiable ROI of enterprise AI.
+          The CISO-led summit on securing AI adoption, defending an expanding attack surface and building enterprise-wide cyber resilience.
         </p>
 
         <div className="w-full max-w-[560px] border-t border-white/20 opacity-60 mt-1 mx-auto" />
@@ -65,27 +64,27 @@ export function BrandBookV1HeroSection() {
               20–<GradientText>21</GradientText>
             </strong>
             <span className="block mt-2 text-[13px] font-bold text-white/80 uppercase tracking-[1.5px] max-sm:text-[12px] max-sm:mt-1.5">
-              APRIL 2027
+              JULY 2027
             </span>
           </div>
 
           {/* Column 2: Venue */}
           <div className="text-center max-sm:w-full">
             <strong className="block text-[34px] font-[850] font-space-grotesk text-white leading-none max-sm:text-[26px]">
-              Mumbai, <GradientText>India</GradientText>
+              Bengaluru, <GradientText>India</GradientText>
             </strong>
             <span className="block mt-2 text-[13px] font-bold text-white/80 uppercase tracking-[1.5px] max-sm:text-[12px] max-sm:mt-1.5">
-              The 52nd Global Edition
+              53rd Global Edition
             </span>
           </div>
         </div>
 
         {/* Hero CTA Actions */}
         <div className="flex justify-center flex-wrap gap-3.5 mt-9 max-sm:flex-col max-sm:items-center max-sm:gap-3.5 max-sm:w-full max-sm:max-w-[320px]">
-          <Button href="/mumbai/enterprise/sponsorship-enquiry/" showArrow={true}>
-            Enquire Now (Sponsorship &amp; Passes)
+          <Button href="/bengaluru/cybersecurity/#enquire" showArrow={true}>
+            Enquire Now: Passes &amp; Partnerships
           </Button>
-          <Button href="/mumbai/enterprise/attend/sponsor/" variant="outline" showArrow={true}>
+          <Button href="/bengaluru/cybersecurity/#prospectus" variant="outline" showArrow={true}>
             Download Prospectus
           </Button>
         </div>

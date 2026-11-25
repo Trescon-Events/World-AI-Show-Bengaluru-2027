@@ -4,8 +4,8 @@ import { FooterSection } from "../../components/sections/FooterSection";
 import { AgendaThemes } from "../AgendaPage";
 
 export const metadata: Metadata = {
-  title: "The 5 Master Content Pillars | Agenda | World AI Show: The Enterprise Edition | Mumbai 2027",
-  description: "Five decisions. Two days. Explore the 5 Master Content Pillars of World AI Show: The Enterprise Edition | Mumbai 2027.",
+  title: "Four Content Pillars | Agenda | World AI Show: The Cybersecurity Edition | Bengaluru 2027",
+  description: "Four Pillars. Two Days. AI-enabled risk, resilience and enterprise accountability run across all four.",
 };
 
 const subNav = ["Overview", "The 2030 Vision", "Agenda", "Themes", "Call for Speakers"];

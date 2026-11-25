@@ -500,7 +500,7 @@ export function Ai2047BrandBookV1Styles() {
       .ai2047-brandbook-v1 .page-hero-top {
         background-image:
           linear-gradient(90deg, rgba(8, 18, 30, 0.94) 0%, rgba(8, 18, 30, 0.80) 52%, rgba(0, 105, 184, 0.38) 100%),
-          url("/mumbai/enterprise/images/speakers/Mumbai-speakers-overview.jpg") !important;
+          url("/bengaluru/cybersecurity/images/speakers/Mumbai-speakers-overview.jpg") !important;
         background-size: 100% 100%, cover !important;
         background-position: center, center !important;
         background-repeat: no-repeat, no-repeat !important;
@@ -574,7 +574,7 @@ export function Ai2047BrandBookV1Styles() {
         right: -60px;
         width: min(760px, 65vw);
         height: 440px;
-        background-image: url("/mumbai/enterprise/images/brandbook/Vortex-Extended.svg");
+        background-image: url("/bengaluru/cybersecurity/images/brandbook/Vortex-Extended.svg");
         background-repeat: no-repeat;
         background-position: top right;
         background-size: contain;
@@ -590,7 +590,7 @@ export function Ai2047BrandBookV1Styles() {
         left: -80px;
         width: min(780px, 65vw);
         height: 460px;
-        background-image: url("/mumbai/enterprise/images/brandbook/Vortex-Extended.svg");
+        background-image: url("/bengaluru/cybersecurity/images/brandbook/Vortex-Extended.svg");
         background-repeat: no-repeat;
         background-position: top left;
         background-size: contain;
@@ -1345,7 +1345,7 @@ export function Ai2047BrandBookV1Styles() {
          ===================================================================== */
       .ai2047-brandbook-v1 .speaker-card-inner {
         background-color: #08121E !important;
-        background-image: url("/mumbai/enterprise/images/brandbook/wais-speker-bg.png") !important;
+        background-image: url("/bengaluru/cybersecurity/images/brandbook/wais-speker-bg.png") !important;
         background-size: cover !important;
         background-position: center !important;
         background-repeat: no-repeat !important;

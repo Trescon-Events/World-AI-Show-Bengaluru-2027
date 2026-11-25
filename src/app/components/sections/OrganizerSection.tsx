@@ -21,7 +21,7 @@ export function OrganizerSection() {
             <img
               className="block mt-[12px] h-auto object-contain select-none"
               style={{ width: "55%" }}
-              src="/mumbai/enterprise/logos/Trescon-org.svg"
+              src="/bengaluru/cybersecurity/logos/Trescon-org.svg"
               alt="Trescon"
               width={270}
               height={80}

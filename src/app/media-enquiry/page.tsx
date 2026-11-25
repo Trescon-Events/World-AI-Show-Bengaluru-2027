@@ -41,13 +41,13 @@ export default function MediaEnquiryPage() {
 
             <div className="relative z-10 flex flex-col">
               <span className="text-[#C0F43C] text-[11px] font-extrabold uppercase tracking-[0.25em] mb-3">
-                Media &amp; Press · Mumbai 2027
+                Media &amp; Press Accreditation · Bengaluru 2027
               </span>
               <h1 className="m-0 text-white font-[850] text-[clamp(28px,4vw,42px)] leading-tight tracking-[-1px] mb-4">
-                Apply for <span className="text-[#18d4ff]">Media Accreditation</span>
+                Media &amp; Press <span className="text-[#18d4ff]">Accreditation</span>
               </h1>
               <p className="m-0 text-white/70 text-[16px] leading-relaxed mb-9">
-                Request press credentials, executive interview room access, and editorial distribution for World AI Show: The Enterprise Edition | Mumbai 2027 (20–21 April 2027 · 2 Days).
+                Request press credentials, interview room access and media accreditation for Bengaluru 2027.
               </p>
 
               {/* Hubspot Form Embedded Container */}

@@ -4,8 +4,8 @@ import { FooterSection } from "../../components/sections/FooterSection";
 import { AIMatchmakingContent } from "./AIMatchmakingContent";
 
 export const metadata: Metadata = {
-  title: "AI Matchmaking | Networking | World AI Show: The Enterprise Edition | Mumbai 2027",
-  description: "Algorithmic pre-scheduled 20-min 1-on-1 meetings at World AI Show: The Enterprise Edition | Mumbai 2027.",
+  title: "AI Matchmaking | Networking | World AI Show: The Cybersecurity Edition | Bengaluru 2027",
+  description: "Meet the right people. Every time. Algorithmic pre-scheduled 20-min 1-to-1 meetings connecting CISOs and enterprise security leaders with solution providers.",
 };
 
 const subNav = ["Overview", "AI Matchmaking", "Photo Gallery"];

@@ -4,8 +4,8 @@ import { FooterSection } from "../../components/sections/FooterSection";
 import { AgendaCallForSpeakers } from "../AgendaPage";
 
 export const metadata: Metadata = {
-  title: "Call for Enterprise Speakers | Agenda | World AI Show: The Enterprise Edition | Mumbai 2027",
-  description: "Seeking CIOs, CAIOs, CTOs, and Transformation Leaders with live production evidence to take the stage at World AI Show: The Enterprise Edition | Mumbai 2027.",
+  title: "Call for Practitioner Speakers | Agenda | World AI Show: The Cybersecurity Edition | Bengaluru 2027",
+  description: "If you've led security through the AI shift, take the stage. Seeking CISOs, CIOs, CTOs, CROs, and security practitioners for Bengaluru 2027.",
 };
 
 const subNav = ["Overview", "The 2030 Vision", "Agenda", "Themes", "Call for Speakers"];

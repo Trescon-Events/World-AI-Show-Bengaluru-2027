@@ -52,14 +52,13 @@ function Counter({ end, suffix = "", duration = 1500 }: { end: number; suffix?: 
 const statsData = [
   { number: 300, suffix: "+", label: "Qualified CXOs" },
   { number: 45, suffix: "+", label: "Speakers & Panelists" },
-  { number: 5, suffix: "", label: "Content Pillars" },
-  { number: 2, suffix: " Days", label: "Executive Conference" },
-  { number: 46, suffix: "", label: "Global Series Editions" },
+  { number: 4, suffix: "", label: "Content Pillars" },
+  { number: 20, suffix: "+", label: "Media Partners" },
 ];
 
 export function AttendStats() {
   return (
-    <div className="grid grid-cols-5 gap-4 mt-9 overflow-x-auto pb-2 max-[980px]:grid-cols-2 max-sm:grid-cols-1">
+    <div className="grid grid-cols-4 gap-4 mt-9 overflow-x-auto pb-2 max-[980px]:grid-cols-2 max-sm:grid-cols-1">
       {statsData.map((stat) => (
         <article
           className="min-h-[143px] p-6 text-center flex flex-col items-center justify-center border border-[#0069B8]/18 rounded-[16px] bg-white shadow-[0_10px_30px_rgba(8,18,30,0.06)] group hover:-translate-y-1 transition-all duration-300"

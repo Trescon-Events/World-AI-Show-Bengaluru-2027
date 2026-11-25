@@ -14,7 +14,7 @@ export function FooterSection() {
           {/* Brand block */}
           <div className="flex flex-col">
             <img
-              src="/mumbai/enterprise/logos/wais-27-enterprise-mumbai-w1.svg"
+              src="/bengaluru/cybersecurity/logos/wais-27-enterprise-mumbai-w1.svg"
               alt="World AI Show: Government & Enterprise AI Edition | Mumbai 2027"
               width={250}
               height={50}
@@ -30,16 +30,16 @@ export function FooterSection() {
             <h3 className="m-0 mb-2 text-white/74 font-semibold text-[12px] uppercase tracking-[3px] select-none">
               Event
             </h3>
-            <a href="/mumbai/enterprise/attend" className="text-muted text-[15px] hover:text-cyan transition-colors duration-150 py-0.5">
+            <a href="/bengaluru/cybersecurity/#attend" className="text-muted text-[15px] hover:text-cyan transition-colors duration-150 py-0.5">
               Attend
             </a>
-            <a href="/mumbai/enterprise/agenda" className="text-muted text-[15px] hover:text-cyan transition-colors duration-150 py-0.5">
+            <a href="/bengaluru/cybersecurity/#agenda" className="text-muted text-[15px] hover:text-cyan transition-colors duration-150 py-0.5">
               Agenda
             </a>
-            <a href="/mumbai/enterprise/speakers" className="text-muted text-[15px] hover:text-cyan transition-colors duration-150 py-0.5">
+            <a href="/bengaluru/cybersecurity/#speakers" className="text-muted text-[15px] hover:text-cyan transition-colors duration-150 py-0.5">
               Speakers
             </a>
-            <a href="/mumbai/enterprise/partners" className="text-muted text-[15px] hover:text-cyan transition-colors duration-150 py-0.5">
+            <a href="/bengaluru/cybersecurity/#sponsor" className="text-muted text-[15px] hover:text-cyan transition-colors duration-150 py-0.5">
               Partners
             </a>
           </div>
@@ -49,16 +49,16 @@ export function FooterSection() {
             <h3 className="m-0 mb-2 text-white/74 font-semibold text-[12px] uppercase tracking-[3px] select-none">
               Enquiries
             </h3>
-            <a href="/mumbai/enterprise/sponsorship-enquiry" className="text-muted text-[15px] hover:text-cyan transition-colors duration-150 py-0.5">
+            <a href="/bengaluru/cybersecurity/#sponsorship-enquiry" className="text-muted text-[15px] hover:text-cyan transition-colors duration-150 py-0.5">
               Sponsorships
             </a>
-            <a href="/mumbai/enterprise/attend/delegate" className="text-muted text-[15px] hover:text-cyan transition-colors duration-150 py-0.5">
+            <a href="/bengaluru/cybersecurity/#delegate-pass" className="text-muted text-[15px] hover:text-cyan transition-colors duration-150 py-0.5">
               Delegate Pass
             </a>
-            <a href="/mumbai/enterprise/media-enquiry" className="text-muted text-[15px] hover:text-cyan transition-colors duration-150 py-0.5">
+            <a href="/bengaluru/cybersecurity/#media-partner" className="text-muted text-[15px] hover:text-cyan transition-colors duration-150 py-0.5">
               Media Partner
             </a>
-            <a href="/mumbai/enterprise/speaker-enquiry" className="text-muted text-[15px] hover:text-cyan transition-colors duration-150 py-0.5">
+            <a href="/bengaluru/cybersecurity/#speaker-slot" className="text-muted text-[15px] hover:text-cyan transition-colors duration-150 py-0.5">
               Speaker Slot
             </a>
           </div>
@@ -66,7 +66,7 @@ export function FooterSection() {
           {/* Column 3: Organiser */}
           <div className="flex flex-col gap-[18px]">
             <h3 className="m-0 mb-2 text-white/74 font-semibold text-[12px] uppercase tracking-[3px] select-none">
-              Organiser
+              Organiser: Trescon
             </h3>
             <a
               href="https://www.tresconglobal.com"
@@ -84,7 +84,7 @@ export function FooterSection() {
             >
               About Us
             </a>
-            <a href="/mumbai/enterprise/general-enquiry" className="text-muted text-[15px] hover:text-cyan transition-colors duration-150 py-0.5">
+            <a href="/bengaluru/cybersecurity/#contact-us" className="text-muted text-[15px] hover:text-cyan transition-colors duration-150 py-0.5">
               Contact Us
             </a>
           </div>
@@ -94,7 +94,7 @@ export function FooterSection() {
         {/* Footer Bottom Row */}
         <div className="flex items-center justify-between gap-6 pt-[34px] max-sm:flex-col max-sm:items-start">
           <p className="m-0 text-white/52 text-[13px] leading-relaxed">
-            © 2026–2027 World AI Show: Government &amp; Enterprise AI Edition | Mumbai 2027. All rights reserved. Organised by Trescon.
+            © 2027 World AI Show: The Cybersecurity Edition. Organised by Trescon. All rights reserved.
           </p>
           <div className="flex gap-3">
             <a

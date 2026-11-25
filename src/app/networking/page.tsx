@@ -4,8 +4,8 @@ import { FooterSection } from "../components/sections/FooterSection";
 import { GradientText } from "../components/Shared";
 
 export const metadata: Metadata = {
-  title: "Networking Suite | World AI Show: The Enterprise Edition | Mumbai 2027",
-  description: "Explore the Networking Suite for World AI Show: The Enterprise Edition | Mumbai 2027: Algorithmic pre-scheduled 20-min 1-on-1 meetings and executive photo gallery.",
+  title: "Networking Suite | World AI Show: The Cybersecurity Edition | Bengaluru 2027",
+  description: "Every conversation. By design. 300+ senior security, technology and risk leaders across 2 days in Bengaluru (20–21 July 2027).",
 };
 
 const subNav = ["Overview", "AI Matchmaking", "Photo Gallery"];
@@ -15,7 +15,7 @@ export default function NetworkingPage() {
     {
       title: "AI Matchmaking",
       desc: "Algorithmic pre-scheduled 20-min 1-on-1 meetings connecting enterprise buyers and vetted solution providers.",
-      href: "/mumbai/enterprise/networking/ai-matchmaking",
+      href: "/bengaluru/cybersecurity/networking/ai-matchmaking",
       action: "Explore",
       badgeBg: "bg-[#C0F43C]",
       actionColor: "text-[#C0F43C]",
@@ -26,7 +26,7 @@ export default function NetworkingPage() {
     {
       title: "AI Photo Gallery",
       desc: "High-resolution executive photography from the global series, indexed instantly using AI face recognition.",
-      href: "/mumbai/enterprise/networking/photo-gallery",
+      href: "/bengaluru/cybersecurity/networking/photo-gallery",
       action: "Explore",
       badgeBg: "bg-[#926DFF]",
       actionColor: "text-[#926DFF]",
@@ -37,29 +37,25 @@ export default function NetworkingPage() {
   ];
 
   const roles = [
-    "Chief Information Officer (CIO)",
-    "Chief AI Officer (CAIO)",
-    "Chief Technology Officer (CTO)",
-    "Chief Data Officer (CDO)",
     "Chief Information Security Officer (CISO)",
-    "Chief Operating Officer (COO)",
-    "Chief Enterprise Architect",
-    "Head of Enterprise Transformation & GRC"
+    "Chief Information Officer (CIO)",
+    "Chief Technology Officer (CTO)",
+    "Chief Risk Officer (CRO)",
+    "Head of Security Architecture & Engineering",
+    "SOC & Incident Response Leaders",
+    "Head of Cloud Security & Zero Trust",
+    "Cyber GCC & Technology Operations Heads"
   ];
 
   const industries = [
-    "Retail and Ecommerce",
-    "Education",
-    "Telecommunications",
-    "Supply Chain and Logistics",
-    "Agriculture",
-    "Energy and Utilities",
-    "Government, Public Sector and Smart Cities",
-    "Media and Entertainment",
-    "Travel and Tourism",
-    "Banking, Financial Services and Insurance",
-    "Manufacturing",
-    "Healthcare and Pharma"
+    "Banking, Financial Services & Insurance (BFSI)",
+    "IT, ITeS & Global Capability Centres (GCCs)",
+    "Telecommunications & Cloud Infrastructure",
+    "Healthcare, Pharma & Life Sciences",
+    "Manufacturing & Industrial Systems",
+    "Critical Infrastructure, Energy & Utilities",
+    "E-commerce, Retail & Consumer Tech",
+    "Government, Public Sector & Defence"
   ];
 
   const industryBorders = [
@@ -70,11 +66,7 @@ export default function NetworkingPage() {
     "border-[#C0F43C]/20",
     "border-[#00CEFF]/20",
     "border-[#C0F43C]/20",
-    "border-[#C0F43C]/20",
-    "border-[#926DFF]/20",
-    "border-[#C0F43C]/20",
-    "border-[#00CEFF]/20",
-    "border-[#3b82f6]/20"
+    "border-[#926DFF]/20"
   ];
 
   return (
@@ -85,29 +77,29 @@ export default function NetworkingPage() {
       <section
         className="relative pt-[220px] pb-[120px] overflow-hidden bg-cover bg-center flex items-center min-h-[700px] max-md:pt-[170px]"
         style={{
-          backgroundImage: `linear-gradient(90deg, rgba(2, 7, 19, 0.96) 0%, rgba(2, 7, 19, 0.8) 45%, rgba(2, 7, 19, 0.25) 100%), url('/mumbai/enterprise/images/networking/networking-hero-bg.webp')`
+          backgroundImage: `linear-gradient(90deg, rgba(2, 7, 19, 0.96) 0%, rgba(2, 7, 19, 0.8) 45%, rgba(2, 7, 19, 0.25) 100%), url('/bengaluru/cybersecurity/images/networking/networking-hero-bg.webp')`
         }}
       >
         <div className="w-[min(1114px,calc(100%-48px))] mx-auto relative z-10">
           <div className="max-w-[760px] w-full">
             <h1 className="m-0 text-white font-[850] leading-[1.05] tracking-[-2px] text-[clamp(44px,5.5vw,70px)]">
-              Every Conversation. <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00ceff] to-[#C0F43C]">By Design.</span>
+              Every conversation. <br />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00ceff] to-[#C0F43C]">By design.</span>
             </h1>
             <p className="m-0 mt-6 text-white/75 text-[18px] leading-relaxed max-sm:text-[15px]">
-              300+ qualified enterprise CXOs across 2 Days in Mumbai (20–21 April 2027). Algorithmic pre-scheduled 20-minute 1-on-1 meetings, closed-door 15-CXO roundtables, and a personalized 2-day agenda builder.
+              300+ senior security, technology and risk leaders across 2 days in Bengaluru (20–21 July 2027). Structured 20-minute 1-to-1 meetings, closed-door 15-leader CISO boardrooms, and focused networking.
             </p>
 
             {/* Quick links buttons */}
             <div className="flex flex-wrap items-center gap-4 mt-9 max-sm:flex-col max-sm:items-stretch">
               <a
-                href="/mumbai/enterprise/attend/delegate"
+                href="/bengaluru/cybersecurity/attend/delegate"
                 className="px-8 py-[15px] rounded-full !text-black [color:#06111f!important] bg-[#C0F43C] shadow-[0_0_24px_rgba(192,244,60,0.24)] hover:shadow-[0_0_32px_rgba(192,244,60,0.4)] font-extrabold text-[14.5px] text-center transition-all duration-200 hover:-translate-y-0.5"
               >
                 Apply for a Delegate Pass ➔
               </a>
               <a
-                href="/mumbai/enterprise/sponsorship-enquiry"
+                href="/bengaluru/cybersecurity/sponsorship-enquiry"
                 className="px-8 py-[15px] rounded-full text-white border border-white/25 bg-white/5 hover:border-cyan font-extrabold text-[14.5px] text-center transition-all duration-200 hover:-translate-y-0.5"
               >
                 Enquire about sponsorship ➔
@@ -124,7 +116,7 @@ export default function NetworkingPage() {
           {/* Header */}
           <div className="text-center mb-16">
             <h2 className="font-[850] text-white leading-tight tracking-[-1.5px] text-[clamp(32px,4vw,44px)] m-0">
-              Engineered for the <GradientText>Complete Buying Unit</GradientText>
+              Engineered for the <GradientText>Security Buying Circle</GradientText>
             </h2>
           </div>
 
@@ -140,7 +132,7 @@ export default function NetworkingPage() {
                   <div className="flex justify-between items-center mb-6">
                     <span className={`w-12 h-12 rounded-2xl flex items-center justify-center ${way.badgeBg}`}>
                       <img
-                        src="/mumbai/enterprise/images/networking/Icon.webp"
+                        src="/bengaluru/cybersecurity/images/networking/Icon.webp"
                         alt="Icon"
                         className="w-[18px] h-[18px] object-contain brightness-0 invert-0 select-none"
                       />
@@ -179,8 +171,8 @@ export default function NetworkingPage() {
                 Who Is In The Room
               </span>
               <h2 className="font-[850] text-white leading-[1.1] tracking-[-2px] text-[clamp(36px,4.5vw,52px)] m-0 mb-8">
-                300+ Qualified CXOs.<br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00ceff] to-[#C0F43C]">The Buying Unit.</span>
+                300+ Qualified Leaders.<br />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00ceff] to-[#C0F43C]">The Security Buying Circle.</span>
               </h2>
 
               {/* Roles List */}
@@ -231,7 +223,7 @@ export default function NetworkingPage() {
                   Your Network Starts <span className="text-[#a78bfa]">Before Day One</span>
                 </h3>
                 <p className="m-0 text-white/70 text-[14px] leading-relaxed">
-                  Qualified delegates and commercial partners receive early access to pre-schedule 20-minute 1-on-1 meetings ahead of 20–21 April 2027.
+                  Qualified delegates and commercial partners receive early access to pre-schedule 20-minute 1-on-1 meetings ahead of 20–21 July 2027.
                 </p>
               </div>
 
@@ -248,21 +240,21 @@ export default function NetworkingPage() {
           <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-[#C0F43C]/60 to-transparent"></div>
 
           <h2 className="font-[850] text-white leading-tight tracking-[-1.5px] text-[clamp(28px,3.5vw,38px)] m-0">
-            Be in the room where <GradientText>the operating model gets decided.</GradientText>
+            Be in the room where <GradientText>enterprise cyber risk gets decided.</GradientText>
           </h2>
           <p className="m-0 mt-4 text-white/58 text-[15px] leading-relaxed max-w-[580px] mx-auto">
-            Apply for a Delegate Pass (Only by Invitation and qualification) or enquire about commercial sponsorship for Mumbai 2027 (20–21 April 2027 · 2 Days).
+            Apply for a Delegate Pass (by invitation and qualification) or enquire about commercial sponsorship for Bengaluru 2027 (20–21 July 2027 · 2 Days).
           </p>
 
           <div className="mt-8 flex justify-center gap-4 flex-wrap">
             <a
-              href="/mumbai/enterprise/attend/delegate"
+              href="/bengaluru/cybersecurity/attend/delegate"
               className="px-8 py-3.5 rounded-full text-black [color:#06111f!important] bg-[#C0F43C] font-extrabold text-sm shadow-[0_0_24px_rgba(192,244,60,0.24)] hover:shadow-[0_0_32px_rgba(192,244,60,0.4)] transition-all duration-200 hover:-translate-y-0.5"
             >
               Apply for a Delegate Pass ➔
             </a>
             <a
-              href="/mumbai/enterprise/sponsorship-enquiry"
+              href="/bengaluru/cybersecurity/sponsorship-enquiry"
               className="px-8 py-3.5 rounded-full text-white border border-white/25 bg-white/5 hover:border-cyan font-extrabold text-sm transition-all duration-200 hover:-translate-y-0.5"
             >
               Enquire about sponsorship ➔

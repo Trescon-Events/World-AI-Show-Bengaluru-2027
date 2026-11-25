@@ -67,12 +67,12 @@ export function Logo() {
   return (
     <a
       className="flex items-center w-[180px] h-[60px] hover:opacity-90 transition-opacity duration-200"
-      href="/mumbai/enterprise/"
-      aria-label="World AI Show: Government & Enterprise AI Edition | Mumbai 2027"
+      href="/bengaluru/cybersecurity/"
+      aria-label="World AI Show: The Cybersecurity Edition"
     >
       <img
-        src="/mumbai/enterprise/logos/wais-27-enterprise-mumbai-b1.svg"
-        alt="World AI Show: Government & Enterprise AI Edition | Mumbai 2027"
+        src="/bengaluru/cybersecurity/logos/wais-27-enterprise-mumbai-b1.svg"
+        alt="World AI Show: The Cybersecurity Edition"
         width={180}
         height={60}
         className="w-full h-full object-contain"

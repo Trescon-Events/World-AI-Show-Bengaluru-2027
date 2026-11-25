@@ -110,28 +110,17 @@ const sourceCitedCards: TelemetryCardData[] = [
 const whatThisIsNotCards = [
   {
     index: "01",
-    tag: "PRODUCTION FOCUS",
-    title: "Not an AI awareness conference",
-    body: "We do not debate whether AI will transform enterprise. We address the integration, monitoring, and workflow redesign required after launch.",
+    tag: "CISO-LED",
+    title: "Not a general cyber expo",
+    body: "The agenda starts with one question: how do you secure the AI-powered enterprise?",
     icon: (
       <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
-        <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12a7.5 7.5 0 0015 0m-15 0a7.5 7.5 0 1115 0m-15 0H3m16.5 0H21m-1.5 0H12m-8.457 3.077l1.41-.513m14.095-5.13l1.41-.513M5.106 17.785l1.15-.964m11.49-9.642l1.149-.964M7.501 19.795l.75-1.3m7.5-12.99l.75-1.3m-6.063 16.658l.26-1.477m2.605-14.772l.26-1.477m0 17.726l-.26-1.477M10.698 4.614l-.26-1.477M16.5 19.794l-.75-1.299M7.5 4.205L12 12m6.894 5.785l-1.149-.964M6.256 7.178l-1.15-.964m15.352 8.864l-1.41-.513M4.954 9.435l-1.41-.514M12.002 12l-3.75 6.495" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
       </svg>
     ),
   },
   {
     index: "02",
-    tag: "EXECUTIVE BUYING GROUP",
-    title: "Not a developer hackathon",
-    body: "It gathers the cross-functional enterprise buying group: CIOs, CAIOs, CDOs, COOs, CISOs, and transformation leaders.",
-    icon: (
-      <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
-        <path strokeLinecap="round" strokeLinejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
-      </svg>
-    ),
-  },
-  {
-    index: "03",
     tag: "EDITORIAL INTEGRITY",
     title: "Not an uncapped vendor showcase",
     body: "Editorial integrity is preserved. Sponsored sessions are standardized at 30 minutes, vetted for implementation proof, and strictly capped.",
@@ -142,10 +131,21 @@ const whatThisIsNotCards = [
     ),
   },
   {
+    index: "03",
+    tag: "DECISION-MAKERS FOCUSED",
+    title: "Not a walk-in expo",
+    body: "Curated for CISOs, senior security professionals, and executive leaders across technology, risk, data and digital transformation.",
+    icon: (
+      <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+      </svg>
+    ),
+  },
+  {
     index: "04",
     tag: "NATIONAL SERIES ROADMAP",
     title: "Not a standalone, one-off event",
-    body: "It is the launchpad of the World AI Show Series in India, building momentum directly toward the national Series Finale in late 2027.",
+    body: "It is the second launchpad of the World AI Show Series in India, building momentum directly toward the national Series Finale in late 2027.",
     icon: (
       <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
@@ -387,20 +387,28 @@ export function EcosystemSectionDemo() {
           {/* Right decorative radial glow */}
           <div className="absolute -right-20 -bottom-20 w-72 h-72 rounded-full bg-[#C0F43C]/10 blur-3xl pointer-events-none" />
 
-          <div className="relative z-10 flex items-center gap-7 max-md:flex-col max-md:items-start max-md:gap-4 pl-3 max-sm:pl-1">
-            <div className="flex-shrink-0 w-14 h-14 rounded-2xl border border-[#C0F43C]/35 bg-[#C0F43C]/12 flex items-center justify-center text-[#C0F43C] shadow-[0_0_24px_rgba(192,244,60,0.2)]">
-              <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
-              </svg>
+          <div className="relative z-10 flex items-center justify-between gap-7 max-md:flex-col max-md:items-start max-md:gap-4 pl-3 max-sm:pl-1">
+            <div className="flex items-center gap-7 max-md:flex-col max-md:items-start max-md:gap-4">
+              <div className="flex-shrink-0 w-14 h-14 rounded-2xl border border-[#C0F43C]/35 bg-[#C0F43C]/12 flex items-center justify-center text-[#C0F43C] shadow-[0_0_24px_rgba(192,244,60,0.2)]">
+                <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
+                </svg>
+              </div>
+              <div>
+                <span className="block text-[#C0F43C] text-[11px] font-bold uppercase tracking-[2.2px] mb-1.5">
+                  The Executive Mandate
+                </span>
+                <p className="m-0 text-white font-semibold text-[19px] leading-[1.55] max-sm:text-[16px]">
+                  Built for the leaders who own the risk.
+                </p>
+              </div>
             </div>
-            <div>
-              <span className="block text-[#C0F43C] text-[11px] font-bold uppercase tracking-[2.2px] mb-1.5">
-                The Executive Mandate
-              </span>
-              <p className="m-0 text-white font-semibold text-[19px] leading-[1.55] max-sm:text-[16px]">
-                World AI Show: The Enterprise Edition convenes the cross-functional leaders who own the systems, workflows, controls, and budgets required to turn experimental AI into a dependable operating model.
-              </p>
-            </div>
+            <a
+              href="/bengaluru/cybersecurity/#enquire"
+              className="shrink-0 inline-flex items-center justify-center gap-2 h-[48px] px-6 rounded-full font-bold text-[14px] text-white bg-[#F15928] hover:bg-[#ff6938] shadow-[0_4px_18px_rgba(241,89,40,0.35)] transition-all whitespace-nowrap"
+            >
+              Secure Your Place →
+            </a>
           </div>
         </div>
       </div>

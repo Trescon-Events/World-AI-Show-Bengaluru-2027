@@ -4,56 +4,56 @@ import { GradientText } from "../Shared";
 
 // Sponsor Row 1 Logos (Past World AI Show India Sponsors)
 const sponsorRow1 = [
-  { path: "/mumbai/enterprise/images/sponsors/india-past/google-cloud.webp", alt: "Google Cloud" },
-  { path: "/mumbai/enterprise/images/sponsors/india-past/Dell-Technologies-Intel.webp", alt: "Dell Technologies & Intel" },
-  { path: "/mumbai/enterprise/images/sponsors/india-past/hewlett-packard.webp", alt: "Hewlett Packard Enterprise" },
-  { path: "/mumbai/enterprise/images/sponsors/india-past/hcl.webp", alt: "HCLTech" },
-  { path: "/mumbai/enterprise/images/sponsors/india-past/happiest-minds.webp", alt: "Happiest Minds" },
-  { path: "/mumbai/enterprise/images/sponsors/india-past/kpmg.webp", alt: "KPMG" },
-  { path: "/mumbai/enterprise/images/sponsors/india-past/sap.webp", alt: "SAP" },
-  { path: "/mumbai/enterprise/images/sponsors/india-past/oracle.webp", alt: "Oracle" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/india-past/google-cloud.webp", alt: "Google Cloud" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/india-past/Dell-Technologies-Intel.webp", alt: "Dell Technologies & Intel" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/india-past/hewlett-packard.webp", alt: "Hewlett Packard Enterprise" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/india-past/hcl.webp", alt: "HCLTech" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/india-past/happiest-minds.webp", alt: "Happiest Minds" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/india-past/kpmg.webp", alt: "KPMG" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/india-past/sap.webp", alt: "SAP" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/india-past/oracle.webp", alt: "Oracle" },
 ];
 
 // Sponsor Row 2 Logos (Past World AI Show India Sponsors)
 const sponsorRow2 = [
-  { path: "/mumbai/enterprise/images/sponsors/india-past/cisco.webp", alt: "Cisco" },
-  { path: "/mumbai/enterprise/images/sponsors/india-past/Snowflake.webp", alt: "Snowflake" },
-  { path: "/mumbai/enterprise/images/sponsors/india-past/ui-path.webp", alt: "UiPath" },
-  { path: "/mumbai/enterprise/images/sponsors/india-past/automation-anywhere.webp", alt: "Automation Anywhere" },
-  { path: "/mumbai/enterprise/images/sponsors/india-past/eclerx.webp", alt: "eClerx" },
-  { path: "/mumbai/enterprise/images/sponsors/india-past/Searce.webp", alt: "Searce" },
-  { path: "/mumbai/enterprise/images/sponsors/india-past/vernacular-ai.webp", alt: "Vernacular.ai" },
-  { path: "/mumbai/enterprise/images/sponsors/india-past/Denodo.webp", alt: "Denodo" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/india-past/cisco.webp", alt: "Cisco" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/india-past/Snowflake.webp", alt: "Snowflake" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/india-past/ui-path.webp", alt: "UiPath" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/india-past/automation-anywhere.webp", alt: "Automation Anywhere" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/india-past/eclerx.webp", alt: "eClerx" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/india-past/Searce.webp", alt: "Searce" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/india-past/vernacular-ai.webp", alt: "Vernacular.ai" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/india-past/Denodo.webp", alt: "Denodo" },
 ];
 
 // Strategic & Association Partners Logos (Path: association subfolder)
 const partnerLogos = [
-  "/mumbai/enterprise/images/sponsors/association/starfindo.webp",
-  "/mumbai/enterprise/images/sponsors/association/kumpul.webp",
-  "/mumbai/enterprise/images/sponsors/association/forums.webp",
-  "/mumbai/enterprise/images/sponsors/association/ddas.webp",
-  "/mumbai/enterprise/images/sponsors/association/belux.webp",
-  "/mumbai/enterprise/images/sponsors/association/lafrench.webp",
+  "/bengaluru/cybersecurity/images/sponsors/association/starfindo.webp",
+  "/bengaluru/cybersecurity/images/sponsors/association/kumpul.webp",
+  "/bengaluru/cybersecurity/images/sponsors/association/forums.webp",
+  "/bengaluru/cybersecurity/images/sponsors/association/ddas.webp",
+  "/bengaluru/cybersecurity/images/sponsors/association/belux.webp",
+  "/bengaluru/cybersecurity/images/sponsors/association/lafrench.webp",
 ];
 
 // Governments & Associations Who Have Worked With Us In The Past (matching worldaishow.com)
 const governmentLogos = [
-  { path: "/mumbai/enterprise/images/sponsors/governments/meit.webp", alt: "Ministry of Electronics and Information Technology, Government of India" },
-  { path: "/mumbai/enterprise/images/sponsors/governments/mrt-govt-of-india.webp", alt: "Ministry of Road Transport & Highways, Government of India" },
-  { path: "/mumbai/enterprise/images/sponsors/governments/niti-aayog.webp", alt: "NITI Aayog" },
-  { path: "/mumbai/enterprise/images/sponsors/governments/NeGD.webp", alt: "National e-Governance Division (NeGD)" },
-  { path: "/mumbai/enterprise/images/sponsors/governments/digital-india.webp", alt: "Digital India" },
-  { path: "/mumbai/enterprise/images/sponsors/governments/govt-maharashtra.webp", alt: "Government of Maharashtra" },
-  { path: "/mumbai/enterprise/images/sponsors/governments/govt-andhra-pradesh.webp", alt: "Government of Andhra Pradesh" },
-  { path: "/mumbai/enterprise/images/sponsors/governments/dubai-police.webp", alt: "Dubai Police" },
-  { path: "/mumbai/enterprise/images/sponsors/governments/difc.webp", alt: "DIFC" },
-  { path: "/mumbai/enterprise/images/sponsors/governments/dubai-economy.webp", alt: "Dubai Economy" },
-  { path: "/mumbai/enterprise/images/sponsors/governments/supreme-council.webp", alt: "Supreme Council of Energy" },
-  { path: "/mumbai/enterprise/images/sponsors/governments/ministry-of-finance.webp", alt: "Ministry of Finance" },
-  { path: "/mumbai/enterprise/images/sponsors/governments/petroleum-development-oman.webp", alt: "Petroleum Development Oman" },
-  { path: "/mumbai/enterprise/images/sponsors/governments/oman-chmaber-of-commerce.webp", alt: "Oman Chamber of Commerce and Industry" },
-  { path: "/mumbai/enterprise/images/sponsors/governments/oman-banks-association.webp", alt: "Oman Banks Association" },
-  { path: "/mumbai/enterprise/images/sponsors/governments/qfc.webp", alt: "Qatar Financial Centre" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/governments/meit.webp", alt: "Ministry of Electronics and Information Technology, Government of India" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/governments/mrt-govt-of-india.webp", alt: "Ministry of Road Transport & Highways, Government of India" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/governments/niti-aayog.webp", alt: "NITI Aayog" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/governments/NeGD.webp", alt: "National e-Governance Division (NeGD)" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/governments/digital-india.webp", alt: "Digital India" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/governments/govt-maharashtra.webp", alt: "Government of Maharashtra" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/governments/govt-andhra-pradesh.webp", alt: "Government of Andhra Pradesh" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/governments/dubai-police.webp", alt: "Dubai Police" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/governments/difc.webp", alt: "DIFC" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/governments/dubai-economy.webp", alt: "Dubai Economy" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/governments/supreme-council.webp", alt: "Supreme Council of Energy" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/governments/ministry-of-finance.webp", alt: "Ministry of Finance" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/governments/petroleum-development-oman.webp", alt: "Petroleum Development Oman" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/governments/oman-chmaber-of-commerce.webp", alt: "Oman Chamber of Commerce and Industry" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/governments/oman-banks-association.webp", alt: "Oman Banks Association" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/governments/qfc.webp", alt: "Qatar Financial Centre" },
 ];
 
 export function SponsorsSection() {
@@ -98,7 +98,7 @@ export function SponsorsSection() {
 
             <div className="flex flex-wrap justify-center gap-4 mt-4 w-full max-sm:flex-col max-sm:items-center">
               <a
-                href="/mumbai/enterprise/sponsorship-enquiry"
+                href="/bengaluru/cybersecurity/sponsorship-enquiry"
                 className="sponsor-cta-primary inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full text-[14px] font-extrabold hover:-translate-y-0.5 transition-all duration-200 cursor-pointer"
                 style={{
                   backgroundColor: "#F15928",
@@ -110,7 +110,7 @@ export function SponsorsSection() {
                 Enquire about sponsorship <span>→</span>
               </a>
               <a
-                href="/mumbai/enterprise/attend/sponsor"
+                href="/bengaluru/cybersecurity/attend/sponsor"
                 className="sponsor-cta-secondary inline-flex items-center justify-center px-7 py-3.5 rounded-full text-[14px] font-extrabold hover:-translate-y-0.5 transition-all duration-200 cursor-pointer"
                 style={{
                   backgroundColor: "rgba(255, 255, 255, 0.05)",
@@ -132,7 +132,7 @@ export function SponsorsSection() {
 
         <div className="mt-8 flex justify-center">
           <a
-            href="/mumbai/enterprise/attend/sponsor"
+            href="/bengaluru/cybersecurity/attend/sponsor"
             className="inline-flex items-center justify-center gap-2 h-[52px] px-8 rounded-full font-extrabold text-[15px] text-[#06111F] [color:#06111F!important] bg-[#C0F43C] hover:shadow-[0_0_24px_rgba(192,244,60,0.35)] transition-all duration-200"
           >
             Explore sponsorship <span>→</span>

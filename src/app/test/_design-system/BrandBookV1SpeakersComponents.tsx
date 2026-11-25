@@ -20,7 +20,7 @@ export function toBrandBookCutoutImage(image: string) {
 export function BrandBookV1SpeakersSection({
   heading = (
     <>
-      Past Enterprise <GradientText>Faculty</GradientText>
+      Faculty. <GradientText>Voices from the front line.</GradientText>
     </>
   ),
 }: {
@@ -36,9 +36,12 @@ export function BrandBookV1SpeakersSection({
       <div className="w-[min(1200px,calc(100%-48px))] mx-auto max-sm:w-[calc(100%-32px)]">
         {/* Title and Header Block */}
         <div className="flex flex-col items-center text-center mb-[52px]">
-          <h2 className="text-center text-white max-w-[920px] m-0">
+          <h2 className="text-center text-white max-w-[920px] m-0 text-[clamp(34px,4.4vw,52px)] font-[850] leading-tight">
             {heading}
           </h2>
+          <p className="mt-4 text-white/80 text-[18px] max-w-[780px] leading-relaxed">
+            Practitioner CISOs, CIOs, CROs, SOC and incident-response leaders, GCC heads and policymakers.
+          </p>
         </div>
 
         {/* Speakers Grid Container */}
@@ -59,13 +62,13 @@ export function BrandBookV1SpeakersSection({
         {/* View All Speakers CTA Buttons */}
         <div className="mt-14 flex flex-wrap justify-center items-center gap-4">
           <a
-            href="/mumbai/enterprise/test/brandbook-speaker-preview"
+            href="/bengaluru/cybersecurity/#speakers-hub"
             className="bb-cta-primary inline-flex items-center justify-center gap-2.5 h-[52px] px-8 rounded-full font-bold text-[15px] text-white bg-[#F15928] cursor-pointer"
           >
             Explore Speakers Hub <span className="cta-arrow inline-block">➔</span>
           </a>
           <a
-            href="/mumbai/enterprise/agenda/call-for-speakers"
+            href="/bengaluru/cybersecurity/#apply-to-speak"
             className="bb-cta-secondary inline-flex items-center justify-center gap-2.5 h-[52px] px-8 rounded-full font-bold text-[15px] text-[#0069B8] border border-white/25 bg-white cursor-pointer"
           >
             Apply to Speak <span className="cta-arrow inline-block">→</span>
@@ -99,17 +102,17 @@ export function BrandBookV1SpeakersList() {
           <div className="max-w-[720px]">
             <span className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#F15928] text-white text-[12px] font-semibold uppercase tracking-[1.5px] mb-3">
               <span className="w-1.5 h-1.5 rounded-full bg-white" />
-              Mumbai 2027 Faculty Intake · Unannounced Slots Open
+              Faculty Intake · Slots Open
             </span>
             <h3 className="!text-white [color:#FFFFFF!important] font-bold text-[24px] max-sm:text-[20px] leading-tight m-0 mb-2">
-              If you have scaled AI in production, we want you on the stage
+              If you&apos;ve led security through AI adoption, we want you on the stage
             </h3>
             <p className="!text-white/88 [color:rgba(255,255,255,0.88)!important] text-[15px] leading-relaxed m-0">
-              Mumbai 2027 speaker announcements release in waves following steering committee review. Apply to join the 45+ enterprise faculty members below, or browse past speakers from the global World AI Show series.
+              Speaker announcements release in waves following editorial review. Apply to join the faculty, or browse past speakers from the World AI Show series.
             </p>
           </div>
           <a
-            href="/mumbai/enterprise/agenda/call-for-speakers"
+            href="/bengaluru/cybersecurity/agenda/call-for-speakers"
             className="bb-cta-primary inline-flex items-center justify-center gap-2 h-[48px] px-7 rounded-full font-bold text-[14px] text-white bg-[#F15928] shrink-0"
           >
             Apply to Speak <span className="cta-arrow inline-block">→</span>

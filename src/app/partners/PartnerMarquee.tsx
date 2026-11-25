@@ -4,43 +4,43 @@ import { GradientText } from "../components/Shared";
 
 /* ── All logos combined for marquee rows ─────────────────────── */
 const row1 = [
-  { path: "/mumbai/enterprise/images/sponsors/strategic/mdec.webp", alt: "MDEC" },
-  { path: "/mumbai/enterprise/images/sponsors/strategic/mida.webp", alt: "MIDA" },
-  { path: "/mumbai/enterprise/images/sponsors/gold/datadog.webp", alt: "Datadog" },
-  { path: "/mumbai/enterprise/images/sponsors/gold/quantexa.webp", alt: "Quantexa" },
-  { path: "/mumbai/enterprise/images/sponsors/gold/denodo.webp", alt: "Denodo" },
-  { path: "/mumbai/enterprise/images/sponsors/gold/Alibaba-cloud.webp", alt: "Alibaba Cloud" },
-  { path: "/mumbai/enterprise/images/sponsors/gold/ey.webp", alt: "EY" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/strategic/mdec.webp", alt: "MDEC" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/strategic/mida.webp", alt: "MIDA" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/gold/datadog.webp", alt: "Datadog" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/gold/quantexa.webp", alt: "Quantexa" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/gold/denodo.webp", alt: "Denodo" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/gold/Alibaba-cloud.webp", alt: "Alibaba Cloud" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/gold/ey.webp", alt: "EY" },
 ];
 
 const row2 = [
-  { path: "/mumbai/enterprise/images/sponsors/gold/Magure.webp", alt: "Magure" },
-  { path: "/mumbai/enterprise/images/sponsors/gold/avatai.webp", alt: "Avatai" },
-  { path: "/mumbai/enterprise/images/sponsors/gold/darwin.webp", alt: "Darwinbox" },
-  { path: "/mumbai/enterprise/images/sponsors/gold/Bluepower.webp", alt: "Bluepower" },
-  { path: "/mumbai/enterprise/images/sponsors/gold/Tcloud_logo.webp", alt: "TCloud" },
-  { path: "/mumbai/enterprise/images/sponsors/gold/ucloud.webp", alt: "UCloud" },
-  { path: "/mumbai/enterprise/images/sponsors/gold/asix.webp", alt: "ASIX" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/gold/Magure.webp", alt: "Magure" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/gold/avatai.webp", alt: "Avatai" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/gold/darwin.webp", alt: "Darwinbox" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/gold/Bluepower.webp", alt: "Bluepower" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/gold/Tcloud_logo.webp", alt: "TCloud" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/gold/ucloud.webp", alt: "UCloud" },
+  { path: "/bengaluru/cybersecurity/images/sponsors/gold/asix.webp", alt: "ASIX" },
 ];
 
 /* White-banner media & association logos */
 const partnerLogos = [
-  "/mumbai/enterprise/images/sponsors/association/starfindo.webp",
-  "/mumbai/enterprise/images/sponsors/association/kumpul.webp",
-  "/mumbai/enterprise/images/sponsors/association/forums.webp",
-  "/mumbai/enterprise/images/sponsors/association/ddas.webp",
-  "/mumbai/enterprise/images/sponsors/association/belux.webp",
-  "/mumbai/enterprise/images/sponsors/association/lafrench.webp",
-  "/mumbai/enterprise/images/sponsors/media/abo.webp",
-  "/mumbai/enterprise/images/sponsors/media/analytic.webp",
-  "/mumbai/enterprise/images/sponsors/media/asia.webp",
-  "/mumbai/enterprise/images/sponsors/media/breakingai.webp",
-  "/mumbai/enterprise/images/sponsors/media/cio.webp",
-  "/mumbai/enterprise/images/sponsors/media/techdogs.webp",
-  "/mumbai/enterprise/images/sponsors/media/techrevolt.webp",
-  "/mumbai/enterprise/images/sponsors/media/techstorm.webp",
-  "/mumbai/enterprise/images/sponsors/media/trp.webp",
-  "/mumbai/enterprise/images/sponsors/media/wb.webp",
+  "/bengaluru/cybersecurity/images/sponsors/association/starfindo.webp",
+  "/bengaluru/cybersecurity/images/sponsors/association/kumpul.webp",
+  "/bengaluru/cybersecurity/images/sponsors/association/forums.webp",
+  "/bengaluru/cybersecurity/images/sponsors/association/ddas.webp",
+  "/bengaluru/cybersecurity/images/sponsors/association/belux.webp",
+  "/bengaluru/cybersecurity/images/sponsors/association/lafrench.webp",
+  "/bengaluru/cybersecurity/images/sponsors/media/abo.webp",
+  "/bengaluru/cybersecurity/images/sponsors/media/analytic.webp",
+  "/bengaluru/cybersecurity/images/sponsors/media/asia.webp",
+  "/bengaluru/cybersecurity/images/sponsors/media/breakingai.webp",
+  "/bengaluru/cybersecurity/images/sponsors/media/cio.webp",
+  "/bengaluru/cybersecurity/images/sponsors/media/techdogs.webp",
+  "/bengaluru/cybersecurity/images/sponsors/media/techrevolt.webp",
+  "/bengaluru/cybersecurity/images/sponsors/media/techstorm.webp",
+  "/bengaluru/cybersecurity/images/sponsors/media/trp.webp",
+  "/bengaluru/cybersecurity/images/sponsors/media/wb.webp",
 ];
 
 export function PartnerMarquee() {

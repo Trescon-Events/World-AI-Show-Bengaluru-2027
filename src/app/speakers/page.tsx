@@ -6,9 +6,9 @@ import { SpeakersCTASection } from "./SpeakersCTASection";
 import { FooterSection } from "../components/sections/FooterSection";
 
 export const metadata: Metadata = {
-  title: "Speakers Hub | World AI Show: The Enterprise Edition | Mumbai 2027",
+  title: "Speakers Hub | World AI Show: The Cybersecurity Edition | Bengaluru 2027",
   description:
-    "Explore the Enterprise Faculty and past global series speakers for World AI Show: The Enterprise Edition | Mumbai 2027 (45 Speakers & Panelists).",
+    "The Faculty: 45+ CISOs, CIOs, CTOs, CROs and security leaders are being curated for Bengaluru 2027, selected for implementation experience: the decisions made, the trade-offs weighed and the lessons learned.",
 };
 
 export default function SpeakersPage() {

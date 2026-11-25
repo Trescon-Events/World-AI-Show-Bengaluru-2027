@@ -4,8 +4,8 @@ import { FooterSection } from "../../components/sections/FooterSection";
 import { AttendSponsorSection } from "../page";
 
 export const metadata: Metadata = {
-  title: "Commercial Packages & Booth Standards | Attend | World AI Show: The Enterprise Edition | Mumbai 2027",
-  description: "Explore commercial partnerships for Mumbai 2027: 30-minute standalone stage sessions, standardized 9 sqm and 12 sqm booths, and closed-door CXO boardrooms.",
+  title: "Sponsor & Commercial Framework | Attend | World AI Show: The Cybersecurity Edition | Bengaluru 2027",
+  description: "Your buyers are rethinking security now, not after the incident. Put your solutions in front of the security buying circle at World AI Show: The Cybersecurity Edition | Bengaluru 2027.",
 };
 
 const subNav = ["Overview", "Delegate", "Sponsor", "Media Partner", "Association Partner"];

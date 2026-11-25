@@ -5,32 +5,52 @@ import { GradientText } from "../Shared";
 
 const faqs = [
   {
-    q: "What is World AI Show: The Enterprise Edition?",
-    a: "World AI Show: The Enterprise Edition | Mumbai 2027 is a two-day executive conference for 300+ CIOs, CTOs, Chief AI Officers, CDOs, CISOs, COOs, and enterprise transformation leaders turning AI pilots into governed, measurable enterprise performance.",
+    q: "What is World AI Show: The Cybersecurity Edition?",
+    a: "A two-day, CISO-led conference on securing AI adoption, modernising cyber defence and building resilience. It runs 20–21 July 2027 in Bengaluru.",
   },
   {
-    q: "How does this edition connect to the wider World AI Show Series in India?",
-    a: "Mumbai serves as Edition 1 — the official launch of the World AI Show Series in India — initiating a multi-city executive roadmap across regional chapters (Q2–Q3) and culminating in the 2027 Series Finale (Q4).",
+    q: "How does it relate to the Enterprise Edition?",
+    a: "The Enterprise Edition looks at how AI enters enterprise strategy and operations. This edition looks at how organisations secure that transition.",
+  },
+  {
+    q: "Who should attend?",
+    a: "CISOs and senior security leaders, plus CIOs, CTOs, CROs and technology, risk, data and digital leaders.",
   },
   {
     q: "Who qualifies for a Delegate Pass?",
-    a: "The Delegate Pass is by invitation and qualification for senior enterprise technology, data, operations, and risk leaders (CIOs, CAIOs, CTOs, CDOs, CISOs, COOs, and Transformation Heads) holding an active mandate to deploy enterprise AI.",
+    a: "Senior leaders with active security or risk responsibility, by invitation and qualification.",
   },
   {
-    q: "What does the 2-day programme cover?",
-    a: "The 2-day programme is structured around five content pillars: (01) Enterprise AI strategy and business value, (02) Pilot to production and workflow redesign, (03) Agentic AI and accountable autonomy, (04) Data context and the AI-ready stack, and (05) Governance, security and proportionate trust.",
+    q: "What does the programme cover?",
+    a: "Four pillars: Securing AI and Defending with AI; Modern Cyber Defence; the Expanding Attack Surface; CISO Leadership and India's Cyber Ecosystem.",
   },
   {
-    q: "What are the speaking durations and standardized booth sizes for sponsors?",
-    a: "Commercial partnerships feature 30-minute standalone stage thought leadership sessions, standardized 9 sqm and 12 sqm exhibition spaces, and curated closed-door CXO boardrooms for 15 pre-qualified executives.",
+    q: "What can partners expect?",
+    a: "Partner sessions address a defined enterprise security challenge and are backed by implementation evidence or practitioner insight.",
   },
   {
-    q: "Where and when does the event take place?",
-    a: "The conference takes place across 2 Days on 20–21 April 2027 in Mumbai, India.",
+    q: "Where and when?",
+    a: "20–21 July 2027, Bengaluru, India.",
   },
   {
-    q: "Who organises the World AI Show Series?",
-    a: "World AI Show: The Enterprise Edition is organised by Trescon, the team behind World AI Show — the world's longest-running AI summit series with 46 global editions completed across 51+ countries, convening 42,000+ C-level executives and 2,600+ speakers.",
+    q: "Who organises it?",
+    a: "Trescon, organiser of the World AI Show series.",
+  },
+  {
+    q: "What is the cancellation or transfer policy for delegate passes?",
+    a: "Delegate passes are non-transferable without prior written approval from the organisers. If you are unable to attend, you may nominate a senior colleague of equivalent seniority and responsibility, subject to qualification review.",
+  },
+  {
+    q: "How are 1-to-1 meetings scheduled through the AI Matchmaking platform?",
+    a: "Qualified delegates and sponsor representatives receive login credentials to the event platform ahead of the event. The platform suggests relevant matches based on declared security priorities and project roadmaps; meetings are confirmed by mutual consent.",
+  },
+  {
+    q: "Are the closed-door CISO boardrooms open to all attendees?",
+    a: "No. Closed-door boardrooms have strictly capped attendance (typically 15 CXOs) and operate under the Chatham House Rule. Access is by prior invitation or as part of qualifying sponsorship packages.",
+  },
+  {
+    q: "Will presentation slides or session recordings be shared after the event?",
+    a: "Approved plenary session recordings and speaker-authorised slide decks will be made available to registered attendees via the event portal post-event. Closed-door boardroom discussions are strictly off the record and will not be recorded.",
   },
 ];
 
@@ -92,6 +112,19 @@ export function FAQSection() {
               </details>
             );
           })}
+        </div>
+
+        {/* Still have questions CTA strip */}
+        <div className="max-w-[976px] mx-auto mt-8 p-6 rounded-[18px] border border-cyan/30 bg-[#041226] text-center flex items-center justify-between gap-4 max-sm:flex-col shadow-[0_10px_30px_rgba(0,0,0,0.4)]">
+          <span className="!text-white [color:#FFFFFF!important] font-bold text-[16px] tracking-tight">
+            Have a question that isn&apos;t answered here?
+          </span>
+          <a
+            href="/bengaluru/cybersecurity/general-enquiry"
+            className="inline-flex items-center gap-2 px-7 py-3 rounded-full text-xs font-extrabold uppercase tracking-wider text-white [color:#FFFFFF!important] bg-[#F15928] hover:bg-[#ff6c3b] hover:shadow-[0_0_24px_rgba(241,89,40,0.4)] hover:-translate-y-0.5 transition-all whitespace-nowrap"
+          >
+            Contact the Team →
+          </a>
         </div>
       </div>
     </section>

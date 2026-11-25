@@ -4,8 +4,8 @@ import { FooterSection } from "../../components/sections/FooterSection";
 import { AgendaVision } from "../AgendaPage";
 
 export const metadata: Metadata = {
-  title: "Enterprise AI Value & India Series Trajectory | Agenda | World AI Show: The Enterprise Edition | Mumbai 2027",
-  description: "Explore Enterprise AI Business Value Measurement and the World AI Show India Series Trajectory from Edition 1 in Mumbai to the Q4 Series Finale.",
+  title: "Securing AI & Defending with AI | Agenda | World AI Show: The Cybersecurity Edition | Bengaluru 2027",
+  description: "Enterprise security in the age of AI: the decisions ahead. Moving beyond awareness to practical enterprise questions across India's cyber ecosystem.",
 };
 
 const subNav = ["Overview", "The 2030 Vision", "Agenda", "Themes", "Call for Speakers"];

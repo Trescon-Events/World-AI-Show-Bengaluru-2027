@@ -4,8 +4,8 @@ import { FooterSection } from "../../components/sections/FooterSection";
 import { AttendAssociationSection } from "../page";
 
 export const metadata: Metadata = {
-  title: "Trade Bodies & Alliances | Attend | World AI Show: The Enterprise Edition | Mumbai 2027",
-  description: "Partner with the World AI Show Series in India. Industry councils, trade chambers, and professional AI bodies.",
+  title: "Association Partners | Attend | World AI Show: The Cybersecurity Edition | Bengaluru 2027",
+  description: "Partner with the World AI Show Series. Collaborate with industry councils, trade chambers, standards bodies and professional security communities.",
 };
 
 const subNav = ["Overview", "Delegate", "Sponsor", "Media Partner", "Association Partner"];

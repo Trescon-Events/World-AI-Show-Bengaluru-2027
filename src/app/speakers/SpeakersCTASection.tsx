@@ -29,29 +29,24 @@ export function SpeakersCTASection() {
 
       <div className="relative z-10 w-[min(1114px,calc(100%-48px))] mx-auto max-sm:w-[min(100%-32px,1114px)]">
         <div className="grid grid-cols-2 max-lg:grid-cols-1 gap-7 items-stretch">
-          {/* ── Card 1: Delegate Pass (Lime Accent Glass Card) ── */}
+          {/* Card 1: Delegate Pass */}
           <article className="group relative p-10 max-sm:p-7 rounded-[28px] border border-[#C0F43C]/35 bg-gradient-to-br from-[#0a1e2e]/90 via-[#051122]/95 to-[#030915]/98 backdrop-blur-xl shadow-[0_24px_64px_rgba(0,0,0,0.5),0_0_32px_rgba(192,244,60,0.08),inset_0_1px_0_rgba(255,255,255,0.12)] hover:border-[#C0F43C]/65 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between overflow-hidden">
-            {/* Top Glowing Accent Bar */}
             <div className="absolute top-0 left-10 right-10 h-[2px] bg-gradient-to-r from-transparent via-[#C0F43C] to-transparent opacity-85" />
             <div className="absolute -top-20 -right-20 w-52 h-52 rounded-full bg-[#C0F43C]/10 blur-3xl pointer-events-none" />
 
             <div>
-              {/* Title / Heading */}
               <h2 className="m-0 text-white font-[850] leading-[1.1] tracking-[-1.4px] text-[clamp(26px,3.1vw,38px)]">
                 Be in the room where{" "}
-                <GradientText>the operating model gets decided</GradientText>
+                <GradientText>enterprise cyber risk gets decided</GradientText>
               </h2>
-
-              {/* Description Subtitle */}
               <p className="m-0 mt-4 text-white/75 text-[15.5px] leading-[1.65]">
-                Delegate Pass — by invitation and qualification for senior enterprise technology, data, operations, and risk leaders.
+                Delegate Pass — by invitation and qualification for CISOs, CIOs, CTOs, CROs, and senior cybersecurity leaders.
               </p>
             </div>
 
-            {/* CTA Button */}
             <div className="mt-9 pt-6 border-t border-white/[0.08]">
               <a
-                href="/mumbai/enterprise/attend/delegate"
+                href="/bengaluru/cybersecurity/attend/delegate"
                 className="inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-full text-[15px] font-extrabold text-[#06111F] [color:#06111F!important] bg-[#C0F43C] shadow-[0_8px_24px_rgba(192,244,60,0.25)] hover:shadow-[0_12px_32px_rgba(192,244,60,0.45)] hover:-translate-y-0.5 transition-all duration-200 cursor-pointer max-sm:w-full"
               >
                 Apply for a Delegate Pass
@@ -68,29 +63,24 @@ export function SpeakersCTASection() {
             </div>
           </article>
 
-          {/* ── Card 2: Commercial Partnerships (Cyan Accent Glass Card) ── */}
+          {/* Card 2: Commercial Partnerships */}
           <article className="group relative p-10 max-sm:p-7 rounded-[28px] border border-[#18d4ff]/35 bg-gradient-to-br from-[#071c36]/90 via-[#051122]/95 to-[#030915]/98 backdrop-blur-xl shadow-[0_24px_64px_rgba(0,0,0,0.5),0_0_32px_rgba(24,212,255,0.08),inset_0_1px_0_rgba(255,255,255,0.12)] hover:border-[#18d4ff]/65 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between overflow-hidden">
-            {/* Top Glowing Accent Bar */}
             <div className="absolute top-0 left-10 right-10 h-[2px] bg-gradient-to-r from-transparent via-[#18d4ff] to-transparent opacity-85" />
             <div className="absolute -top-20 -right-20 w-52 h-52 rounded-full bg-[#18d4ff]/10 blur-3xl pointer-events-none" />
 
             <div>
-              {/* Title / Heading */}
               <h2 className="m-0 text-white font-[850] leading-[1.1] tracking-[-1.4px] text-[clamp(26px,3.1vw,38px)]">
                 Put your solutions in front of{" "}
-                <GradientText>the cross-functional buying unit</GradientText>
+                <GradientText>the security buying circle</GradientText>
               </h2>
-
-              {/* Description Subtitle */}
               <p className="m-0 mt-4 text-white/75 text-[15.5px] leading-[1.65]">
-                Commercial partnerships are structured around standalone stage sessions, standardized exhibition spaces, and curated closed-door CXO boardrooms.
+                Commercial partnerships are structured around standalone stage sessions, standardized exhibition spaces, and curated closed-door CISO boardrooms.
               </p>
             </div>
 
-            {/* CTA Button */}
             <div className="mt-9 pt-6 border-t border-white/[0.08]">
               <a
-                href="/mumbai/enterprise/sponsorship-enquiry"
+                href="/bengaluru/cybersecurity/sponsorship-enquiry"
                 className="inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-full text-[15px] font-extrabold text-[#06111F] [color:#06111F!important] bg-[#18d4ff] shadow-[0_8px_24px_rgba(24,212,255,0.25)] hover:shadow-[0_12px_32px_rgba(24,212,255,0.45)] hover:-translate-y-0.5 transition-all duration-200 cursor-pointer max-sm:w-full"
               >
                 Enquire about sponsorship

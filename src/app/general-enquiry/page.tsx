@@ -42,13 +42,13 @@ export default function GeneralEnquiryPage() {
 
             <div className="relative z-10 flex flex-col">
               <span className="text-[#C0F43C] text-[11px] font-extrabold uppercase tracking-[0.25em] mb-3">
-                General &amp; Delegate Enquiry · Mumbai 2027
+                General Enquiry · Bengaluru 2027
               </span>
               <h1 className="m-0 text-white font-[850] text-[clamp(28px,4vw,42px)] leading-tight tracking-[-1px] mb-4">
-                General <span className="text-[#18d4ff]">Enquiry</span>
+                General <span className="text-[#18d4ff]">Enquiries</span>
               </h1>
               <p className="m-0 text-white/70 text-[16px] leading-relaxed mb-9">
-                Have questions about passes or just attending World AI Show: The Enterprise Edition? Complete the form below and our team will respond promptly.
+                Questions about attending, venue access or the event programme? Get in touch with our team.
               </p>
 
               {/* Hubspot Form Embedded Container */}

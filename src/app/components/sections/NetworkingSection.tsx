@@ -5,40 +5,45 @@ import { GradientText } from "../Shared";
 
 const buyingUnitConstituencies = [
   {
-    title: "Enterprise technology leadership",
-    desc: "CIOs, CTOs, and Chief AI Officers setting enterprise platforms and deployment roadmaps.",
-    badge: "01 · TECHNOLOGY LEADERSHIP",
+    title: "Security Leadership",
+    desc: "CISOs, CSOs, heads of information security",
+    index: "01",
   },
   {
-    title: "Enterprise architecture & data",
-    desc: "CDOs and Chief Architects modernizing real-time data fabrics and cloud integration.",
-    badge: "02 · ARCHITECTURE & DATA",
+    title: "Technology Leadership",
+    desc: "CIOs, CTOs, CDOs, CROs, enterprise architects",
+    index: "02",
   },
   {
-    title: "Operations & transformation",
-    desc: "COOs and Business Heads establishing human-AI handoffs and productivity metrics.",
-    badge: "03 · OPERATIONS & TRANSFORMATION",
+    title: "Security Functions",
+    desc: "Heads of SOC, incident response, threat intelligence, cloud, AppSec, IAM, OT",
+    index: "03",
   },
   {
-    title: "Risk, security & compliance",
-    desc: "CISOs, GRC Heads, and Legal Counsel instituting guardrails, audit trails, and agent permissions.",
-    badge: "04 · RISK, SECURITY & COMPLIANCE",
+    title: "Risk & Governance",
+    desc: "GRC, privacy, data protection, audit, business continuity",
+    index: "04",
+  },
+  {
+    title: "Ecosystem",
+    desc: "Cyber GCC leaders, product founders, researchers, regulators",
+    index: "05",
   },
 ];
 
 const industries = [
-  ["Retail and Ecommerce", "retail.webp"],
+  ["Banking & Financial Services", "banking.webp"],
+  ["Insurance & Fintech", "banking.webp"],
+  ["Technology & IT Services", "retail.webp"],
+  ["Global Capability Centres", "manufacturing.webp"],
+  ["Manufacturing & Automotive", "manufacturing.webp"],
+  ["Energy & Utilities", "energy.webp"],
   ["Telecommunications", "telecomunication.webp"],
-  ["Supply Chain and Logistics", "logistic.webp"],
-  ["Government, Public Sector and Smart Cities", "Government.webp"],
-  ["Energy and Utilities", "energy.webp"],
-  ["Media and Entertainment", "Media.webp"],
-  ["Travel and Tourism", "Travel.webp"],
-  ["Education", "Education.webp"],
-  ["Banking, Financial Services and Insurance", "banking.webp"],
-  ["Manufacturing", "manufacturing.webp"],
-  ["Healthcare and Pharma", "health.webp"],
-  ["Agriculture", "Agriculture.webp"],
+  ["Healthcare & Life Sciences", "health.webp"],
+  ["Retail & E-commerce", "retail.webp"],
+  ["Logistics & Transportation", "logistic.webp"],
+  ["Government & Public Sector", "Government.webp"],
+  ["Critical Infrastructure", "energy.webp"],
 ] as const;
 
 const cLevelRoles = [
@@ -68,30 +73,36 @@ export function NetworkingSection() {
         <div className="flex flex-col items-center text-center">
           <div className="max-w-[780px] mb-12">
             <h2 className="font-[850] text-white leading-[1.06] tracking-[-1.8px] text-[clamp(34px,4.4vw,52px)] m-0">
-              The complete enterprise <GradientText>buying unit.</GradientText>
+              Who&apos;s in the <GradientText>Room</GradientText>
             </h2>
             <p className="mt-5 mb-0 text-muted text-[18px] leading-[1.55] max-sm:text-[16px]">
-              300+ qualified enterprise technology, data, operations, and risk leaders convening across 2 Days in Mumbai.
+              The complete security and risk leadership circle.
             </p>
           </div>
 
-          {/* 4 Buying Unit Constituencies Grid in 1 Row */}
-          <div className="w-full grid grid-cols-4 gap-5 max-[980px]:grid-cols-2 max-sm:grid-cols-1 text-left">
-            {buyingUnitConstituencies.map((item) => (
+          {/* 5 Buying Unit Constituencies Grid with Subtle Float/Glow Animation */}
+          <div className="w-full grid grid-cols-5 gap-4 max-[1100px]:grid-cols-3 max-[768px]:grid-cols-2 max-sm:grid-cols-1 text-left">
+            {buyingUnitConstituencies.map((item, idx) => (
               <article
                 key={item.title}
+                data-aos="fade-up"
+                data-aos-delay={idx * 100}
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
-                className="group flex flex-col justify-between min-h-[210px] p-6 rounded-[14px] border border-line bg-gradient-to-br from-[#00ceff]/8 to-[#c0f43c]/4 shadow-[inset_0_0_28px_rgba(65,220,255,0.06),0_20px_60px_rgba(0,0,0,0.22)] hover:-translate-y-0.5 hover:border-green/60 hover:shadow-[inset_0_0_28px_rgba(192,244,60,0.08),0_20px_60px_rgba(0,0,0,0.3)] transition-all duration-300"
+                className="group relative flex flex-col justify-between min-h-[210px] p-6 rounded-[16px] border border-[#18d4ff]/25 bg-gradient-to-br from-[#05142b]/90 to-[#020917]/95 shadow-[inset_0_0_24px_rgba(24,212,255,0.06),0_18px_45px_rgba(0,0,0,0.35)] hover:-translate-y-2 hover:border-[#C0F43C]/80 hover:shadow-[0_20px_40px_rgba(192,244,60,0.15),inset_0_0_28px_rgba(192,244,60,0.12)] transition-all duration-300 overflow-hidden"
               >
+                <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-bl from-[#18d4ff]/10 group-hover:from-[#C0F43C]/20 to-transparent rounded-bl-full pointer-events-none transition-all duration-300" />
                 <div>
-                  <span className="inline-block text-[11px] font-bold uppercase tracking-[1.8px] text-cyan mb-3">
-                    {item.badge}
-                  </span>
-                  <h3 className="text-white text-[20px] font-extrabold leading-[1.25] mb-2.5">
+                  <div className="flex items-center justify-between mb-3">
+                    <span className="inline-block text-[11px] font-mono font-bold tracking-[2px] text-[#00E5FF] group-hover:text-[#C0F43C] transition-colors">
+                      {item.index}
+                    </span>
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#18d4ff]/60 group-hover:bg-[#C0F43C] group-hover:scale-125 transition-all" />
+                  </div>
+                  <h3 className="text-white text-[19px] font-extrabold leading-[1.22] mb-2.5 group-hover:text-[#C0F43C] transition-colors">
                     {item.title}
                   </h3>
-                  <p className="text-muted text-[14.5px] leading-[1.55] m-0">
+                  <p className="text-white/70 text-[13.5px] leading-[1.55] m-0">
                     {item.desc}
                   </p>
                 </div>
@@ -115,7 +126,7 @@ export function NetworkingSection() {
               >
                 <span className="grid place-items-center w-10 h-10 shrink-0 border border-white/10 rounded-[8px] text-cyan bg-black/26 group-hover:border-green/30 transition-all duration-300">
                   <img
-                    src={`/mumbai/enterprise/icons/networking/${icon}`}
+                    src={`/bengaluru/cybersecurity/icons/networking/${icon}`}
                     alt=""
                     width={24}
                     height={24}
@@ -174,38 +185,19 @@ export function NetworkingSection() {
 
         {/* S8 · How to attend — Delegate Pass */}
         <div className="mt-20 pt-16 border-t border-white/10">
-          <div className="text-center mb-10">
-            <h3 className="text-white font-[850] text-[clamp(30px,3.8vw,44px)] leading-[1.08] tracking-[-1.2px]">
-              Structured access for <GradientText>enterprise buyers &amp; providers</GradientText>
-            </h3>
-          </div>
-
-          <div className="max-w-[760px] mx-auto">
-            {/* Delegate Pass */}
-            <div className="group relative flex flex-col items-center text-center justify-between p-8 rounded-[22px] border border-[#C0F43C]/35 bg-gradient-to-br from-[#C0F43C]/[0.09] via-[#041022] to-[#041022] shadow-[0_20px_50px_rgba(0,0,0,0.35)] overflow-hidden transition-all duration-300 hover:-translate-y-1.5 hover:border-[#C0F43C]/80 hover:shadow-[0_28px_70px_rgba(0,0,0,0.55),0_0_42px_rgba(192,244,60,0.14)]">
-              {/* Top glowing accent line */}
-              <div className="pointer-events-none absolute inset-x-10 top-0 h-[2px] bg-gradient-to-r from-transparent via-[#C0F43C]/50 to-transparent transition-all duration-500 group-hover:inset-x-4 group-hover:via-[#C0F43C] group-hover:shadow-[0_0_16px_#C0F43C]" />
-              {/* Ambient hover spotlight */}
-              <div className="pointer-events-none absolute -top-24 -right-24 w-64 h-64 rounded-full bg-[#C0F43C]/10 blur-[60px] opacity-40 transition-all duration-500 group-hover:opacity-100 group-hover:scale-125" />
-
-              <div className="relative z-10 max-w-[640px]">
-                <h4 className="text-white font-extrabold text-[24px] leading-[1.2] mb-3 transition-colors duration-300 group-hover:text-[#f5ffe0]">
-                  Delegate Pass — Only by Invitation and qualification
-                </h4>
-                <p className="text-muted text-[16px] leading-[1.6] mb-6 transition-colors duration-300 group-hover:text-white/85">
-                  Senior enterprise technology, data, operations, and risk leaders attend by invitation, subject to qualification based on an active mandate to deploy enterprise AI.
-                </p>
-              </div>
-              <div className="relative z-10">
-                <a
-                  href="/mumbai/enterprise/attend/delegate"
-                  className="inline-flex items-center justify-center gap-2.5 h-[50px] px-7 rounded-full font-extrabold text-[15px] text-[#06111F] [color:#06111F!important] bg-[#C0F43C] transition-all duration-300 group-hover:bg-[#cdfb50] group-hover:shadow-[0_0_28px_rgba(192,244,60,0.45)] hover:scale-[1.02]"
-                >
-                  Apply for a Delegate Pass
-                  <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
-                </a>
-              </div>
-            </div>
+          <div className="max-w-[760px] mx-auto text-center flex flex-wrap gap-4 justify-center">
+            <a
+              href="/bengaluru/cybersecurity/#enquire-sponsorship"
+              className="inline-flex items-center justify-center gap-2 h-[50px] px-8 rounded-full font-extrabold text-[15px] text-white bg-[#F15928] hover:bg-[#ff6938] shadow-[0_4px_18px_rgba(241,89,40,0.35)] transition-all hover:scale-[1.02]"
+            >
+              Enquire About Sponsorship →
+            </a>
+            <a
+              href="/bengaluru/cybersecurity/#delegate-access"
+              className="inline-flex items-center justify-center gap-2 h-[50px] px-8 rounded-full font-extrabold text-[15px] text-[#06111F] [color:#06111F!important] bg-[#C0F43C] transition-all duration-300 hover:scale-[1.02]"
+            >
+              Request Delegate Access →
+            </a>
           </div>
         </div>
       </div>

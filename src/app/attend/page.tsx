@@ -2,14 +2,13 @@ import type { Metadata } from "next";
 import { FooterSection } from "../components/sections/FooterSection";
 import { Header } from "../components/sections/Header";
 import { AttendStats } from "./AttendStats";
-import { TierGroupedPartnershipsGrid } from "../partners/PartnerShowcase";
 import { GradientText } from "../components/Shared";
 import type { ReactNode } from "react";
 
 export const metadata: Metadata = {
-  title: "Attend | World AI Show: The Enterprise Edition | Mumbai 2027",
+  title: "Attend | World AI Show: The Cybersecurity Edition | Bengaluru 2027",
   description:
-    "How to attend World AI Show: The Enterprise Edition | Mumbai 2027 (20–21 April 2027). Explore the Delegate Pass (complimentary, by invitation and qualification), Business Pass, and Commercial Sponsorship packages.",
+    "Where AI security becomes enterprise strategy. A two-day, CISO-led summit bringing together 300+ CISOs, CIOs, CTOs, CROs and senior risk and technology leaders to secure AI adoption, modernise cyber defence and build resilience across the enterprise.",
 };
 
 const subNav = ["Overview", "Delegate", "Sponsor", "Media Partner", "Association Partner"];
@@ -22,197 +21,197 @@ type CardItem = {
 
 const valueCards: CardItem[] = [
   {
-    title: "Where AI Becomes the Operating Model",
-    text: "A two-day executive conference for 300+ CIOs, CTOs, Chief AI Officers, CDOs, CISOs, COOs, and enterprise transformation leaders turning AI pilots into governed, measurable enterprise performance.",
-    icon: "/mumbai/enterprise/images/Attend/enterprise-ai-in-action.svg",
+    title: "Securing the AI-powered enterprise",
+    text: "AI is both a new source of cyber risk and a capability that strengthens defence. We keep the two connected, from model and agent security to AI-assisted SOC operations.",
+    icon: "/bengaluru/cybersecurity/images/Attend/enterprise-ai-in-action.svg",
   },
   {
-    title: "The Complete Enterprise Buying Unit",
-    text: "Modern enterprise buying groups average 39 decision-makers (Foundry, 2026). Connect across technology leadership, enterprise architecture & data, operations & transformation, and risk, security & compliance.",
-    icon: "/mumbai/enterprise/images/Attend/region-ai-decision-makers.svg",
+    title: "The complete security and risk circle",
+    text: "CISOs sit at the centre, with CIOs, CTOs, CROs, data, infrastructure and business-continuity leaders in the same conversation. Cyber risk is an enterprise decision, not an IT control function.",
+    icon: "/bengaluru/cybersecurity/images/Attend/region-ai-decision-makers.svg",
   },
   {
-    title: "5 Master Content Pillars & Business Value",
-    text: "Auditing the pre-AI operational baseline, expanded productivity KPIs, integration overheads, and governance frameworks to drive verified enterprise business value.",
-    icon: "/mumbai/enterprise/images/Attend/insights-drive-transformation.svg",
+    title: "Practitioners over products",
+    text: "Implementation choices, risk trade-offs and lessons learned from enterprise operators. Partner sessions address a defined security challenge and are backed by implementation evidence.",
+    icon: "/bengaluru/cybersecurity/images/Attend/insights-drive-transformation.svg",
   },
 ];
 
 const gatewayCards: CardItem[] = [
   {
     title: "2-Day Plenary Access",
-    text: "Full access across 2 Days (20–21 April 2027) of opening keynotes, cross-functional panels, deployment case studies, and fireside dialogues.",
-    icon: "/mumbai/enterprise/images/Attend/gateway/access-to-all-sessions.svg",
+    text: "Full access across 20–21 July 2027 to keynotes, cross-functional panels, practitioner case studies and fireside conversations.",
+    icon: "/bengaluru/cybersecurity/images/Attend/gateway/access-to-all-sessions.svg",
   },
   {
-    title: "Production Case Studies & ROI Insights",
-    text: "Examine real enterprise deployments on stage — including pre-AI baselines, workflow redesign trade-offs, and verified business outcomes.",
-    icon: "/mumbai/enterprise/images/Attend/gateway/high-value-networking.svg",
+    title: "Practitioner Case Studies",
+    text: "Hear how enterprise security teams made implementation decisions: what they chose, what they traded off and what they would do differently.",
+    icon: "/bengaluru/cybersecurity/images/Attend/gateway/high-value-networking.svg",
   },
   {
-    title: "Executive Networking Lounges",
-    text: "Dedicated VIP lounges and structured networking environments reserved for invited enterprise CXOs and transformation heads.",
-    icon: "/mumbai/enterprise/images/Attend/gateway/enterprise-ai-showcases.svg",
+    title: "Securing AI, Defending with AI",
+    text: "Understand how AI changes both the threat landscape and the security operating model.",
+    icon: "/bengaluru/cybersecurity/images/Attend/gateway/enterprise-ai-showcases.svg",
   },
   {
-    title: "Target Audience Qualification",
-    text: "Curated exclusively for CIOs, CAIOs, CTOs, CDOs, CISOs, COOs, and Transformation Heads holding an active mandate to deploy enterprise AI.",
-    icon: "/mumbai/enterprise/images/Attend/gateway/speaker-materials-and-insights.svg",
+    title: "Peer Perspectives on Resilience",
+    text: "Exchange practical views on threat response, cloud and identity protection, third-party risk and continuity with CISOs from comparable organisations.",
+    icon: "/bengaluru/cybersecurity/images/Attend/gateway/speaker-materials-and-insights.svg",
+  },
+  {
+    title: "Executive Networking",
+    text: "Structured networking reserved for invited delegates across security, technology and risk.",
+    icon: "/bengaluru/cybersecurity/images/Attend/gateway/curated-roundtable-discussions.svg",
   },
   {
     title: "Curated Executive Roundtables",
-    text: "Opportunity to join closed-door, 15-CXO peer roundtables examining pilot-to-production architecture, data sovereignty, and agentic governance.",
-    icon: "/mumbai/enterprise/images/Attend/gateway/curated-roundtable-discussions.svg",
+    text: "Closed-door, peer-only discussions on a defined security challenge.",
+    icon: "/bengaluru/cybersecurity/images/Attend/gateway/networking-lunch-and-business-meetings.svg",
   },
   {
     title: "Pre-Scheduled 1-on-1 Meetings",
-    text: "Algorithmic AI matchmaking connecting enterprise buyers with vetted solution providers in focused 20-minute meetings.",
-    icon: "/mumbai/enterprise/images/Attend/gateway/networking-lunch-and-business-meetings.svg",
+    text: "Matchmaking-assisted meetings with fellow delegates and vetted solution providers.",
+    icon: "/bengaluru/cybersecurity/images/Attend/gateway/exclusive-vip-networking-experiences.svg",
   },
   {
-    title: "Exhibition Arena Access",
-    text: "Explore standardized 9 sqm and 12 sqm enterprise technology showcases demonstrating production-ready platforms.",
-    icon: "/mumbai/enterprise/images/Attend/gateway/exclusive-vip-networking-experiences.svg",
-  },
-  {
-    title: "Unbundled Data Privacy Control",
-    text: "Mandatory separate unbundled consent checkboxes for name/title and contact details — delegate contact details are shared only where consented.",
-    icon: "/mumbai/enterprise/images/Attend/gateway/event-platform-access.svg",
+    title: "India's Cyber Ecosystem Access",
+    text: "Explore Indian cyber GCCs, product innovation and specialist talent.",
+    icon: "/bengaluru/cybersecurity/images/Attend/gateway/event-platform-access.svg",
   },
 ];
 
 const sponsorBenefits: CardItem[] = [
   {
-    title: "Lead Partner (1 Position)",
-    text: "30-Min Keynote + 1 Panel + 12 sqm Booth + CXO Boardroom. Exclusive premier positioning for Mumbai 2027.",
-    icon: "/mumbai/enterprise/images/Attend/sponsor/brand-visibility-at-scale.webp",
+    title: "Brand Visibility at Scale",
+    text: "Presence across the venue, website, event app, digital screens, campaigns and attendee communications.",
+    icon: "/bengaluru/cybersecurity/images/Attend/sponsor/brand-visibility-at-scale.webp",
   },
   {
-    title: "Platinum Partner",
-    text: "30-Min Standalone Session + 9 sqm Booth. High-impact main-stage thought leadership paired with a standardized 9 sqm exhibition space.",
-    icon: "/mumbai/enterprise/images/Attend/sponsor/speaking-opportunities.webp",
+    title: "Qualified Lead Generation",
+    text: "Connect with pre-qualified CISOs, security leaders and technology and risk decision-makers.",
+    icon: "/bengaluru/cybersecurity/images/Attend/sponsor/speaking-opportunities.webp",
   },
   {
-    title: "Gold Partner",
-    text: "30-Min Standalone Session + 9 sqm Booth. Dedicated 30-minute stage session and 9 sqm standard exhibition footprint.",
-    icon: "/mumbai/enterprise/images/Attend/sponsor/product-showcase-floor.webp",
+    title: "Thought Leadership on Stage",
+    text: "Present a defined enterprise security challenge, with an enterprise use case, deployment model and measurable outcome.",
+    icon: "/bengaluru/cybersecurity/images/Attend/sponsor/product-showcase-floor.webp",
   },
   {
-    title: "Silver Partner",
-    text: "1 Panel Seat + 9 sqm Booth. Executive panel participation across the five content pillars plus a 9 sqm standard booth.",
-    icon: "/mumbai/enterprise/images/Attend/sponsor/qualified-lead-generation.webp",
+    title: "Partner Showcase",
+    text: "Explain your capability through the problem it addresses, integration requirements and outcomes.",
+    icon: "/bengaluru/cybersecurity/images/Attend/sponsor/qualified-lead-generation.webp",
   },
   {
-    title: "Bronze Partner",
-    text: "9 sqm Standard Turnkey Floor Presence. Standardized 9 sqm exhibition space in the main networking and showcase arena.",
-    icon: "/mumbai/enterprise/images/Attend/sponsor/exclusive-sponsorship-branding.webp",
+    title: "1:1 Hosted Meetings",
+    text: "Curated meetings aligned to your ideal customer profile and target accounts.",
+    icon: "/bengaluru/cybersecurity/images/Attend/sponsor/exclusive-sponsorship-branding.webp",
   },
   {
-    title: "CXO Boardroom Partner (Standalone)",
-    text: "15 Pre-Qualified CXOs, 5-Min Opening Address inside room. Closed-door executive roundtable built for high-trust peer dialogue.",
-    icon: "/mumbai/enterprise/images/Attend/sponsor/hosted-meetings.webp",
+    title: "Closed-Door CISO Boardrooms",
+    text: "Host a focused, invitation-only conversation with security leaders from your target accounts.",
+    icon: "/bengaluru/cybersecurity/images/Attend/sponsor/hosted-meetings.webp",
   },
   {
-    title: "Algorithmic 1-on-1 Matchmaking",
-    text: "Pre-scheduled 20-minute 1-on-1 meetings with qualified members of the 39-person enterprise buying unit.",
-    icon: "/mumbai/enterprise/images/Attend/sponsor/networking-lunch-branding.webp",
+    title: "Exclusive Sponsorship Branding",
+    text: "Tailored visibility aligned to one of the four content pillars.",
+    icon: "/bengaluru/cybersecurity/images/Attend/sponsor/networking-lunch-branding.webp",
   },
   {
-    title: "Consent-Governed Lead Sharing",
-    text: "Compliant post-event executive engagement insights; delegate contact details are shared strictly where consented.",
-    icon: "/mumbai/enterprise/images/Attend/sponsor/post-event-lead-report.webp",
+    title: "Post-Event Lead Report",
+    text: "Engagement, interaction and performance insights after the event.",
+    icon: "/bengaluru/cybersecurity/images/Attend/sponsor/post-event-lead-report.webp",
   },
 ];
 
 const mediaBenefits: CardItem[] = [
   {
     title: "Press Credentials & Plenary Access",
-    text: "Full media accreditation across both days of main-stage keynotes, panels, deployment case studies, and fireside dialogues.",
-    icon: "/mumbai/enterprise/images/Attend/media/full-event-access.webp",
+    text: "Full media accreditation across both days of keynotes, panels, case studies and fireside conversations.",
+    icon: "/bengaluru/cybersecurity/images/Attend/media/full-event-access.webp",
   },
   {
-    title: "Executive Interview Room Access",
-    text: "Dedicated press workspace and private interview rooms for 1-on-1 briefings with CIOs, CAIOs, CTOs, and global speakers.",
-    icon: "/mumbai/enterprise/images/Attend/media/dedicated-media-facilities.webp",
+    title: "Executive Interview Access",
+    text: "Dedicated press workspace and 1-on-1 briefings with CISOs, CIOs, CROs and speakers.",
+    icon: "/bengaluru/cybersecurity/images/Attend/media/dedicated-media-facilities.webp",
   },
   {
     title: "Editorial Distribution & Amplification",
-    text: "Syndicate official research citations, India Series launch announcements, and enterprise AI insights to your readership.",
-    icon: "/mumbai/enterprise/images/Attend/media/speaker-interview-access.webp",
+    text: "Syndicate official research citations and event insights to your readership.",
+    icon: "/bengaluru/cybersecurity/images/Attend/media/speaker-interview-access.webp",
   },
   {
     title: "Official Press & Research Kit",
-    text: "Receive embargoed releases, speaker biographies, and verified research briefs ahead of Mumbai Edition 1.",
-    icon: "/mumbai/enterprise/images/Attend/media/official-media-kit.webp",
+    text: "Embargoed releases, speaker biographies and research briefs ahead of the event.",
+    icon: "/bengaluru/cybersecurity/images/Attend/media/official-media-kit.webp",
   },
   {
     title: "Brand & Media Recognition",
-    text: "Featured placement in the Supporting Media & Association Alliances showcase across the website and venue.",
-    icon: "/mumbai/enterprise/images/Attend/media/amplified-media-visibility.webp",
+    text: "Featured placement in the Supporting Media showcase across the website and venue.",
+    icon: "/bengaluru/cybersecurity/images/Attend/media/amplified-media-visibility.webp",
   },
   {
-    title: "India Series Launch Coverage",
-    text: "First-mover editorial access to Edition 1 of the World AI Show Series in India ahead of the regional chapters and Q4 Finale.",
-    icon: "/mumbai/enterprise/images/Attend/media/brand-and-media-recognition.webp",
+    title: "India Series Coverage",
+    text: "Editorial access to the Cybersecurity Edition within the World AI Show Series in India.",
+    icon: "/bengaluru/cybersecurity/images/Attend/media/brand-and-media-recognition.webp",
   },
   {
     title: "Exclusive Story Opportunities",
-    text: "Capture real deployment baselines, productivity KPIs, and operational transformation stories directly from enterprise leaders.",
-    icon: "/mumbai/enterprise/images/Attend/media/exclusive-story-opportunities.webp",
+    text: "Capture implementation stories, resilience lessons and operating-model change from enterprise leaders.",
+    icon: "/bengaluru/cybersecurity/images/Attend/media/exclusive-story-opportunities.webp",
   },
   {
     title: "Executive Networking Access",
-    text: "Connect directly with 300+ qualified CXOs and 45+ speakers and panellists in Mumbai.",
-    icon: "/mumbai/enterprise/images/Attend/media/networking-access.webp",
+    text: "Connect with senior delegates and speakers in Bengaluru.",
+    icon: "/bengaluru/cybersecurity/images/Attend/media/networking-access.webp",
   },
 ];
 
 const associationBenefits: CardItem[] = [
   {
-    title: "Industry Councils & Trade Chambers",
-    text: "Official alliance recognition for industry councils, trade chambers, and professional AI bodies across the India Series.",
-    icon: "/mumbai/enterprise/images/Attend/partner/co-branding-opportunities.webp",
+    title: "Industry & Association Recognition",
+    text: "Official supporting alliance status across the event and website.",
+    icon: "/bengaluru/cybersecurity/images/Attend/partner/co-branding-opportunities.webp",
   },
   {
     title: "Member Qualification Pathway",
-    text: "Priority nomination pathway for senior enterprise CIO, CAIO, CTO, CDO, CISO, and COO members to apply for Delegate Passes.",
-    icon: "/mumbai/enterprise/images/Attend/partner/complimentary-delegate-passes.webp",
+    text: "Priority nomination route for senior CISO, CIO, CTO and CRO members to apply for Delegate Passes.",
+    icon: "/bengaluru/cybersecurity/images/Attend/partner/complimentary-delegate-passes.webp",
   },
   {
     title: "Co-Branded Ecosystem Outreach",
-    text: "Joint executive communications, thought-leadership briefings, and visibility across the World AI Show Series in India.",
-    icon: "/mumbai/enterprise/images/Attend/partner/joint-marketing-campaigns.webp",
+    text: "Joint executive communications and thought-leadership briefings.",
+    icon: "/bengaluru/cybersecurity/images/Attend/partner/joint-marketing-campaigns.webp",
   },
   {
     title: "Digital & Social Amplification",
-    text: "Collaborative promotion across Trescon's global executive network and official World AI Show channels.",
-    icon: "/mumbai/enterprise/images/Attend/partner/social-media-amplification.webp",
+    text: "Collaborative promotion across Trescon's executive network and World AI Show channels.",
+    icon: "/bengaluru/cybersecurity/images/Attend/partner/social-media-amplification.webp",
   },
   {
-    title: "Steering & Faculty Nominations",
-    text: "Nominate qualified enterprise practitioners with live production evidence for main-stage panels and roundtables.",
-    icon: "/mumbai/enterprise/images/Attend/partner/speaking-opportunities.webp",
+    title: "Faculty Nominations",
+    text: "Nominate practitioners with direct responsibility for security strategy, risk or incident response.",
+    icon: "/bengaluru/cybersecurity/images/Attend/partner/speaking-opportunities.webp",
   },
   {
     title: "VIP Networking Access",
-    text: "Connect association leadership with 300+ qualified enterprise CXOs and technology pioneers in Mumbai.",
-    icon: "/mumbai/enterprise/images/Attend/partner/networking-access.webp",
+    text: "Connect association leadership with senior security and technology delegates.",
+    icon: "/bengaluru/cybersecurity/images/Attend/partner/networking-access.webp",
   },
   {
-    title: "Post-Conference Playbook",
-    text: "Share post-event executive synthesis and operational frameworks from the 5 Content Pillars with your members.",
-    icon: "/mumbai/enterprise/images/Attend/partner/access-to-post-event-insights.webp",
+    title: "Post-Conference Synthesis",
+    text: "Share the event's executive takeaways across the four pillars with your members.",
+    icon: "/bengaluru/cybersecurity/images/Attend/partner/access-to-post-event-insights.webp",
   },
   {
-    title: "Year-Round India Series Alliance",
-    text: "Extend collaboration from Edition 1 in Mumbai across the Q2–Q3 Regional Chapters to the Q4 Series Finale.",
-    icon: "/mumbai/enterprise/images/Attend/partner/long-term-partnership-opportunities.webp",
+    title: "Series Alliance",
+    text: "Extend collaboration across the World AI Show Series in India.",
+    icon: "/bengaluru/cybersecurity/images/Attend/partner/long-term-partnership-opportunities.webp",
   },
 ];
 
 export function ArrowButton({
   children,
-  href = "/mumbai/enterprise/sponsorship-enquiry",
+  href = "/bengaluru/cybersecurity/sponsorship-enquiry",
   variant = "solid",
 }: {
   children: ReactNode;
@@ -323,9 +322,9 @@ export function SplitSection({
           <h2 className="m-0 text-white font-[850] leading-[1.05] tracking-[-1.8px] text-[clamp(42px,5vw,62px)] max-sm:text-[38px] max-sm:tracking-[-1px]">
             {title}
           </h2>
-          <p className="mt-6 mb-9 text-white/66 text-[19px] leading-relaxed max-sm:text-base">
+          <div className="mt-6 mb-9 text-white/66 text-[19px] leading-relaxed max-sm:text-base">
             {text}
-          </p>
+          </div>
           <div className="flex">
             <ArrowButton href={buttonHref || `#${id}`}>{button}</ArrowButton>
           </div>
@@ -344,30 +343,31 @@ export function SplitSection({
   );
 }
 
-/* ================= RESIZED FIGMA BOTTOM CTA SECTION ================= */
+/* ================= BOTTOM CTA SECTION ================= */
 export function AttendCTASection() {
   return (
-    <section className="py-[86px] pt-[86px] bg-gradient-to-b from-transparent to-[#020a2c]/18 max-sm:py-[62px]">
-      <div className="w-[min(980px,calc(100%-48px))] mx-auto p-[66px_48px] border border-[#c0f43c]/35 rounded-[36px] text-center bg-[#050c1c]/82 shadow-[0_0_60px_rgba(192,244,60,0.12),inset_0_0_34px_rgba(0,206,255,0.03)] max-sm:p-[42px_22px] max-sm:w-[min(100%-28px,1120px)] relative overflow-hidden">
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] bg-[radial-gradient(circle,rgba(192,244,60,0.04),transparent_70%)] pointer-events-none" />
-        <div className="absolute top-0 left-0 right-0 h-[1px] bg-[#2E3C4D]/45" />
+    <section id="cta" className="py-[86px] pt-[86px] bg-[#020814] max-sm:py-[62px]">
+      <div className="w-[min(980px,calc(100%-48px))] mx-auto p-[66px_48px] border border-[#18d4ff]/35 rounded-[36px] text-center bg-gradient-to-br from-[#061426] via-[#040e1d] to-[#020814] shadow-[0_24px_64px_rgba(0,0,0,0.6),0_0_32px_rgba(24,212,255,0.08),inset_0_1px_0_rgba(255,255,255,0.12)] max-sm:p-[42px_22px] max-sm:w-[min(100%-28px,1120px)] relative overflow-hidden">
+        <div className="absolute top-0 left-10 right-10 h-[2px] bg-gradient-to-r from-transparent via-[#18d4ff] to-transparent opacity-85" />
+        <div className="absolute -top-20 -right-20 w-52 h-52 rounded-full bg-[#18d4ff]/10 blur-3xl pointer-events-none" />
+        <div className="absolute -bottom-20 -left-20 w-52 h-52 rounded-full bg-[#C0F43C]/10 blur-3xl pointer-events-none" />
 
         <div className="relative z-10">
-          <h2 className="max-w-[760px] mx-auto mb-8 text-[#f7f9ff] font-[850] leading-[1.08] tracking-[-1.8px] text-[clamp(36px,5vw,56px)] max-sm:text-[32px] max-sm:tracking-[-1px]">
-            Be in the room where <span className="bg-gradient-to-r from-[#C0F43C] to-[#18d4ff] bg-clip-text text-transparent">the operating model</span> gets decided.
+          <h2 className="max-w-[760px] mx-auto mb-8 text-white !text-white [color:#FFFFFF!important] font-[850] leading-[1.08] tracking-[-1.8px] text-[clamp(36px,5vw,56px)] max-sm:text-[32px] max-sm:tracking-[-1px]">
+            Be in the room where <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00CEFF] to-[#C0F43C]">enterprise cyber risk</span> gets decided.
           </h2>
 
           <div className="flex flex-wrap justify-center items-center gap-4 mt-8 mb-12 max-sm:flex-col max-sm:w-full">
             <a
-              href="/mumbai/enterprise/attend/delegate"
-              className="inline-flex items-center justify-center gap-2 min-w-[178px] h-[49px] px-[32px] py-[15px] rounded-full text-[15px] font-extrabold text-[#06111f] [color:#06111f!important] bg-[#C0F43C] shadow-[0_8px_24px_rgba(192,244,60,0.25)] hover:shadow-[0_12px_32px_rgba(192,244,60,0.4)] hover:scale-[1.03] transition-all duration-200 cursor-pointer max-sm:w-full"
+              href="/bengaluru/cybersecurity/attend/delegate"
+              className="inline-flex items-center justify-center gap-2 min-w-[178px] h-[52px] px-[34px] py-[15px] rounded-full text-[15px] font-extrabold text-[#06111f] [color:#06111f!important] bg-[#C0F43C] shadow-[0_8px_24px_rgba(192,244,60,0.25)] hover:shadow-[0_12px_32px_rgba(192,244,60,0.45)] hover:scale-[1.03] transition-all duration-200 cursor-pointer max-sm:w-full"
             >
               Apply for a Delegate Pass
               <span className="text-[16px] font-bold">→</span>
             </a>
             <a
-              href="/mumbai/enterprise/sponsorship-enquiry"
-              className="inline-flex items-center justify-center min-w-[178px] h-[49px] px-[32px] py-[15px] rounded-full text-[15px] font-extrabold text-white bg-transparent border border-white/20 hover:border-white/40 hover:bg-white/5 hover:scale-[1.03] transition-all duration-200 cursor-pointer max-sm:w-full"
+              href="/bengaluru/cybersecurity/sponsorship-enquiry"
+              className="inline-flex items-center justify-center min-w-[178px] h-[52px] px-[34px] py-[15px] rounded-full text-[15px] font-extrabold text-white !text-white [color:#FFFFFF!important] bg-white/5 border border-white/25 hover:border-[#18d4ff] hover:bg-[#18d4ff]/10 hover:scale-[1.03] transition-all duration-200 cursor-pointer max-sm:w-full"
             >
               Enquire about sponsorship
             </a>
@@ -377,28 +377,28 @@ export function AttendCTASection() {
 
           <div className="grid grid-cols-3 w-full gap-8 max-sm:grid-cols-1 max-sm:gap-4 text-center">
             <div className="flex flex-col items-center">
-              <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-white/50 mb-2">
+              <span className="text-[12px] font-extrabold uppercase tracking-[0.2em] text-[#00E5FF] !text-[#00E5FF] [color:#00E5FF!important] mb-2 font-mono">
                 Date
               </span>
-              <strong className="text-[17px] font-extrabold text-white tracking-wide">
-                20–21 April 2027 · 2 Days
+              <strong className="text-[17px] font-extrabold text-white !text-white [color:#FFFFFF!important] tracking-wide">
+                20–21 July 2027 · 2 Days
               </strong>
             </div>
 
             <div className="flex flex-col items-center border-l border-white/10 max-sm:border-l-0 max-sm:border-t max-sm:pt-4 max-sm:mt-1">
-              <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-white/50 mb-2">
+              <span className="text-[12px] font-extrabold uppercase tracking-[0.2em] text-[#00E5FF] !text-[#00E5FF] [color:#00E5FF!important] mb-2 font-mono">
                 Location
               </span>
-              <strong className="text-[17px] font-extrabold text-white tracking-wide text-center">
-                Mumbai, India
+              <strong className="text-[17px] font-extrabold text-white !text-white [color:#FFFFFF!important] tracking-wide text-center">
+                Bengaluru, India
               </strong>
             </div>
 
             <div className="flex flex-col items-center border-l border-white/10 max-sm:border-l-0 max-sm:border-t max-sm:pt-4 max-sm:mt-1">
-              <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-white/50 mb-2">
+              <span className="text-[12px] font-extrabold uppercase tracking-[0.2em] text-[#00E5FF] !text-[#00E5FF] [color:#00E5FF!important] mb-2 font-mono">
                 Organiser
               </span>
-              <strong className="text-[17px] font-extrabold text-white tracking-wide">
+              <strong className="text-[17px] font-extrabold text-white !text-white [color:#FFFFFF!important] tracking-wide">
                 Organised by Trescon
               </strong>
             </div>
@@ -420,7 +420,7 @@ export function AttendOverviewSection() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat -scale-x-100 pointer-events-none z-0"
           style={{
-            backgroundImage: 'url("/mumbai/enterprise/images/Attend/Mumbai-attend-overview.jpg")',
+            backgroundImage: 'url("/bengaluru/cybersecurity/images/Attend/Mumbai-attend-overview.jpg")',
           }}
         />
         <div
@@ -433,23 +433,23 @@ export function AttendOverviewSection() {
         <div className="heroBackdrop absolute bottom-0 right-[-3%] w-[58%] h-[84%] opacity-0 pointer-events-none" />
         <div className="relative z-10 max-w-[820px]">
           <h1 className="m-0 text-[#f7f9ff] font-[850] leading-[1.05] tracking-[-1.8px] text-[clamp(48px,6vw,76px)] max-sm:text-[42px]">
-            Where AI becomes <GradientText>the operating model.</GradientText>
+            Where AI security becomes <GradientText>enterprise strategy.</GradientText>
           </h1>
           <p className="max-w-[730px] mt-[26px] mb-0 text-white/88 text-[20px] leading-normal max-sm:text-[17px]">
-            This is a two-day executive conference featuring 300+ CIOs, CTOs, Chief AI Officers, CDOs, CISOs, COOs, and enterprise transformation leaders turning AI pilots into governed, measurable enterprise performance.
+            A two-day, CISO-led summit bringing together 300+ CISOs, CIOs, CTOs, CROs and senior risk and technology leaders to secure AI adoption, modernise cyber defence and build resilience across the enterprise.
           </p>
           <div className="flex flex-wrap gap-3.5 mt-10 max-sm:flex-col max-sm:items-start max-sm:gap-4">
-            <ArrowButton href="/mumbai/enterprise/attend/delegate" variant="solid">
+            <ArrowButton href="/bengaluru/cybersecurity/attend/delegate" variant="solid">
               Apply for a Delegate Pass
             </ArrowButton>
-            <ArrowButton href="/mumbai/enterprise/sponsorship-enquiry" variant="outline">
+            <ArrowButton href="/bengaluru/cybersecurity/sponsorship-enquiry" variant="outline">
               Enquire about sponsorship
             </ArrowButton>
           </div>
         </div>
       </section>
 
-      {/* Stats Section (Moved directly under the hero) */}
+      {/* Stats Section */}
       <section className="py-[86px] pt-[74px] bg-gradient-to-b from-[#020c21] to-[#031127] text-center max-sm:py-[62px]">
         <div className="w-[min(1120px,calc(100%-48px))] mx-auto">
           <h2 className="max-w-[820px] mx-auto text-white font-[850] leading-[1.05] tracking-[-1.8px] text-[clamp(40px,5vw,60px)] max-sm:text-[38px] max-sm:tracking-[-1px]">
@@ -459,7 +459,7 @@ export function AttendOverviewSection() {
         </div>
       </section>
 
-      {/* Two-Door Pass Matrix Section (Section 08: /mumbai/enterprise/attend/) */}
+      {/* Access Pathway Section */}
       <section className="py-[86px] bg-[#020c21] max-sm:py-[62px]" id="pass-matrix">
         <div className="w-[min(1120px,calc(100%-48px))] mx-auto">
           <div className="text-center mb-12">
@@ -469,23 +469,22 @@ export function AttendOverviewSection() {
           </div>
 
           <div className="max-w-[760px] mx-auto">
-            {/* Door 1 */}
             <div className="flex flex-col justify-between p-9 rounded-[24px] border border-[#C0F43C]/45 bg-gradient-to-br from-[#C0F43C]/10 via-[#041022] to-[#041022] shadow-[0_20px_50px_rgba(0,0,0,0.35)]">
               <div>
                 <h3 className="text-white font-extrabold text-[26px] leading-[1.2] mb-3">
-                  Delegate Pass — Only by Invitation and qualification
+                  Delegate Pass: Only by Invitation and Qualification
                 </h3>
                 <p className="text-white/80 text-[16px] leading-[1.6] mb-5">
-                  For enterprise technology, operations, and risk leaders. Senior enterprise technology, data, operations, and risk leaders attend by invitation, subject to qualification based on an active mandate to deploy enterprise AI.
+                  For senior security, technology and risk leaders. Passes are issued by invitation, subject to qualification based on active security or risk responsibility.
                 </p>
                 <ul className="space-y-2.5 mb-8 text-white/75 text-[15px] list-none p-0">
-                  <li className="flex items-start gap-2.5"><span className="text-[#C0F43C] font-bold">✓</span> Target Audience: CIOs, CAIOs, CTOs, CDOs, CISOs, COOs, Transformation Heads</li>
-                  <li className="flex items-start gap-2.5"><span className="text-[#C0F43C] font-bold">✓</span> Inclusions: 2-day plenary access, executive case studies, networking lounges</li>
-                  <li className="flex items-start gap-2.5"><span className="text-[#C0F43C] font-bold">✓</span> Privacy: Mandatory separate unbundled consent checkboxes for name/title and contact details</li>
+                  <li className="flex items-start gap-2.5"><span className="text-[#C0F43C] font-bold">✓</span> <strong>Target audience:</strong> CISOs, CSOs, CIOs, CTOs, CROs, CDOs, heads of SOC, GRC and resilience</li>
+                  <li className="flex items-start gap-2.5"><span className="text-[#C0F43C] font-bold">✓</span> <strong>Inclusions:</strong> 2-day plenary access, practitioner case studies, executive networking</li>
+                  <li className="flex items-start gap-2.5"><span className="text-[#C0F43C] font-bold">✓</span> <strong>Privacy:</strong> Separate, unbundled consent for name/title and contact details</li>
                 </ul>
               </div>
               <div>
-                <ArrowButton href="/mumbai/enterprise/attend/delegate" variant="solid">
+                <ArrowButton href="/bengaluru/cybersecurity/attend/delegate" variant="solid">
                   Apply for a Delegate Pass
                 </ArrowButton>
               </div>
@@ -494,16 +493,16 @@ export function AttendOverviewSection() {
         </div>
       </section>
 
-      {/* Video & Value Section */}
+      {/* Video & Focus Areas Section */}
       <section className="py-[86px] bg-gradient-to-b from-[#031127] to-[#020b1c] text-center max-sm:py-[62px]">
         <div className="w-[min(1120px,calc(100%-48px))] mx-auto max-sm:w-[min(100%-28px,1120px)]">
           <h2 className="max-w-[820px] mx-auto text-white font-[850] leading-[1.05] tracking-[-1.8px] text-[clamp(40px,5vw,60px)] max-sm:text-[38px] max-sm:tracking-[-1px]">
-            Look Back at the Previous Edition of <GradientText>World AI Show.</GradientText>
+            Look back at the previous edition of <GradientText>World AI Show</GradientText>
           </h2>
           <div className="relative w-[min(700px,100%)] aspect-video mx-auto my-[58px] border-[3px] border-[#8559ff]/58 rounded-[13px] overflow-hidden shadow-[0_0_24px_rgba(151,108,255,0.35)]">
             <iframe
               src="https://www.youtube.com/embed/rIHUrmsdY2U?rel=0&modestbranding=1"
-              title="World AI Show India Aftermovie"
+              title="World AI Show Aftermovie"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
               className="absolute inset-0 w-full h-full border-0"
@@ -511,7 +510,7 @@ export function AttendOverviewSection() {
             />
           </div>
           <h3 className="max-w-[820px] mx-auto mt-16 mb-10 text-white font-[850] leading-[1.08] tracking-[-1.5px] text-[clamp(32px,4vw,46px)] max-sm:text-[30px]">
-            The Key Focus Areas of <GradientText>This Event</GradientText>
+            The key focus areas of <GradientText>this event</GradientText>
           </h3>
           <div className="grid grid-cols-3 gap-4 mb-9 max-[980px]:grid-cols-[repeat(3,310px)] max-sm:grid-cols-1">
             {valueCards.map((card, index) => (
@@ -520,6 +519,8 @@ export function AttendOverviewSection() {
           </div>
         </div>
       </section>
+
+      <AttendCTASection />
     </>
   );
 }
@@ -530,7 +531,7 @@ export function AttendDelegateSection() {
       {/* Hero Section */}
       <section
         className="relative min-h-[760px] -mt-[102px] flex items-end px-[max(24px,calc((100vw-1120px)/2))] py-[76px] pt-[280px] overflow-hidden bg-cover bg-[position:right_center] bg-no-repeat max-sm:min-h-[690px] max-sm:px-[18px] max-sm:py-[56px] max-sm:pt-[240px]"
-        style={{ backgroundImage: 'url("/mumbai/enterprise/images/Attend/Delegates-banner.webp")' }}
+        style={{ backgroundImage: 'url("/bengaluru/cybersecurity/images/Attend/Delegates-banner.webp")' }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-[#020713]/88 via-[#020713]/48 to-transparent z-0 pointer-events-none" />
         <div className="absolute top-1/4 left-1/4 w-[400px] h-[400px] rounded-full bg-[#18d4ff]/4 blur-[110px] pointer-events-none z-0" />
@@ -538,10 +539,10 @@ export function AttendDelegateSection() {
 
         <div className="relative z-10 max-w-[820px]">
           <h1 className="m-0 text-[#f7f9ff] font-[850] leading-[1.05] tracking-[-1.8px] text-[clamp(44px,5.5vw,68px)] max-sm:text-[38px]">
-            Built for <GradientText>Enterprise CXOs.</GradientText>
+            Built for the leaders <GradientText>who own the risk.</GradientText>
           </h1>
           <p className="max-w-[710px] mt-[24px] mb-0 text-white/88 text-[19px] leading-normal">
-            Join an exclusive cohort of 300+ pre-qualified enterprise peers, from CIOs to CISOs and Transformation Heads. Access is by invitation and qualification, strictly validated to ensure every seat represents active deployment authority.
+            Join an exclusive cohort of 300+ pre-qualified security, technology and risk leaders. Access is by invitation and qualification, validated so every seat represents active security or risk responsibility.
           </p>
           <div className="flex gap-3.5 mt-9 max-sm:flex-col max-sm:items-start max-sm:gap-4">
             <ArrowButton href="#delegate-qualification">Apply for a Delegate Pass</ArrowButton>
@@ -551,21 +552,17 @@ export function AttendDelegateSection() {
 
       <SplitSection
         button="Submit Qualification Enquiry"
-        buttonHref="/mumbai/enterprise/general-enquiry"
+        buttonHref="/bengaluru/cybersecurity/general-enquiry"
         id="delegate-qualification"
         eyebrow="Qualification & Consent Governance"
-        imageAlt="Invited Enterprise CXOs at World AI Show"
-        imageSrc="/mumbai/enterprise/images/Attend/AI-decision-maker.webp"
-        title={<>2-Day Plenary Access &amp; <GradientText>Executive Networking</GradientText></>}
+        imageAlt="Invited Security Leaders at World AI Show"
+        imageSrc="/bengaluru/cybersecurity/images/Attend/AI-decision-maker.webp"
+        title={<>Qualification &amp; <GradientText>Consent Governance</GradientText></>}
         text={
           <>
-            <strong>Target Audience:</strong> CIOs, CAIOs, CTOs, CDOs, CISOs, COOs, Transformation Heads.
-            <br />
-            <br />
-            <strong>Inclusions:</strong> 2-day plenary access, executive case studies, and VIP networking lounges.
-            <br />
-            <br />
-            <strong>Privacy &amp; Consent Qualifier:</strong> Mandatory separate unbundled consent checkboxes for name/title and contact details. Delegate contact details are shared only where consented.
+            <p><strong>Target audience:</strong> CISOs, CSOs, CIOs, CTOs, CROs, CDOs, enterprise architects, heads of SOC, incident response, threat intelligence, cloud security, AppSec, IAM, OT security, GRC and privacy.</p>
+            <p className="mt-3"><strong>Inclusions:</strong> 2-day plenary access, practitioner case studies and executive networking.</p>
+            <p className="mt-3"><strong>Privacy &amp; consent:</strong> Separate, unbundled consent checkboxes for name/title and contact details. Delegate contact details are shared only where consented.</p>
           </>
         }
       />
@@ -578,6 +575,8 @@ export function AttendDelegateSection() {
           <BenefitGrid items={gatewayCards} />
         </div>
       </section>
+
+      <AttendCTASection />
     </>
   );
 }
@@ -588,7 +587,7 @@ export function AttendSponsorSection() {
       {/* Hero Section */}
       <section
         className="relative min-h-[760px] -mt-[102px] flex items-end px-[max(24px,calc((100vw-1120px)/2))] py-[76px] pt-[280px] overflow-hidden bg-cover bg-[position:right_center] bg-no-repeat max-sm:min-h-[690px] max-sm:px-[18px] max-sm:py-[56px] max-sm:pt-[240px]"
-        style={{ backgroundImage: 'url("/mumbai/enterprise/images/Attend/Sponsor-banner.webp")' }}
+        style={{ backgroundImage: 'url("/bengaluru/cybersecurity/images/Attend/Sponsor-banner.webp")' }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-[#020713]/88 via-[#020713]/48 to-transparent z-0 pointer-events-none" />
         <div className="absolute top-1/4 left-1/4 w-[400px] h-[400px] rounded-full bg-[#18d4ff]/4 blur-[110px] pointer-events-none z-0" />
@@ -596,42 +595,50 @@ export function AttendSponsorSection() {
 
         <div className="relative z-10 max-w-[960px]">
           <h1 className="m-0 text-[#f7f9ff] font-[850] leading-[1.08] tracking-[-1.8px] text-[clamp(44px,5.5vw,68px)] max-sm:text-[38px]">
-            Your buyers are redesigning workflows now, <br className="hidden sm:inline" />
-            <GradientText>not after the pilot.</GradientText>
+            Your buyers are rethinking security now, <br className="hidden sm:inline" />
+            <GradientText>not after the incident.</GradientText>
           </h1>
           <p className="max-w-[710px] mt-[24px] mb-0 text-white/88 text-[19px] leading-normal">
-            Enterprise AI decisions involve up to 39 cross-functional stakeholders (Foundry, 2026). Engage active buying units directly through plenary stage thought leadership, standardized exhibition spaces, and closed-door curated boardrooms.
+            Enterprise security decisions involve CISOs and the wider technology, risk and data leadership around them. Reach them directly through stage thought leadership, curated boardrooms and structured meetings, all anchored in a practitioner-first programme.
           </p>
-          <div className="flex gap-3.5 mt-9 max-sm:flex-col max-sm:items-start max-sm:gap-4">
-            <ArrowButton href="/mumbai/enterprise/sponsorship-enquiry">Enquire About Sponsorship</ArrowButton>
+          <div className="flex flex-wrap gap-3.5 mt-9 max-sm:flex-col max-sm:items-start max-sm:gap-4">
+            <ArrowButton href="/bengaluru/cybersecurity/sponsorship-enquiry">Enquire About Sponsorship</ArrowButton>
+            <ArrowButton href="/bengaluru/cybersecurity/sponsorship-enquiry" variant="outline">Download Prospectus</ArrowButton>
           </div>
         </div>
       </section>
 
       <SplitSection
         button="Enquire About Sponsorship"
-        buttonHref="/mumbai/enterprise/sponsorship-enquiry"
+        buttonHref="/bengaluru/cybersecurity/sponsorship-enquiry"
         id="sponsor"
-        eyebrow="Standardized Speaking & Booth Framework"
-        imageAlt="Standardized Speaking and Booth Framework"
-        imageSrc="/mumbai/enterprise/images/Attend/brand-center-innovation.webp"
+        eyebrow="Standardised Speaking & Partnership Framework"
+        imageAlt="Standardised Speaking and Partnership Framework"
+        imageSrc="/bengaluru/cybersecurity/images/Attend/brand-center-innovation.webp"
         reverse={false}
-        title={<>Put Your Solutions in Front of the <GradientText>Cross-Functional Buying Unit</GradientText></>}
+        title={<>Put your solutions in front of the <GradientText>security buying circle</GradientText></>}
         text={
           <>
-            Enterprise AI decisions involve complete cross-functional committees across technology, operations, and risk governance. World AI Show: The Enterprise Edition puts your leadership directly in front of these active buying teams across two focused days in Mumbai.
-            <br />
-            <br />
-            From plenary speaking sessions and turnkey exhibition spaces to closed-door, boardrooms curated around your target accounts, our partnership packages deliver substantive pipeline acceleration and undisputed domain authority.
+            <p>
+              World AI Show: The Cybersecurity Edition puts your leadership directly in front of CISOs and the senior technology, risk and data leaders who influence security decisions. Sponsored sessions are standardised at 30 minutes, vetted for implementation proof and strictly capped, so your message earns attention through evidence rather than volume.
+            </p>
+            <p className="mt-4 text-[15px] font-semibold text-[#c0f43c]">
+              Packages: Presenting · Powered by · Signature · Gold · Silver · Bronze · VIP Experiences · Turnkey Partner
+            </p>
           </>
         }
       />
 
       <section className="py-[86px] bg-gradient-to-b from-[#020b1c] to-[#031127] max-sm:py-[62px]">
         <div className="w-[min(1120px,calc(100%-48px))] mx-auto max-sm:w-[min(100%-28px,1120px)]">
-          <TierGroupedPartnershipsGrid />
+          <h2 className="m-0 mb-[42px] text-[#f7f9ff] font-[850] leading-[1.05] tracking-[-1.8px] text-center text-[clamp(40px,5vw,60px)] max-sm:text-[38px] max-sm:tracking-[-1px]">
+            Commercial <GradientText>Partnership Benefits</GradientText>
+          </h2>
+          <BenefitGrid items={sponsorBenefits} />
         </div>
       </section>
+
+      <AttendCTASection />
     </>
   );
 }
@@ -642,7 +649,7 @@ export function AttendMediaSection() {
       {/* Hero Section */}
       <section
         className="relative min-h-[760px] -mt-[102px] flex items-end px-[max(24px,calc((100vw-1120px)/2))] py-[76px] pt-[280px] overflow-hidden bg-cover bg-[position:right_center] bg-no-repeat max-sm:min-h-[690px] max-sm:px-[18px] max-sm:py-[56px] max-sm:pt-[240px]"
-        style={{ backgroundImage: 'url("/mumbai/enterprise/images/Attend/Media-banner.webp")' }}
+        style={{ backgroundImage: 'url("/bengaluru/cybersecurity/images/Attend/Media-banner.webp")' }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-[#020713]/88 via-[#020713]/48 to-transparent z-0 pointer-events-none" />
         <div className="absolute top-1/4 left-1/4 w-[400px] h-[400px] rounded-full bg-[#18d4ff]/4 blur-[110px] pointer-events-none z-0" />
@@ -650,31 +657,28 @@ export function AttendMediaSection() {
 
         <div className="relative z-10 max-w-[820px]">
           <h1 className="m-0 text-[#f7f9ff] font-[850] leading-[1.05] tracking-[-1.8px] text-[clamp(44px,5.5vw,68px)] max-sm:text-[38px]">
-            Cover the Launch of the <GradientText>World AI Show Series in India</GradientText>
+            Cover the CISO-led conversation on <GradientText>securing AI.</GradientText>
           </h1>
           <p className="max-w-[710px] mt-[24px] mb-0 text-white/88 text-[19px] leading-normal">
-            Secure accredited press credentials, dedicated broadcast suite access, and 1-on-1 briefings with CXOs, AI and transformation heads, setting the standard for India’s AI race.
+            Accredited press credentials, interview access and 1-on-1 briefings with security and technology leaders, covering how India&apos;s enterprises secure AI adoption and build resilience.
           </p>
           <div className="flex gap-3.5 mt-9 max-sm:flex-col max-sm:items-start max-sm:gap-4">
-            <ArrowButton href="/mumbai/enterprise/media-enquiry">Apply for Media Accreditation</ArrowButton>
+            <ArrowButton href="/bengaluru/cybersecurity/media-enquiry">Apply for Media Accreditation</ArrowButton>
           </div>
         </div>
       </section>
 
       <SplitSection
         button="Apply for Media Accreditation"
-        buttonHref="/mumbai/enterprise/media-enquiry"
+        buttonHref="/bengaluru/cybersecurity/media-enquiry"
         id="media-partner"
         imageAlt="Media interview coverage"
-        imageSrc="/mumbai/enterprise/images/Attend/cover-southeast.webp"
+        imageSrc="/bengaluru/cybersecurity/images/Attend/cover-southeast.webp"
         title={<>Press Credentials &amp; <GradientText>Executive Interview Access</GradientText></>}
         text={
-          <>
-            World AI Show: The Enterprise Edition | Mumbai 2027 convenes 300+ qualified enterprise CXOs and 45+ speakers and panellists across 2 Days.
-            <br />
-            <br />
-            Accredited journalists, editors, and research analysts receive press credentials, executive interview room access, and editorial distribution opportunities across the World AI Show Series in India.
-          </>
+          <p>
+            World AI Show: The Cybersecurity Edition convenes 300+ senior security, technology and risk leaders and 45+ speakers and panellists across 2 days. Accredited journalists, editors and research analysts receive press credentials, interview access and distribution opportunities across the World AI Show Series in India.
+          </p>
         }
       />
 
@@ -683,6 +687,8 @@ export function AttendMediaSection() {
           <BenefitGrid items={mediaBenefits} />
         </div>
       </section>
+
+      <AttendCTASection />
     </>
   );
 }
@@ -693,7 +699,7 @@ export function AttendAssociationSection() {
       {/* Hero Section */}
       <section
         className="relative min-h-[760px] -mt-[102px] flex items-end px-[max(24px,calc((100vw-1120px)/2))] py-[76px] pt-[280px] overflow-hidden bg-cover bg-[position:right_center] bg-no-repeat max-sm:min-h-[690px] max-sm:px-[18px] max-sm:py-[56px] max-sm:pt-[240px]"
-        style={{ backgroundImage: 'url("/mumbai/enterprise/images/Attend/Mumbai-associationpartner-header.jpg")' }}
+        style={{ backgroundImage: 'url("/bengaluru/cybersecurity/images/Attend/Mumbai-associationpartner-header.jpg")' }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-[#020713]/88 via-[#020713]/48 to-transparent z-0 pointer-events-none" />
         <div className="absolute top-1/4 left-1/4 w-[400px] h-[400px] rounded-full bg-[#18d4ff]/4 blur-[110px] pointer-events-none z-0" />
@@ -704,29 +710,26 @@ export function AttendAssociationSection() {
             Partner with the <GradientText>World AI Show Series</GradientText>
           </h1>
           <p className="max-w-[710px] mt-[24px] mb-0 text-white/88 text-[19px] leading-normal">
-            Connect and collaborate with regional associations, federations, and regulatory bodies to foster and influence bilateral delegations across the India.
+            Collaborate with industry councils, trade chambers, standards bodies and professional security communities to bring the cyber resilience conversation to their members.
           </p>
           <div className="flex gap-3.5 mt-9 max-sm:flex-col max-sm:items-start max-sm:gap-4">
-            <ArrowButton href="/mumbai/enterprise/association-enquiry">Partner with the Series</ArrowButton>
+            <ArrowButton href="/bengaluru/cybersecurity/association-enquiry">Partner with the Series</ArrowButton>
           </div>
         </div>
       </section>
 
       <SplitSection
-        button="Partner with the World AI Show Series"
-        buttonHref="/mumbai/enterprise/association-enquiry"
+        button="Partner with the Series"
+        buttonHref="/bengaluru/cybersecurity/association-enquiry"
         id="association-partner"
-        imageAlt="Strengthening the AI Ecosystem Together"
-        imageSrc="/mumbai/enterprise/images/Attend/strengthening-ai-ecosystem.webp"
+        imageAlt="Industry Councils, Trade Chambers & Professional Security Bodies"
+        imageSrc="/bengaluru/cybersecurity/images/Attend/strengthening-ai-ecosystem.webp"
         reverse={false}
-        title={<>Industry Councils, Trade Chambers &amp; <GradientText>Professional AI Bodies</GradientText></>}
+        title={<>Industry Councils, Trade Chambers &amp; <GradientText>Professional Security Bodies</GradientText></>}
         text={
-          <>
-            World AI Show: The Enterprise Edition welcomes industry councils, trade chambers, and professional AI bodies to join as official supporting alliances for the launch of the World AI Show Series in India.
-            <br />
-            <br />
-            Connect your enterprise leadership members with 300+ qualified CXOs, nominate faculty speakers with live production evidence, and collaborate across the full 2027 India Series trajectory.
-          </>
+          <p>
+            World AI Show: The Cybersecurity Edition welcomes industry councils, chambers, standards bodies and professional security associations as official supporting alliances. Connect your members with senior security and technology leaders, nominate practitioners with real implementation experience, and collaborate across the India Series.
+          </p>
         }
       />
 
@@ -735,6 +738,8 @@ export function AttendAssociationSection() {
           <BenefitGrid items={associationBenefits} />
         </div>
       </section>
+
+      <AttendCTASection />
     </>
   );
 }

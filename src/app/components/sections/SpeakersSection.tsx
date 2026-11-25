@@ -44,13 +44,13 @@ export function SpeakersSection({
         {/* View All Speakers CTA Button */}
         <div className="mt-14 flex flex-wrap justify-center items-center gap-4">
           <a
-            href="/mumbai/enterprise/speakers"
+            href="/bengaluru/cybersecurity/speakers"
             className="inline-flex items-center justify-center h-[52px] px-8 rounded-full font-extrabold text-[15px] text-black [color:#06111f!important] bg-[#C0F43C] hover:shadow-[0_0_24px_rgba(192,244,60,0.3)] transition-all duration-200 cursor-pointer"
           >
             Explore Speakers Hub ➔
           </a>
           <a
-            href="/mumbai/enterprise/agenda/call-for-speakers"
+            href="/bengaluru/cybersecurity/agenda/call-for-speakers"
             className="inline-flex items-center justify-center h-[52px] px-8 rounded-full font-extrabold text-[15px] text-white border border-white/25 bg-white/5 hover:border-cyan hover:text-cyan transition-all duration-200 cursor-pointer"
           >
             Apply to Speak →

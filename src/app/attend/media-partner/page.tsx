@@ -4,8 +4,8 @@ import { FooterSection } from "../../components/sections/FooterSection";
 import { AttendMediaSection } from "../page";
 
 export const metadata: Metadata = {
-  title: "Press Accreditation | Attend | World AI Show: The Enterprise Edition | Mumbai 2027",
-  description: "Apply for media accreditation for World AI Show: The Enterprise Edition | Mumbai 2027. Press credentials, executive interview room access, and editorial distribution.",
+  title: "Media Accreditation | Attend | World AI Show: The Cybersecurity Edition | Bengaluru 2027",
+  description: "Cover the CISO-led conversation on securing AI. Apply for press credentials and executive interview access at World AI Show: The Cybersecurity Edition | Bengaluru 2027.",
 };
 
 const subNav = ["Overview", "Delegate", "Sponsor", "Media Partner", "Association Partner"];

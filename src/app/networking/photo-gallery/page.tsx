@@ -4,8 +4,8 @@ import { FooterSection } from "../../components/sections/FooterSection";
 import { PhotoGalleryContent } from "./PhotoGalleryContent";
 
 export const metadata: Metadata = {
-  title: "Photo Gallery | Networking | World AI Show: The Enterprise Edition | Mumbai 2027",
-  description: "High-resolution executive photography from the global World AI Show series.",
+  title: "Photo Gallery | Networking | World AI Show: The Cybersecurity Edition | Bengaluru 2027",
+  description: "Moments from the series: High-resolution executive photography from World AI Show editions across the globe.",
 };
 
 const subNav = ["Overview", "AI Matchmaking", "Photo Gallery"];

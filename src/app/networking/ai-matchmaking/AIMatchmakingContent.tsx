@@ -4,18 +4,18 @@ import { useState } from "react";
 import { GradientText } from "../../components/Shared";
 
 export function AIMatchmakingContent() {
-  const [selectedFocus, setSelectedFocus] = useState<string>("AI & Data");
+  const [selectedFocus, setSelectedFocus] = useState<string>("Securing AI & Defending with AI");
 
   const focusAreas = [
-    "AI & Data",
-    "Marketing & Branding",
-    "Finance & Investment",
-    "Leadership & Management",
-    "Sustainable Tech",
-    "Health & Wellness",
-    "Startup & Entrepreneurship",
-    "Digital Transformation",
-    "Product Development"
+    "Securing AI & Defending with AI",
+    "Threat Intelligence & SOC Modernisation",
+    "Detection Engineering & Incident Response",
+    "Cloud & Hybrid Security",
+    "Identity & Zero Trust",
+    "Data & Application Security",
+    "Supply Chain & Third-Party Risk",
+    "OT / IoT & Critical Infrastructure",
+    "CISO Leadership & Cyber Governance"
   ];
 
   return (
@@ -23,7 +23,7 @@ export function AIMatchmakingContent() {
       <section 
         className="relative net-inner-hero pt-[250px] pb-24 overflow-hidden"
         style={{
-          backgroundImage: `url('/mumbai/enterprise/images/networking/ai-matchmaking-bg.webp')`,
+          backgroundImage: `url('/bengaluru/cybersecurity/images/networking/ai-matchmaking-bg.webp')`,
           backgroundPosition: 'right center',
           backgroundSize: 'contain',
           backgroundRepeat: 'no-repeat',
@@ -37,14 +37,14 @@ export function AIMatchmakingContent() {
         <div className="w-[min(1114px,calc(100%-48px))] mx-auto relative z-10 text-left flex flex-col items-start">
           <div className="max-w-[620px] w-full">
             <span className="text-[#18d4ff] text-[12px] uppercase tracking-[3px] font-bold block mb-3">
-              AI-Powered Matchmaking
+              AI Matchmaking
             </span>
             <h1 className="font-[850] text-white leading-[1.03] tracking-[-2.5px] text-[clamp(44px,5.4vw,72px)] m-0">
-              Meet the Right People. <br />
-              <GradientText>Every Time.</GradientText>
+              Meet the right people. <br />
+              <GradientText>Every time.</GradientText>
             </h1>
             <p className="m-0 mt-6 text-white/70 text-[18px] leading-relaxed max-sm:text-[15px]">
-              Set your goals once. Our AI reads your role, interests, and intent — then surfaces the connections most likely to matter. No cold introductions. No wasted handshakes.
+              Set your priorities once. The matchmaking platform connects CISOs and security leaders with the solution providers, peers and working sessions most relevant to their operational roadmap.
             </p>
 
             <div className="mt-8 w-full text-left">
@@ -80,7 +80,7 @@ export function AIMatchmakingContent() {
           {/* Section Header */}
           <div className="text-center mb-16 max-w-[760px] mx-auto">
             <span className="px-3.5 py-1.5 rounded-full text-[11px] font-bold uppercase tracking-[2px] bg-[#18d4ff]/10 text-[#18d4ff] border border-[#18d4ff]/20 mb-5 inline-block">
-              AI Powered Platform · KonfHub
+              Curated Matchmaking · Bengaluru 2027
             </span>
             <h2 className="font-[850] text-white leading-tight tracking-[-1.5px] text-[clamp(32px,4vw,44px)] m-0">
               Right People. <GradientText>Real Connections.</GradientText>
@@ -98,8 +98,8 @@ export function AIMatchmakingContent() {
             >
               <span className="inline-flex items-center gap-2 px-[14px] py-[6px] rounded-full text-[12.5px] font-extrabold bg-[#C0F43C] text-black mb-6">
                 <img 
-                  src="/mumbai/enterprise/images/networking/Icon.webp" 
-                  alt="Attendees" 
+                  src="/bengaluru/cybersecurity/images/networking/Icon.webp" 
+                  alt="" 
                   className="w-[14px] h-[14px] object-contain" 
                 />
                 For Attendees
@@ -111,32 +111,40 @@ export function AIMatchmakingContent() {
               <div className="flex flex-col gap-6">
                 <div className="flex gap-4 items-start">
                   <img
-                    src="/mumbai/enterprise/icons/attendee-app/tick-1.webp"
-                    alt="Checkmark Icon"
+                    src="/bengaluru/cybersecurity/icons/attendee-app/tick-1.webp"
+                    alt=""
                     className="w-[24px] h-[24px] object-contain flex-none"
                   />
-                  <p className="m-0 text-white/70 text-[15px] leading-relaxed">Get personalized recommendations based on interests, role, and goals</p>
+                  <p className="m-0 text-white/70 text-[15px] leading-relaxed">Recommendations based on enterprise security priorities and active deployment plans</p>
                 </div>
                 <div className="flex gap-4 items-start">
                   <img
-                    src="/mumbai/enterprise/icons/attendee-app/tick-1.webp"
-                    alt="Checkmark Icon"
+                    src="/bengaluru/cybersecurity/icons/attendee-app/tick-1.webp"
+                    alt=""
                     className="w-[24px] h-[24px] object-contain flex-none"
                   />
-                  <p className="m-0 text-white/70 text-[15px] leading-relaxed">Have meaningful, high-quality conversations instead of random networking</p>
+                  <p className="m-0 text-white/70 text-[15px] leading-relaxed">20-minute structured 1-to-1 meetings scheduled before the event</p>
                 </div>
                 <div className="flex gap-4 items-start">
                   <img
-                    src="/mumbai/enterprise/icons/attendee-app/tick-1.webp"
-                    alt="Checkmark Icon"
+                    src="/bengaluru/cybersecurity/icons/attendee-app/tick-1.webp"
+                    alt=""
                     className="w-[24px] h-[24px] object-contain flex-none"
                   />
-                  <p className="m-0 text-white/70 text-[15px] leading-relaxed">Leave with valuable connections and real opportunities</p>
+                  <p className="m-0 text-white/70 text-[15px] leading-relaxed">Direct connection to vetted technology and solution providers</p>
+                </div>
+                <div className="flex gap-4 items-start">
+                  <img
+                    src="/bengaluru/cybersecurity/icons/attendee-app/tick-1.webp"
+                    alt=""
+                    className="w-[24px] h-[24px] object-contain flex-none"
+                  />
+                  <p className="m-0 text-white/70 text-[15px] leading-relaxed">Peer discovery across organisations with comparable threat models and compliance requirements</p>
                 </div>
               </div>
             </div>
 
-            {/* Card 2: For Sponsors & Exhibitors */}
+            {/* Card 2: For Sponsors */}
             <div 
               className="p-10 rounded-[28px] border-[4px] border-[#22446D] shadow-[0_22px_62px_rgba(0,0,0,0.45)] transition-all duration-300 relative group overflow-hidden max-sm:p-6"
               style={{
@@ -145,40 +153,48 @@ export function AIMatchmakingContent() {
             >
               <span className="inline-flex items-center gap-2 px-[14px] py-[6px] rounded-full text-[12.5px] font-extrabold bg-[#926DFF] text-white mb-6">
                 <img 
-                  src="/mumbai/enterprise/icons/attendee-app/exhibitor.webp" 
-                  alt="Sponsors & Exhibitors" 
+                  src="/bengaluru/cybersecurity/icons/attendee-app/exhibitor.webp" 
+                  alt="" 
                   className="w-[14px] h-[14px] object-contain filter brightness-0" 
                 />
-                For Sponsors & Exhibitors
+                For Sponsors
               </span>
               <h3 className="m-0 text-white font-[850] text-[28px] tracking-tight mb-8">
-                Connect with high-intent, relevant prospects
+                Connect with the security buying circle
               </h3>
               
               <div className="flex flex-col gap-6">
                 <div className="flex gap-4 items-start">
                   <img
-                    src="/mumbai/enterprise/icons/attendee-app/tick-2.webp"
-                    alt="Checkmark Icon"
+                    src="/bengaluru/cybersecurity/icons/attendee-app/tick-2.webp"
+                    alt=""
                     className="w-[24px] h-[24px] object-contain flex-none"
                   />
-                  <p className="m-0 text-white/70 text-[15px] leading-relaxed">Focus on quality leads, not just volume</p>
+                  <p className="m-0 text-white/70 text-[15px] leading-relaxed">Pre-scheduled 20-minute meetings with verified decision-makers</p>
                 </div>
                 <div className="flex gap-4 items-start">
                   <img
-                    src="/mumbai/enterprise/icons/attendee-app/tick-2.webp"
-                    alt="Checkmark Icon"
+                    src="/bengaluru/cybersecurity/icons/attendee-app/tick-2.webp"
+                    alt=""
                     className="w-[24px] h-[24px] object-contain flex-none"
                   />
-                  <p className="m-0 text-white/70 text-[15px] leading-relaxed">Maximize ROI through meaningful interactions</p>
+                  <p className="m-0 text-white/70 text-[15px] leading-relaxed">Intent-matched connections based on active enterprise security projects</p>
                 </div>
                 <div className="flex gap-4 items-start">
                   <img
-                    src="/mumbai/enterprise/icons/attendee-app/tick-2.webp"
-                    alt="Checkmark Icon"
+                    src="/bengaluru/cybersecurity/icons/attendee-app/tick-2.webp"
+                    alt=""
                     className="w-[24px] h-[24px] object-contain flex-none"
                   />
-                  <p className="m-0 text-white/70 text-[15px] leading-relaxed">Increase booth engagement via targeted attendee recommendations</p>
+                  <p className="m-0 text-white/70 text-[15px] leading-relaxed">Structured meeting management with meeting-room access</p>
+                </div>
+                <div className="flex gap-4 items-start">
+                  <img
+                    src="/bengaluru/cybersecurity/icons/attendee-app/tick-2.webp"
+                    alt=""
+                    className="w-[24px] h-[24px] object-contain flex-none"
+                  />
+                  <p className="m-0 text-white/70 text-[15px] leading-relaxed">Measurable commercial engagement before, during and after the event</p>
                 </div>
               </div>
             </div>

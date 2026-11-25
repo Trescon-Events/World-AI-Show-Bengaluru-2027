@@ -41,13 +41,13 @@ export default function SponsorshipEnquiryPage() {
 
             <div className="relative z-10 flex flex-col">
               <span className="text-[#C0F43C] text-[11px] font-extrabold uppercase tracking-[0.25em] mb-3">
-                Commercial Partnerships · Mumbai 2027
+                Commercial Partnerships · Bengaluru 2027
               </span>
               <h1 className="m-0 text-white font-[850] text-[clamp(28px,4vw,42px)] leading-tight tracking-[-1px] mb-4">
-                Secure Your Enterprise Presence for <span className="text-[#18d4ff]">Mumbai 2027</span>
+                Partner at <span className="text-[#18d4ff]">World AI Show</span>
               </h1>
               <p className="m-0 text-white/70 text-[16px] leading-relaxed mb-9">
-                Enquire about packages, thought leadership sessions, and closed-door CXO boardrooms at World AI Show: The Enterprise Edition | Mumbai.
+                Enquire about commercial partnership opportunities. Put your solutions in front of 300+ CISOs, CIOs and security decision-makers.
               </p>
 
               {/* Hubspot Form Embedded Container */}

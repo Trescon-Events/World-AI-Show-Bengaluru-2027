@@ -1,48 +1,34 @@
 import type { Metadata } from "next";
-import { Space_Grotesk } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import { ScrollToTop } from "./components/ScrollToTop";
 import { AOSInit } from "./components/AOSInit";
 import { BrandBookLayoutWrapper } from "./components/BrandBookLayoutWrapper";
 
-const spaceGrotesk = Space_Grotesk({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-space-grotesk",
-});
-
 export const metadata: Metadata = {
   metadataBase: new URL("https://worldaishow.com"),
-  title: "World AI Show: The Enterprise Edition | Mumbai 2027",
+  title: "World AI Show: The Cybersecurity Edition | Bengaluru 2027",
   description:
-    "The premier cross-functional executive conference addressing the architecture, systems integration, agentic governance, and verifiable ROI of enterprise AI. 20–21 April 2027 · Mumbai, India · 2 Days.",
+    "The CISO-led summit on securing AI adoption, defending an expanding attack surface and building enterprise-wide cyber resilience. 20–21 July 2027 · Bengaluru, India.",
   icons: {
     icon: [
-      { url: "/mumbai/enterprise/favicon.svg", type: "image/svg+xml" },
-      { url: "/mumbai/enterprise/favicon.png", type: "image/png" },
+      { url: "/bengaluru/cybersecurity/favicon.svg", type: "image/svg+xml" },
+      { url: "/bengaluru/cybersecurity/favicon.png", type: "image/png" },
     ],
-    shortcut: "/mumbai/enterprise/favicon.svg",
-    apple: "/mumbai/enterprise/favicon.png",
+    shortcut: "/bengaluru/cybersecurity/favicon.svg",
+    apple: "/bengaluru/cybersecurity/favicon.png",
   },
   openGraph: {
-    title: "World AI Show: The Enterprise Edition | Mumbai 2027",
+    title: "World AI Show: The Cybersecurity Edition | Bengaluru 2027",
     description:
-      "Where AI becomes the operating model. Mumbai | 20–21 April 2027 | 2 Days. Organised by Trescon.",
+      "Securing the AI-Powered Enterprise. Bengaluru | 20–21 July 2027. Organised by Trescon.",
     type: "website",
-    images: [
-      {
-        url: "/mumbai/enterprise/images/wais-featured-image.gif",
-        alt: "World AI Show: The Enterprise Edition | Mumbai 2027",
-      },
-    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "World AI Show: The Enterprise Edition | Mumbai 2027",
+    title: "World AI Show: The Cybersecurity Edition | Bengaluru 2027",
     description:
-      "Where AI becomes the operating model. Mumbai | 20–21 April 2027 | 2 Days. Organised by Trescon.",
-    images: ["/mumbai/enterprise/images/wais-featured-image.gif"],
+      "Securing the AI-Powered Enterprise. Bengaluru | 20–21 July 2027. Organised by Trescon.",
   },
 };
 
@@ -52,7 +38,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${spaceGrotesk.variable} h-full antialiased`}>
+    <html lang="en" className="h-full antialiased">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body suppressHydrationWarning className="min-h-full flex flex-col font-space-grotesk bg-bg text-text">
         {/* Google Analytics (GA4) */}
         <Script

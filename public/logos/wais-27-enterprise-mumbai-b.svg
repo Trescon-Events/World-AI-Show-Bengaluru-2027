@@ -17,6 +17,19 @@
         stroke-width: 3.5px;
       }
 
+      
+      .cls-text-title {
+        fill: #0e1520;
+        font-family: 'Space Grotesk', 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-weight: 800;
+        text-transform: uppercase;
+      }
+      .cls-text-strip {
+        fill: #fff;
+        font-family: 'Space Grotesk', 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-weight: 800;
+        text-transform: uppercase;
+      }
       .cls-4 {
         fill: #f05a2a;
       }

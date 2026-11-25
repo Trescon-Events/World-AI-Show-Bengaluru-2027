@@ -4,8 +4,8 @@ import { FooterSection } from "../../components/sections/FooterSection";
 import { AttendDelegateSection } from "../page";
 
 export const metadata: Metadata = {
-  title: "Delegate Pass | Attend | World AI Show: The Enterprise Edition | Mumbai 2027",
-  description: "Delegate Pass — complimentary, by invitation and qualification for CIOs, CAIOs, CTOs, CDOs, CISOs, COOs, and Transformation Heads at World AI Show: The Enterprise Edition | Mumbai 2027.",
+  title: "Delegate Pass | Attend | World AI Show: The Cybersecurity Edition | Bengaluru 2027",
+  description: "Built for the leaders who own the risk. Join an exclusive cohort of 300+ pre-qualified security, technology and risk leaders at World AI Show: The Cybersecurity Edition | Bengaluru 2027.",
 };
 
 const subNav = ["Overview", "Delegate", "Sponsor", "Media Partner", "Association Partner"];

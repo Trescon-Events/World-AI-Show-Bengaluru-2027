@@ -41,13 +41,13 @@ export default function SpeakerEnquiryPage() {
 
             <div className="relative z-10 flex flex-col">
               <span className="text-[#C0F43C] text-[11px] font-extrabold uppercase tracking-[0.25em] mb-3">
-                Call for Enterprise Speakers · Mumbai 2027
+                Call for Practitioner Speakers · Bengaluru 2027
               </span>
               <h1 className="m-0 text-white font-[850] text-[clamp(28px,4vw,42px)] leading-tight tracking-[-1px] mb-4">
-                Apply to Join the <span className="text-[#18d4ff]">Enterprise Faculty</span>
+                Apply to <span className="text-[#18d4ff]">Speak</span>
               </h1>
               <p className="m-0 text-white/70 text-[16px] leading-relaxed mb-9">
-                Seeking CIOs, CAIOs, CTOs, and Transformation Leaders with live production evidence: case study topic, problem statement, original baseline, and verified ROI outcomes.
+                Submit a speaking proposal for Bengaluru 2027. We prioritise practitioner case studies, production lessons and threat intelligence insights.
               </p>
 
               {/* Hubspot Form Embedded Container */}

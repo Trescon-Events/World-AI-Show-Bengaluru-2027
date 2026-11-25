@@ -49,13 +49,13 @@ export function TestSpeakersSection({
         {/* View All Speakers CTA Button */}
         <div className="mt-14 flex flex-wrap justify-center items-center gap-4">
           <a
-            href="/mumbai/enterprise/test/speaker-preview"
+            href="/bengaluru/cybersecurity/test/speaker-preview"
             className="test-cta-primary inline-flex items-center justify-center gap-2.5 h-[52px] px-8 rounded-full font-bold text-[15px] text-white bg-[#F15928] cursor-pointer"
           >
             Explore Speakers Hub <span className="cta-arrow inline-block">➔</span>
           </a>
           <a
-            href="/mumbai/enterprise/agenda/call-for-speakers"
+            href="/bengaluru/cybersecurity/agenda/call-for-speakers"
             className="test-cta-secondary inline-flex items-center justify-center gap-2.5 h-[52px] px-8 rounded-full font-bold text-[15px] text-[#0069B8] border border-white/25 bg-white cursor-pointer"
           >
             Apply to Speak <span className="cta-arrow inline-block">→</span>
@@ -98,7 +98,7 @@ export function TestSpeakersList() {
             </p>
           </div>
           <a
-            href="/mumbai/enterprise/agenda/call-for-speakers"
+            href="/bengaluru/cybersecurity/agenda/call-for-speakers"
             className="test-cta-primary inline-flex items-center justify-center gap-2 h-[48px] px-7 rounded-full font-bold text-[14px] text-white bg-[#F15928] shrink-0"
           >
             Apply to Speak <span className="cta-arrow inline-block">→</span>
