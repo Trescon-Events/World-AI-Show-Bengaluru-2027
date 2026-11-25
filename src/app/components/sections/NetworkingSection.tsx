@@ -6,28 +6,77 @@ import { GradientText } from "../Shared";
 const buyingUnitConstituencies = [
   {
     title: "Security Leadership",
+    category: "Executive Defense",
     desc: "CISOs, CSOs, heads of information security",
+    roles: ["CISOs", "CSOs", "Heads of InfoSec"],
     index: "01",
+    accent: "from-[#0069B8] to-[#009EAD]",
+    badgeBg: "bg-[#0069B8]/10 text-[#0069B8] border-[#0069B8]/25",
+    icon: (
+      <svg className="w-5 h-5 text-[#0069B8]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M12 2l7 3.5v6.5c0 5-3.5 9.5-7 11-3.5-1.5-7-6-7-11V5.5L12 2z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M9.5 12h5m-2.5-2.5v5" />
+      </svg>
+    ),
   },
   {
     title: "Technology Leadership",
+    category: "Enterprise Systems",
     desc: "CIOs, CTOs, CDOs, CROs, enterprise architects",
+    roles: ["CIOs", "CTOs", "CDOs & CROs", "Enterprise Architects"],
     index: "02",
+    accent: "from-[#009EAD] to-[#00CEFF]",
+    badgeBg: "bg-[#009EAD]/10 text-[#009EAD] border-[#009EAD]/25",
+    icon: (
+      <svg className="w-5 h-5 text-[#009EAD]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 3v1.5M4.5 8.25H3m18 0h-1.5M4.5 12H3m18 0h-1.5m-15 3.75H3m18 0h-1.5M8.25 19.5V21M12 3v1.5m0 15V21m3.75-18v1.5m0 15V21m-9-1.5h10.5a2.25 2.25 0 002.25-2.25V5.25a2.25 2.25 0 00-2.25-2.25H6.75A2.25 2.25 0 004.5 5.25v10.5a2.25 2.25 0 002.25 2.25zm.75-12h9v9h-9v-9z" />
+      </svg>
+    ),
   },
   {
     title: "Security Functions",
+    category: "SOC & Operations",
     desc: "Heads of SOC, incident response, threat intelligence, cloud, AppSec, IAM, OT",
+    roles: ["Heads of SOC", "Incident Response", "Threat Intel", "Cloud & AppSec", "IAM & OT"],
     index: "03",
+    accent: "from-[#0069B8] to-[#6366F1]",
+    badgeBg: "bg-[#6366F1]/10 text-[#6366F1] border-[#6366F1]/25",
+    icon: (
+      <svg className="w-5 h-5 text-[#6366F1]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M12 2.25a9.75 9.75 0 100 19.5 9.75 9.75 0 000-19.5z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v3m0 6v3m6-6h-3m-6 0H6" />
+      </svg>
+    ),
   },
   {
     title: "Risk & Governance",
+    category: "Compliance & GRC",
     desc: "GRC, privacy, data protection, audit, business continuity",
+    roles: ["GRC Leaders", "Data Protection", "Internal Audit", "Business Continuity"],
     index: "04",
+    accent: "from-[#F15928] to-[#F59E0B]",
+    badgeBg: "bg-[#F15928]/10 text-[#F15928] border-[#F15928]/25",
+    icon: (
+      <svg className="w-5 h-5 text-[#F15928]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
+      </svg>
+    ),
   },
   {
     title: "Ecosystem",
+    category: "GCCs & Innovation",
     desc: "Cyber GCC leaders, product founders, researchers, regulators",
+    roles: ["Cyber GCC Leaders", "Product Founders", "Researchers", "Regulators"],
     index: "05",
+    accent: "from-[#009EAD] to-[#10B981]",
+    badgeBg: "bg-[#10B981]/10 text-[#10B981] border-[#10B981]/25",
+    icon: (
+      <svg className="w-5 h-5 text-[#10B981]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M12 21a9 9 0 100-18 9 9 0 000 18z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M3.6 9h16.8M3.6 15h16.8" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M11.5 3a17 17 0 000 18m1-18a17 17 0 010 18" />
+      </svg>
+    ),
   },
 ];
 
@@ -80,29 +129,67 @@ export function NetworkingSection() {
             </p>
           </div>
 
-          {/* 5 Buying Unit Constituencies Grid with Subtle Float/Glow Animation */}
+          {/* 5 Buying Unit Constituencies Grid with Modern Architecture & Interactive Elevation */}
           <div className="w-full grid grid-cols-5 gap-4 max-[1100px]:grid-cols-3 max-[768px]:grid-cols-2 max-sm:grid-cols-1 text-left">
             {buyingUnitConstituencies.map((item, idx) => (
               <article
                 key={item.title}
                 data-aos="fade-up"
-                data-aos-delay={idx * 100}
+                data-aos-delay={idx * 80}
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
-                className="group relative flex flex-col justify-between min-h-[210px] p-6 rounded-[16px] border border-[#0069B8]/25 bg-white shadow-[0_12px_30px_rgba(8,18,30,0.05)] hover:-translate-y-2 hover:border-[#0069B8] hover:shadow-[0_18px_38px_rgba(0,105,184,0.13)] transition-all duration-300 overflow-hidden"
+                className="constituency-card group relative flex flex-col justify-between min-h-[300px] p-5 rounded-[20px] bg-white border border-[#0069B8]/20 shadow-[0_8px_26px_rgba(8,18,30,0.06)] hover:-translate-y-2 hover:border-[#0069B8] hover:shadow-[0_20px_42px_rgba(0,105,184,0.14)] transition-all duration-300 overflow-hidden"
               >
+                {/* Top Ambient Accent Bar */}
+                <div
+                  className={`absolute top-0 left-0 right-0 h-[3.5px] bg-gradient-to-r ${item.accent} transition-all duration-300 group-hover:h-[5px]`}
+                />
+
                 <div>
-                  <div className="flex items-center justify-between mb-3">
-                    <span className="inline-block text-[11px] font-mono font-bold tracking-[2px] text-[#009EAD] !text-[#009EAD] [color:#009EAD!important] uppercase">
-                      {item.index} · {item.title}
+                  {/* Top Header: Custom Domain Icon + Constituency Number */}
+                  <div className="flex items-center justify-between mb-4 mt-1">
+                    <div
+                      className={`w-10 h-10 rounded-[12px] flex items-center justify-center border ${item.badgeBg} shadow-[0_2px_8px_rgba(0,0,0,0.03)] group-hover:scale-108 transition-transform duration-300`}
+                    >
+                      {item.icon}
+                    </div>
+                    <span className="font-mono text-[11px] font-extrabold tracking-[1px] px-2.5 py-0.5 rounded-full bg-[#08121E]/[0.04] text-[#0069B8] border border-[#0069B8]/20 group-hover:border-[#0069B8]/50 group-hover:bg-[#0069B8]/[0.08] transition-all">
+                      {item.index}
                     </span>
                   </div>
-                  <h3 className="text-[#08121E] !text-[#08121E] [color:#08121E!important] text-[19px] font-extrabold leading-[1.22] mb-2.5">
+
+                  {/* Category Eyebrow */}
+                  <span className="block text-[10.5px] font-mono font-bold uppercase tracking-[1.6px] text-[#009EAD] mb-1">
+                    {item.category}
+                  </span>
+
+                  {/* Constituency Title */}
+                  <h3 className="text-[#08121E] !text-[#08121E] [color:#08121E!important] text-[18px] font-[850] font-space-grotesk leading-[1.22] mb-3 group-hover:text-[#0069B8] transition-colors">
                     {item.title}
                   </h3>
-                  <p className="text-[#334155] !text-[#334155] [color:#334155!important] text-[13.5px] leading-[1.55] m-0">
-                    {item.desc}
-                  </p>
+
+                  {/* Executive Role Tags */}
+                  <div className="flex flex-wrap gap-1.5 mt-2">
+                    {item.roles.map((role) => (
+                      <span
+                        key={role}
+                        className="role-chip inline-flex items-center px-2 py-0.5 rounded-[6px] text-[11.5px] font-semibold bg-[#F5F8FC] text-[#334155] border border-[#0069B8]/12 group-hover:border-[#0069B8]/30 group-hover:text-[#08121E] transition-all leading-tight"
+                      >
+                        {role}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Bottom Verified Stakeholder Status */}
+                <div className="mt-4 pt-3 border-t border-[#0069B8]/10 flex items-center justify-between text-[11px] font-bold text-[#64748B]">
+                  <span className="flex items-center gap-1.5">
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#009EAD] group-hover:scale-125 transition-transform" />
+                    Buying Unit
+                  </span>
+                  <span className="text-[#0069B8] font-bold opacity-0 group-hover:opacity-100 transition-opacity">
+                    Verified
+                  </span>
                 </div>
               </article>
             ))}

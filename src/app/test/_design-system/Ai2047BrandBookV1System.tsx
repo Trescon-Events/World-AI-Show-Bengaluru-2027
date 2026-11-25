@@ -814,12 +814,12 @@ export function Ai2047BrandBookV1Styles() {
       /* #networking Cards + Sovereign Blue Delegate Pass Banner */
       .ai2047-brandbook-v1 #networking article {
         background: #FFFFFF !important;
-        border: 1px solid rgba(0, 105, 184, 0.22) !important;
-        box-shadow: 0 12px 30px rgba(8, 18, 30, 0.05) !important;
+        border: 1px solid rgba(0, 105, 184, 0.20) !important;
+        box-shadow: 0 10px 30px rgba(8, 18, 30, 0.05) !important;
       }
       .ai2047-brandbook-v1 #networking article:hover {
         border-color: #0069B8 !important;
-        box-shadow: 0 18px 38px rgba(0, 105, 184, 0.13) !important;
+        box-shadow: 0 20px 42px rgba(0, 105, 184, 0.14) !important;
       }
       .ai2047-brandbook-v1 #networking article h3 {
         color: #08121E !important;
@@ -829,9 +829,18 @@ export function Ai2047BrandBookV1Styles() {
         color: #334155 !important;
         -webkit-text-fill-color: #334155 !important;
       }
+      .ai2047-brandbook-v1 #networking article .role-chip {
+        background: #F5F8FC !important;
+        color: #334155 !important;
+        -webkit-text-fill-color: #334155 !important;
+        border: 1px solid rgba(0, 105, 184, 0.14) !important;
+      }
+      .ai2047-brandbook-v1 #networking article:hover .role-chip {
+        border-color: rgba(0, 105, 184, 0.32) !important;
+        color: #08121E !important;
+        -webkit-text-fill-color: #08121E !important;
+      }
       .ai2047-brandbook-v1 #networking article span.font-mono {
-        color: #009EAD !important;
-        -webkit-text-fill-color: #009EAD !important;
         display: inline-block !important;
       }
       .ai2047-brandbook-v1 #networking article strong {
