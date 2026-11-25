@@ -9,7 +9,7 @@ export function BrandBookV1HeroSection() {
       {/* Background Video */}
       <video
         className="absolute inset-0 w-full h-full object-cover opacity-80 z-0"
-        src="/bengaluru/cybersecurity/videos/wais-mumbai-hero-banner.mp4"
+        src="/bengaluru/cybersecurity/videos/India-Hero-Banner.mp4"
         autoPlay
         muted
         loop

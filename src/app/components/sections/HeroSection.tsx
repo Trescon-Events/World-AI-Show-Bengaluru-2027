@@ -8,8 +8,8 @@ export function HeroSection() {
     >
       {/* Background Video */}
       <video
-        className="absolute inset-0 w-full h-full object-cover opacity-55 z-0"
-        src="/bengaluru/cybersecurity/videos/wais-mumbai-hero-banner.mp4"
+        className="absolute inset-0 w-full h-full object-cover opacity-70 z-0"
+        src="/bengaluru/cybersecurity/videos/India-Hero-Banner.mp4"
         autoPlay
         muted
         loop
@@ -64,17 +64,17 @@ export function HeroSection() {
               20–<GradientText>21</GradientText>
             </strong>
             <span className="block mt-2 text-[13px] font-bold text-white/80 uppercase tracking-[1.5px] max-sm:text-[12px] max-sm:mt-1.5">
-              APRIL 2027
+              JULY 2027
             </span>
           </div>
 
           {/* Column 2: Venue */}
           <div className="text-center max-sm:w-full">
             <strong className="block text-[34px] font-[850] font-space-grotesk text-white leading-none max-sm:text-[26px]">
-              Mumbai, <GradientText>India</GradientText>
+              Bengaluru, <GradientText>India</GradientText>
             </strong>
             <span className="block mt-2 text-[13px] font-bold text-white/80 uppercase tracking-[1.5px] max-sm:text-[12px] max-sm:mt-1.5">
-              The 52nd Global Edition
+              53rd Global Edition
             </span>
           </div>
         </div>

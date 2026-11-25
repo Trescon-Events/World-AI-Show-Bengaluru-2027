@@ -331,13 +331,6 @@ export function EcosystemSectionDemo() {
       className="relative w-full px-20 py-28 bg-[#020b1c] overflow-hidden flex flex-col items-center gap-28 max-lg:px-6 max-sm:px-4 max-sm:py-16 max-sm:gap-20"
       id="ecosystem"
     >
-      <style>{`
-        @keyframes telemetryShimmer {
-          0% { transform: translateX(-100%); }
-          100% { transform: translateX(200%); }
-        }
-      `}</style>
-
       {/* Subtle architectural background grid & ambient glow */}
       <div
         className="absolute inset-0 pointer-events-none opacity-[0.18]"
@@ -358,60 +351,6 @@ export function EcosystemSectionDemo() {
         className="absolute bottom-12 left-1/2 -translate-x-1/2 w-[900px] h-[420px] rounded-full bg-[#C0F43C]/[0.04] blur-[140px] pointer-events-none"
         aria-hidden="true"
       />
-
-      {/* ───── S3 · The argument — page centre of gravity ───── */}
-      <div className="relative z-10 w-full max-w-[1140px] mx-auto flex flex-col items-center text-center">
-        <h2 className="max-w-[940px] text-center font-[850] text-white leading-[1.06] tracking-[-1.8px] text-[clamp(34px,4.5vw,54px)] mb-6">
-          Enterprises have proved AI in the sandbox.{" "}
-          <GradientText>The battle now is making it work across daily business operations.</GradientText>
-        </h2>
-
-        <p className="max-w-[840px] text-white/75 text-[19px] leading-[1.6] mb-14 max-sm:text-[16px]">
-          India&apos;s enterprise adoption rate leads at nearly 40%, compared with 28% globally. 44% were redesigning selected processes; 17% reported fundamental reinvention.{" "}
-          <span className="block mt-2 text-white/50 text-[13px] font-medium">
-            Source: Deloitte, State of AI in the Enterprise: India Insights (2026)
-          </span>
-        </p>
-
-        {/* Component C2 — Animated Source-Cited Telemetry Cards */}
-        <div className="w-full grid grid-cols-3 gap-6 max-lg:grid-cols-1 mb-10">
-          {sourceCitedCards.map((card, idx) => (
-            <TelemetryCard key={card.index} card={card} cardIndex={idx} />
-          ))}
-        </div>
-
-        {/* Executive Mandate Callout Banner */}
-        <div className="relative w-full p-9 max-sm:p-6 rounded-[24px] border border-[#C0F43C]/35 bg-gradient-to-r from-[#06152d]/95 via-[#091e3a]/95 to-[#06152d]/95 shadow-[0_20px_50px_rgba(0,0,0,0.45),0_0_40px_rgba(192,244,60,0.08)] overflow-hidden text-left">
-          {/* Left glowing accent bar */}
-          <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-gradient-to-b from-[#C0F43C] via-[#18d4ff] to-[#C0F43C]" />
-          {/* Right decorative radial glow */}
-          <div className="absolute -right-20 -bottom-20 w-72 h-72 rounded-full bg-[#C0F43C]/10 blur-3xl pointer-events-none" />
-
-          <div className="relative z-10 flex items-center justify-between gap-7 max-md:flex-col max-md:items-start max-md:gap-4 pl-3 max-sm:pl-1">
-            <div className="flex items-center gap-7 max-md:flex-col max-md:items-start max-md:gap-4">
-              <div className="flex-shrink-0 w-14 h-14 rounded-2xl border border-[#C0F43C]/35 bg-[#C0F43C]/12 flex items-center justify-center text-[#C0F43C] shadow-[0_0_24px_rgba(192,244,60,0.2)]">
-                <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
-                </svg>
-              </div>
-              <div>
-                <span className="block text-[#C0F43C] text-[11px] font-bold uppercase tracking-[2.2px] mb-1.5">
-                  The Executive Mandate
-                </span>
-                <p className="m-0 text-white font-semibold text-[19px] leading-[1.55] max-sm:text-[16px]">
-                  Built for the leaders who own the risk.
-                </p>
-              </div>
-            </div>
-            <a
-              href="/bengaluru/cybersecurity/#enquire"
-              className="shrink-0 inline-flex items-center justify-center gap-2 h-[48px] px-6 rounded-full font-bold text-[14px] text-white bg-[#F15928] hover:bg-[#ff6938] shadow-[0_4px_18px_rgba(241,89,40,0.35)] transition-all whitespace-nowrap"
-            >
-              Secure Your Place →
-            </a>
-          </div>
-        </div>
-      </div>
 
       {/* ───── S4 · What this is not ───── */}
       <div className="relative z-10 w-full max-w-[1140px] mx-auto flex flex-col items-center">

@@ -1,6 +1,5 @@
 import { Header } from "./components/sections/Header";
 import { BrandBookV1HeroSection as HeroSection } from "./test/_design-system/BrandBookV1HeroSection";
-import { StatsSection } from "./components/sections/StatsSection";
 import { EcosystemSectionDemo as EcosystemSection } from "./components/sections/EcosystemSectionDemo";
 import { AgendaSection } from "./components/sections/AgendaSection";
 import { BrandBookV1SpeakersSection as SpeakersSection } from "./test/_design-system/BrandBookV1SpeakersComponents";
@@ -17,21 +16,19 @@ export default function Home() {
       <Header activeItem="Home" />
       {/* 2. Hero */}
       <HeroSection />
-      {/* 3. Key Facts Strip (+ Our Reach & Series Highlights) */}
-      <StatsSection />
-      {/* 4. The Executive Mandate */}
+      {/* 3. The Executive Mandate */}
       <EcosystemSection />
-      {/* 5. Four Pillars. Two Days. */}
+      {/* 4. Four Pillars. Two Days. */}
       <AgendaSection />
-      {/* 6. Faculty (Speakers) */}
+      {/* 5. Faculty (Speakers) */}
       <SpeakersSection />
-      {/* 7. Who's in the Room */}
+      {/* 6. Who's in the Room */}
       <NetworkingSection />
-      {/* 8. Testimonials */}
+      {/* 7. Testimonials */}
       <TestimonialsSection />
-      {/* 9. Past Series Partners */}
+      {/* 8. Past Series Partners */}
       <SponsorsSection />
-      {/* 10. Frequently Asked Questions */}
+      {/* 9. Frequently Asked Questions */}
       <FAQSection />
       {/* Footer */}
       <FooterSection />
