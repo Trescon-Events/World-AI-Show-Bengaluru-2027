@@ -30,26 +30,51 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Rewrite basePath for GitHub Pages (/worldaishow-india)
+      - name: Rewrite basePath for GitHub Pages (/World-AI-Show-Bengaluru-2027)
         run: |
           node -e '
             const fs = require("fs");
             const path = require("path");
+            const repoPath = "/World-AI-Show-Bengaluru-2027";
+
             function walk(dir) {
               for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
                 const full = path.join(dir, entry.name);
-                if (entry.isDirectory()) walk(full);
-                else if (/\.(ts|tsx|js|jsx|json|css|html)$/.test(entry.name)) {
-                  const content = fs.readFileSync(full, "utf8");
+                if (entry.isDirectory()) {
+                  walk(full);
+                } else if (/\.(ts|tsx|js|jsx|json|css|html|svg)$/.test(entry.name)) {
+                  let content = fs.readFileSync(full, "utf8");
+                  let modified = false;
+
+                  if (content.includes("/bengaluru/cybersecurity")) {
+                    content = content.split("/bengaluru/cybersecurity").join(repoPath);
+                    modified = true;
+                  }
                   if (content.includes("/mumbai/enterprise")) {
-                    fs.writeFileSync(full, content.split("/mumbai/enterprise").join("/worldaishow-india"), "utf8");
+                    content = content.split("/mumbai/enterprise").join(repoPath);
+                    modified = true;
+                  }
+                  if (content.includes("/worldaishow-india")) {
+                    content = content.split("/worldaishow-india").join(repoPath);
+                    modified = true;
+                  }
+
+                  if (modified) {
+                    fs.writeFileSync(full, content, "utf8");
                   }
                 }
               }
             }
+
             walk("src");
-            const cfg = fs.readFileSync("next.config.ts", "utf8");
-            fs.writeFileSync("next.config.ts", cfg.split("/mumbai/enterprise").join("/worldaishow-india"), "utf8");
+            walk("public");
+
+            let cfg = fs.readFileSync("next.config.ts", "utf8");
+            cfg = cfg
+              .replace(/basePath:\s*["\x27][^"\x27]+["\x27]/, `basePath: "${repoPath}"`)
+              .split("/bengaluru/cybersecurity").join(repoPath)
+              .split("/mumbai/enterprise").join(repoPath);
+            fs.writeFileSync("next.config.ts", cfg, "utf8");
           '
 
       - name: Build with Next.js
