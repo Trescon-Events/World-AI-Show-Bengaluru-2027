@@ -66,7 +66,7 @@ export function FooterSection() {
           {/* Column 3: Organiser */}
           <div className="flex flex-col gap-[18px]">
             <h3 className="m-0 mb-2 text-white/74 font-semibold text-[12px] uppercase tracking-[3px] select-none">
-              Organiser: Trescon
+              Organiser
             </h3>
             <a
               href="https://www.tresconglobal.com"
