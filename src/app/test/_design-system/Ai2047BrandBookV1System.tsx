@@ -625,7 +625,6 @@ export function Ai2047BrandBookV1Styles() {
       .ai2047-brandbook-v1 #ecosystem article > span.absolute,
       .ai2047-brandbook-v1 #ecosystem article .flex.flex-col > span:first-child,
       .ai2047-brandbook-v1 #agenda article span.rounded-full,
-      .ai2047-brandbook-v1 #networking article span.font-mono,
       .ai2047-brandbook-v1 #testimonials:not(.brandbook-v1-testimonials) .grid-cols-4 > button span.font-mono,
       .ai2047-brandbook-v1 #faq details summary > span {
         display: none !important;
@@ -822,6 +821,19 @@ export function Ai2047BrandBookV1Styles() {
         border-color: #0069B8 !important;
         box-shadow: 0 18px 38px rgba(0, 105, 184, 0.13) !important;
       }
+      .ai2047-brandbook-v1 #networking article h3 {
+        color: #08121E !important;
+        -webkit-text-fill-color: #08121E !important;
+      }
+      .ai2047-brandbook-v1 #networking article p {
+        color: #334155 !important;
+        -webkit-text-fill-color: #334155 !important;
+      }
+      .ai2047-brandbook-v1 #networking article span.font-mono {
+        color: #009EAD !important;
+        -webkit-text-fill-color: #009EAD !important;
+        display: inline-block !important;
+      }
       .ai2047-brandbook-v1 #networking article strong {
         color: #08121E !important;
       }
@@ -869,13 +881,33 @@ export function Ai2047BrandBookV1Styles() {
       }
 
       /* #faq Accordion */
-      .ai2047-brandbook-v1 #faq > div > div {
+      .ai2047-brandbook-v1 #faq > div > div:first-of-type {
         background: #FFFFFF !important;
         border: 1px solid rgba(0, 105, 184, 0.22) !important;
         box-shadow: 0 16px 42px rgba(8, 18, 30, 0.06) !important;
       }
 
-      /* #cta Cards (Speakers CTA & Closing Sections) */
+      /* #faq Still Have Questions CTA Strip (Support both Light White and Dark Navy themes) */
+      .ai2047-brandbook-v1 #faq div.faq-contact-strip,
+      .ai2047-brandbook-v1 #faq > div > div:last-child {
+        background: #FFFFFF !important;
+        border: 1px solid rgba(0, 105, 184, 0.22) !important;
+        box-shadow: 0 12px 32px rgba(8, 18, 30, 0.06) !important;
+      }
+      .ai2047-brandbook-v1 #faq div.faq-contact-strip span,
+      .ai2047-brandbook-v1 #faq > div > div:last-child span {
+        color: #08121E !important;
+        -webkit-text-fill-color: #08121E !important;
+      }
+      .ai2047-brandbook-v1 #faq div.faq-contact-strip a,
+      .ai2047-brandbook-v1 #faq > div > div:last-child a {
+        background: #F15928 !important;
+        border-color: #F15928 !important;
+        color: #FFFFFF !important;
+        -webkit-text-fill-color: #FFFFFF !important;
+      }
+
+      /* #cta Cards (Speakers CTA, Attend CTA & Closing Sections) */
       .ai2047-brandbook-v1 #cta article {
         background: linear-gradient(135deg, rgba(10, 30, 46, 0.95) 0%, rgba(5, 17, 34, 0.98) 100%) !important;
         border: 1px solid rgba(0, 158, 173, 0.35) !important;
@@ -884,14 +916,30 @@ export function Ai2047BrandBookV1Styles() {
       .ai2047-brandbook-v1 #cta article:hover {
         border-color: #00E5FF !important;
       }
+      .ai2047-brandbook-v1 #cta h2,
+      .ai2047-brandbook-v1 #cta h2 span:not([class*="bg-clip-text"]),
+      .ai2047-brandbook-v1 #attend #cta h2,
+      .ai2047-brandbook-v1 #attend #cta h2 span:not([class*="bg-clip-text"]),
+      .ai2047-brandbook-v1 #cta h3,
       .ai2047-brandbook-v1 #cta article h2,
       .ai2047-brandbook-v1 #cta article h3 {
         color: #FFFFFF !important;
         -webkit-text-fill-color: #FFFFFF !important;
       }
+      .ai2047-brandbook-v1 #cta p,
       .ai2047-brandbook-v1 #cta article p {
         color: rgba(255, 255, 255, 0.85) !important;
         -webkit-text-fill-color: rgba(255, 255, 255, 0.85) !important;
+      }
+      .ai2047-brandbook-v1 #cta strong,
+      .ai2047-brandbook-v1 #attend #cta strong {
+        color: #FFFFFF !important;
+        -webkit-text-fill-color: #FFFFFF !important;
+      }
+      .ai2047-brandbook-v1 #cta span.font-mono,
+      .ai2047-brandbook-v1 #attend #cta span.font-mono {
+        color: #00E5FF !important;
+        -webkit-text-fill-color: #00E5FF !important;
       }
       .ai2047-brandbook-v1 #cta article .border-t,
       .ai2047-brandbook-v1 #faq details {

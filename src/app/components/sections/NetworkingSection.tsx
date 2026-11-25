@@ -89,20 +89,18 @@ export function NetworkingSection() {
                 data-aos-delay={idx * 100}
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
-                className="group relative flex flex-col justify-between min-h-[210px] p-6 rounded-[16px] border border-[#18d4ff]/25 bg-gradient-to-br from-[#05142b]/90 to-[#020917]/95 shadow-[inset_0_0_24px_rgba(24,212,255,0.06),0_18px_45px_rgba(0,0,0,0.35)] hover:-translate-y-2 hover:border-[#C0F43C]/80 hover:shadow-[0_20px_40px_rgba(192,244,60,0.15),inset_0_0_28px_rgba(192,244,60,0.12)] transition-all duration-300 overflow-hidden"
+                className="group relative flex flex-col justify-between min-h-[210px] p-6 rounded-[16px] border border-[#0069B8]/25 bg-white shadow-[0_12px_30px_rgba(8,18,30,0.05)] hover:-translate-y-2 hover:border-[#0069B8] hover:shadow-[0_18px_38px_rgba(0,105,184,0.13)] transition-all duration-300 overflow-hidden"
               >
-                <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-bl from-[#18d4ff]/10 group-hover:from-[#C0F43C]/20 to-transparent rounded-bl-full pointer-events-none transition-all duration-300" />
                 <div>
                   <div className="flex items-center justify-between mb-3">
-                    <span className="inline-block text-[11px] font-mono font-bold tracking-[2px] text-[#00E5FF] group-hover:text-[#C0F43C] transition-colors">
-                      {item.index}
+                    <span className="inline-block text-[11px] font-mono font-bold tracking-[2px] text-[#009EAD] !text-[#009EAD] [color:#009EAD!important] uppercase">
+                      {item.index} · {item.title}
                     </span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-[#18d4ff]/60 group-hover:bg-[#C0F43C] group-hover:scale-125 transition-all" />
                   </div>
-                  <h3 className="text-white text-[19px] font-extrabold leading-[1.22] mb-2.5 group-hover:text-[#C0F43C] transition-colors">
+                  <h3 className="text-[#08121E] !text-[#08121E] [color:#08121E!important] text-[19px] font-extrabold leading-[1.22] mb-2.5">
                     {item.title}
                   </h3>
-                  <p className="text-white/70 text-[13.5px] leading-[1.55] m-0">
+                  <p className="text-[#334155] !text-[#334155] [color:#334155!important] text-[13.5px] leading-[1.55] m-0">
                     {item.desc}
                   </p>
                 </div>

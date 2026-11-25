@@ -8,6 +8,8 @@ import { BrandBookV1Logos } from "../test/_design-system/BrandBookV1Logos";
 export function BrandBookLayoutWrapper({ children }: { children: ReactNode }) {
   const pathname = usePathname() || "";
   const cleanPath = pathname
+    .replace(/^\/bengaluru\/cybersecurity/, "")
+    .replace(/^\/World-AI-Show-Bengaluru-2027/, "")
     .replace(/^\/mumbai\/enterprise/, "")
     .replace(/\/$/, "");
 

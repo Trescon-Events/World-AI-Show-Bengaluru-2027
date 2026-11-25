@@ -115,13 +115,13 @@ export function FAQSection() {
         </div>
 
         {/* Still have questions CTA strip */}
-        <div className="max-w-[976px] mx-auto mt-8 p-6 rounded-[18px] border border-cyan/30 bg-[#041226] text-center flex items-center justify-between gap-4 max-sm:flex-col shadow-[0_10px_30px_rgba(0,0,0,0.4)]">
-          <span className="!text-white [color:#FFFFFF!important] font-bold text-[16px] tracking-tight">
+        <div className="faq-contact-strip max-w-[976px] mx-auto mt-8 p-6 rounded-[18px] border border-[#0069B8]/30 bg-white text-center flex items-center justify-between gap-4 max-sm:flex-col shadow-[0_12px_32px_rgba(8,18,30,0.06)]">
+          <span className="text-[#08121E] !text-[#08121E] [color:#08121E!important] font-bold text-[17px] tracking-tight">
             Have a question that isn&apos;t answered here?
           </span>
           <a
             href="/bengaluru/cybersecurity/general-enquiry"
-            className="inline-flex items-center gap-2 px-7 py-3 rounded-full text-xs font-extrabold uppercase tracking-wider text-white [color:#FFFFFF!important] bg-[#F15928] hover:bg-[#ff6c3b] hover:shadow-[0_0_24px_rgba(241,89,40,0.4)] hover:-translate-y-0.5 transition-all whitespace-nowrap"
+            className="inline-flex items-center gap-2 px-7 py-3 rounded-full text-xs font-extrabold uppercase tracking-wider text-white !text-white [color:#FFFFFF!important] bg-[#F15928] hover:bg-[#ff6c3b] hover:shadow-[0_0_24px_rgba(241,89,40,0.4)] hover:-translate-y-0.5 transition-all whitespace-nowrap"
           >
             Contact the Team →
           </a>

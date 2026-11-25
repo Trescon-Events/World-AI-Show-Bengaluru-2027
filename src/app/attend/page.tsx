@@ -354,13 +354,15 @@ export function AttendCTASection() {
 
         <div className="relative z-10">
           <h2 className="max-w-[760px] mx-auto mb-8 text-white !text-white [color:#FFFFFF!important] font-[850] leading-[1.08] tracking-[-1.8px] text-[clamp(36px,5vw,56px)] max-sm:text-[32px] max-sm:tracking-[-1px]">
-            Be in the room where <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00CEFF] to-[#C0F43C]">enterprise cyber risk</span> gets decided.
+            <span className="text-white !text-white [color:#FFFFFF!important]">Be in the room where </span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00CEFF] to-[#C0F43C]">enterprise cyber risk</span>
+            <span className="text-white !text-white [color:#FFFFFF!important]"> gets decided.</span>
           </h2>
 
           <div className="flex flex-wrap justify-center items-center gap-4 mt-8 mb-12 max-sm:flex-col max-sm:w-full">
             <a
               href="/bengaluru/cybersecurity/attend/delegate"
-              className="inline-flex items-center justify-center gap-2 min-w-[178px] h-[52px] px-[34px] py-[15px] rounded-full text-[15px] font-extrabold text-[#06111f] [color:#06111f!important] bg-[#C0F43C] shadow-[0_8px_24px_rgba(192,244,60,0.25)] hover:shadow-[0_12px_32px_rgba(192,244,60,0.45)] hover:scale-[1.03] transition-all duration-200 cursor-pointer max-sm:w-full"
+              className="inline-flex items-center justify-center gap-2 min-w-[178px] h-[52px] px-[34px] py-[15px] rounded-full text-[15px] font-extrabold text-white !text-white [color:#FFFFFF!important] bg-[#F15928] shadow-[0_8px_24px_rgba(241,89,40,0.35)] hover:shadow-[0_12px_32px_rgba(241,89,40,0.5)] hover:scale-[1.03] transition-all duration-200 cursor-pointer max-sm:w-full"
             >
               Apply for a Delegate Pass
               <span className="text-[16px] font-bold">→</span>
