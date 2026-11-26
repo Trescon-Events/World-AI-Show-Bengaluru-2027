@@ -2,9 +2,9 @@
 
 import { useEffect } from "react";
 
-const WHITE_LOGO_SRC = "/bengaluru/cybersecurity/logos/wais-27-enterprise-mumbai-w1.svg";
-const DARK_LOGO_SRC = "/bengaluru/cybersecurity/logos/wais-27-enterprise-mumbai-b1.svg";
-const HERO_LOGO_SRC = "/bengaluru/cybersecurity/logos/wais-27-enterprise-mumbai-w2.svg";
+const WHITE_LOGO_SRC = "/bengaluru/cybersecurity/logos/wais-27-bengaluru-main-navigation.svg";
+const DARK_LOGO_SRC = "/bengaluru/cybersecurity/logos/wais-27-bengaluru-main-navigation.svg";
+const HERO_LOGO_SRC = "/bengaluru/cybersecurity/logos/wais-27-bengaluru-hero-banner.svg";
 
 function applyFallbackOnError(img: HTMLImageElement, filename: string) {
   img.onerror = () => {

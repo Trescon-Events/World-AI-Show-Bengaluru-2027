@@ -308,7 +308,7 @@ export default function AgendaDisplayPage() {
           className={`bg-white text-gray-900 flex flex-col shrink-0 ${isDownloading ? 'fixed top-0 left-0 w-[1920px] h-[1080px] z-[-9999]' : ''}`}
         >
           <div className="w-[1920px] h-[140px] bg-[#071324] flex items-center justify-between px-10 border-b border-gray-800 shrink-0">
-            <img src="/bengaluru/cybersecurity/logos/wais-27-enterprise-mumbai-w2.svg" alt="World AI Show — Enterprise" className="h-[75px]" />
+            <img src="/bengaluru/cybersecurity/logos/wais-27-bengaluru-main-navigation.svg" alt="World AI Show: The Cybersecurity Edition" className="h-[75px]" />
             <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-[46px] font-extrabold text-white tracking-wide">
               Conference Agenda – Day {dayIndex || 1}
             </div>

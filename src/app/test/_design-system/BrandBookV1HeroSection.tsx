@@ -36,7 +36,7 @@ export function BrandBookV1HeroSection() {
         {/* Event Lockup Logo */}
         <div className="mb-6 flex justify-center w-full">
           <img
-            src="/bengaluru/cybersecurity/logos/wais-27-enterprise-mumbai-w2.svg"
+            src="/bengaluru/cybersecurity/logos/wais-27-bengaluru-hero-banner.svg"
             alt="World AI Show: The Cybersecurity Edition | Bengaluru 2027"
             width={450}
             height={180}

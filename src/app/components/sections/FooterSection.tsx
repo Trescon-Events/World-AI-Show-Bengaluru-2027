@@ -14,10 +14,10 @@ export function FooterSection() {
           {/* Brand block */}
           <div className="flex flex-col">
             <img
-              src="/bengaluru/cybersecurity/logos/wais-27-enterprise-mumbai-w1.svg"
-              alt="World AI Show: Government & Enterprise AI Edition | Mumbai 2027"
+              src="/bengaluru/cybersecurity/logos/wais-27-bengaluru-main-navigation.svg"
+              alt="World AI Show: The Cybersecurity Edition | Bengaluru 2027"
               width={250}
-              height={50}
+              height={75}
               className="w-[min(250px,100%)] h-auto object-contain mb-4 select-none"
             />
             <p className="max-w-[430px] m-0 mt-2 text-muted text-[17px] leading-[1.55]">

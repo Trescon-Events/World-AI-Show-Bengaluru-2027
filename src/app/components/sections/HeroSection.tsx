@@ -36,10 +36,10 @@ export function HeroSection() {
         {/* Event Lockup Logo */}
         <div className="mb-6 flex justify-center w-full">
           <img
-            src="/bengaluru/cybersecurity/logos/wais-27-enterprise-mumbai-w2.svg"
+            src="/bengaluru/cybersecurity/logos/wais-27-bengaluru-hero-banner.svg"
             alt="World AI Show: The Cybersecurity Edition | Bengaluru 2027"
             width={450}
-            height={180}
+            height={175}
             className="w-full max-w-[320px] sm:max-w-[450px] sm:w-[450px] h-auto object-contain mx-auto drop-shadow-[0_4px_24px_rgba(0,0,0,0.45)]"
           />
         </div>

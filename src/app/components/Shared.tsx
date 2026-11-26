@@ -66,15 +66,15 @@ export function GradientText({ children }: { children: ReactNode }) {
 export function Logo() {
   return (
     <a
-      className="flex items-center w-[180px] h-[60px] hover:opacity-90 transition-opacity duration-200"
+      className="flex items-center w-[190px] h-[56px] hover:opacity-90 transition-opacity duration-200"
       href="/bengaluru/cybersecurity/"
       aria-label="World AI Show: The Cybersecurity Edition"
     >
       <img
-        src="/bengaluru/cybersecurity/logos/wais-27-enterprise-mumbai-b1.svg"
+        src="/bengaluru/cybersecurity/logos/wais-27-bengaluru-main-navigation.svg"
         alt="World AI Show: The Cybersecurity Edition"
-        width={180}
-        height={60}
+        width={190}
+        height={56}
         className="w-full h-full object-contain"
       />
     </a>
